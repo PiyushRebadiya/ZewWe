@@ -1,0 +1,398 @@
+.main-titleDiv {
+    width: 100%;
+    display: flex;
+    padding: 60px 113px 56px 113px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crossIcon {
+    height: 38px;
+    width: 38px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.menu-title {
+    margin: 0px 0px 0px 18px;
+    color: #1A344B;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.4434px;
+}
+
+.menu-titleSec {
+    opacity: 0.5;
+}
+
+.BoldBg {
+    background-color: #1A344B;
+    height: 36px;
+    width: 36px;
+    left: 113px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NormalBg {
+    background-color: #1A344B;
+    height: 36px;
+    width: 36px;
+    left: 113px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.menuIconBig {
+    height: 24px;
+    width: 24px;
+}
+
+.menuIconNormal {
+    height: 22px;
+    width: 22px;
+    border-radius: 0px;
+}
+
+.manageDiv {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+}
+
+.allheight {
+    padding: 0 0 70px 0;
+}
+
+.divheader {
+    /* font-family: 'Mont'; */
+    padding: 38px 0px 22px 58px;
+    color: #1A344B;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.underline {
+    border-bottom: 1px solid #c4c4c4;
+    /* opacity: 0.5; */
+}
+
+.cname {
+    padding: 20px 0px 20px 0px;
+}
+
+.candiDateName {
+    padding: 0px 0px 20px 0px;
+}
+
+.compliance {
+    padding: 40px 0px 10px 0px;
+}
+
+.dispositions {
+    padding: 20px 0px 10px 0px;
+}
+
+.dname {
+    padding: 10px 0px 10px 0px;
+}
+
+.compname {
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.compdic {
+    margin-top: 18px;
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+
+.cname input {
+    margin-top: 14px;
+    height: 45px;
+    width: 350px;
+    opacity: 0.5;
+}
+
+.cname ::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.signdata {
+    margin-top: 20px;
+}
+
+/* .gapp{
+    padding: 0 983px 0 0;
+} */
+.sign {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.5;
+
+}
+
+.mainDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 113px 0px 113px;
+}
+
+.mainInnerClass {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.mainInnerGeneralClass {
+    padding: 30px 93px 150px 55px;
+}
+
+.mainInnerGeneralClassBottom {
+    padding: 30px 93px 30px 0px;
+}
+
+.topgeneral {
+    margin-top: 26px;
+}
+
+.ssobox {
+    display: flex;
+    width: 144px;
+    height: 38px;
+    background-color: #DADADA;
+}
+
+.simg {
+    padding: 9.2px 0px 9.2px 20px;
+}
+
+.saveimg {
+    padding: 14px 14.5px 13px 10px;
+}
+
+.sp {
+    padding: 7px 18px 8px 20px;
+    color: #1A344B;
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.bline {
+    display: flex;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 0 0 7px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ena_div {
+    background-color: #DADADA;
+    width: 114px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    border-top-left-radius: 2.7px;
+    border-bottom-left-radius: 2.7px;
+}
+.enaRadius{
+    border-radius: 0px;
+}
+
+.dis_div {
+    background-color: #76D691;
+    width: 114px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 2.7px;
+    border-bottom-right-radius: 2.7px;
+}
+
+.enable {
+    color: #1A344B;
+}
+
+.blinglink {
+    color: #4CABCD;
+}
+
+.disable {
+    color: #FFFFFF;
+}
+
+.emp_aoto_join {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emp_aoto_join_inside {
+    display: flex;
+    align-self: flex-end;
+}
+
+.emp_border {
+    border-bottom: 0.4px solid #C4C4C4;
+}
+
+.compdic_min {
+    margin-top: 18px;
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.savebtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A344B;
+    width: 198px;
+    height: 46px;
+    border-radius: 5px;
+}
+
+.savemain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.savetxt {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.saveIcon {
+    width: 24px;
+    height: 24px;
+}
+
+
+.modal {
+    z-index: 1;
+    width: 100%;
+    padding: 250px 515px 570px 515px;
+    height: 100%;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 759px;
+    height: 264px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.modelmain-titleDiv {
+    width: 100%;
+    display: flex;
+    padding: 30px 48px 22px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.modeltxt {
+    padding: 0 161px 40px 50px;
+}
+
+.modelDis {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A344B;
+}
+
+.disModel {
+    display: flex;
+    width: 126px;
+    height: 38px;
+    background-color: #DADADA;
+    border-radius: 2.7px;
+}
+
+.modelDisImg {
+    padding: 7px 9px 9px 14px;
+}
+
+.mButtom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgModalDiv {
+    background-color: #1A344B;
+    width: 171px;
+    height: 38px;
+    border-radius: 2.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgModal {
+    color: #FFFFFF;
+}
+
+.mainModelfooter {
+    display: flex;
+    padding: 30px 48px 30px 384px;
+    justify-content: space-between;
+}

@@ -1,0 +1,633 @@
+.main-titleDiv {
+    width: 100%;
+    display: flex;
+    padding: 60px 113px 56px 113px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.crossIcon {
+    height: 38px;
+    width: 38px;
+}
+
+.allheight {
+    padding: 0 0 70px 0;
+}
+
+.mainDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 113px 0px 113px;
+}
+
+.topgeneral {
+    margin-top: 26px;
+}
+
+.mainInnerClass {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.boldBgImg {
+    background-color: #1A344B;
+    height: 36px;
+    width: 36px;
+    left: 113px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normalBgImg {
+    background-color: #1A344B;
+    height: 36px;
+    width: 36px;
+    left: 113px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.menuIconBold {
+    height: 24px;
+    width: 24px;
+}
+
+.menu-titleNormal {
+    margin: 0px 0px 0px 18px;
+    color: #1A344B;
+    display: flex;
+    align-items: center;
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.4434px;
+}
+
+.menu-titleOpacity {
+    opacity: 0.5;
+}
+
+.menuIconNormal {
+    height: 22px;
+    width: 22px;
+    border-radius: 0px;
+}
+
+.manageDiv {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+}
+
+.divheader {
+    /* font-family: 'Mont'; */
+    padding: 38px 0px 22px 58px;
+    color: #1A344B;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.underline {
+    border-bottom: 1px solid #c4c4c4;
+    /* opacity: 0.5; */
+}
+
+.mainInnerGeneralClass {
+    padding: 30px 93px 120px 55px;
+}
+
+.mainInnerGeneralClassBottom {
+    padding: 30px 93px 60px 55px;
+}
+
+.cname {
+    padding: 27px 0px 27px 0px;
+}
+
+.compname {
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1A344B;
+}
+
+.compdic {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.TelentDiv {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.compspam {
+    margin-top: 18px;
+    /* font-family: 'Mont'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+    /* opacity: 0.7; */
+}
+
+.blinglink {
+    color: #4CABCD;
+}
+
+.cursetingbtn {
+    margin-top: 18px;
+    display: flex;
+    background-color: #1A344B;
+    width: 256px;
+    height: 38px;
+}
+
+.cursetingtext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 8px 12px 8px 0;
+}
+
+.curimg {
+    height: 22px;
+    width: 22px;
+}
+
+.curimgdiv {
+    padding: 8px 12px 8px 18px;
+}
+
+.cansetingbtn {
+    margin-top: 18px;
+    width: 210px;
+    height: 38px;
+    background-color: #DADADA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cansetingtext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #1A344B;
+    opacity: 0.8;
+}
+
+.enatelentbtn {
+    background-color: #1A344B;
+    margin-top: 18px;
+    width: 212px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enatelenttext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bottomborder {
+    border-bottom: 0.4px solid #C4C4C4;
+    padding: 27px 0 18px 0;
+}
+
+.newpadding {
+    padding: 40px 0 27px 0;
+}
+
+.addSmsBtn {
+    margin-top: 18px;
+    background-color: #1A344B;
+    width: 152px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addSmsText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.editBtn {
+    width: 142px;
+    margin-top: 18px;
+    height: 38px;
+    background-color: #1A344B;
+    display: flex;
+}
+
+.editImg {
+    width: 18px;
+    height: 18px;
+}
+
+.editImgDiv {
+    padding: 10px 8px 10px 13px;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invoiceDivMain {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newmt {
+    margin-top: 33px;
+}
+
+.invoicesDivMain {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.success {
+    display: flex;
+    align-self: flex-end;
+}
+
+.trueImg {
+    padding: 0 12px 0 0;
+}
+
+.invoicesbottomBorder {
+    border-bottom: 0.4px solid #C4C4C4;
+    padding: 27px 0 22px 0;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+
+.modal {
+    z-index: 1;
+    width: 100%;
+    padding: 233px 514px 1306px 515px;
+    height: 100%;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modalSec {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 1;
+    padding: 162px 273px 1965px 273px;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 759px;
+    height: 491px;
+}
+
+.modal-contentSec {
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 8px;
+    width: 1357px;
+    height: 989px;
+    ;
+}
+
+.modelmain-titleDiv {
+    width: 100%;
+    display: flex;
+    padding: 40px 48px 22px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    cursor: pointer;
+}
+
+.crossIcon {
+    height: 38px;
+    width: 38px;
+}
+
+.modelDiv {
+    padding: 0 0px 32px 40px;
+}
+
+.modeltxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.topMargin {
+    margin-top: 28px;
+}
+
+.topMarginRadio {
+    margin-top: 16px;
+}
+
+.topMarginEna {
+    margin-top: 18px;
+}
+
+.boldTag {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.mergrCla {
+    display: flex;
+}
+
+.mergrCla input {
+    height: 18px;
+    width: 18px;
+}
+
+.radioCls {
+    padding: 6px 12px 6px 0;
+}
+
+.bBorder {
+    border-bottom: 0.4px solid #C4C4C4;
+}
+
+.sizeBtnCan {
+    width: 126px;
+    height: 38px;
+    background-color: #DADADA;
+    color: #1A344B;
+    border: none;
+}
+
+.sizeBtnEna {
+    width: 136px;
+    height: 38px;
+    background-color: #1A344B;
+    color: #FFFFFF;
+    border: none;
+}
+
+.canP {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.enbP {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.enbSize {
+    width: 14px;
+    height: 14px;
+}
+
+.endPadding {
+    padding: 12px 12px 12px 24px;
+}
+
+.mainBtn {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 48px 38px 419px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------- */
+
+.modalMainDiv {
+    position: absolute;
+}
+
+.centerModalDiv {
+    width: 1263px;
+    height: 860px;
+    margin: 65px 47px 64px 47px;
+    position: relative;
+}
+
+.centerModalDiv>.title {
+    position: absolute;
+}
+
+.textFontGlobally {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.centerModalDiv>.title>p {
+    margin: 0;
+}
+
+.tableHeaderMainDiv {
+    top: 237px;
+    left: 33%;
+    position: absolute;
+    width: 745px;
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableHeaderBox {
+    width: 227px;
+    height: 243px;
+    position: relative;
+}
+
+.tableHeaderBox>.firstBoxDiv {
+    position: absolute;
+    width: 227px;
+    height: 183px;
+    top: 0;
+    text-align: -webkit-center;
+    border-radius: 5px;
+}
+
+.tableHeaderBox>.secondBoxDiv {
+    position: absolute;
+    width: 227px;
+    height: 38px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.tableFirstBoxDivMain {
+    margin: 41px 26px;
+    width: 144px;
+    height: 131px;
+    margin-top: 12%;
+}
+
+.center_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableRowMainDiv {
+    width: 1179px;
+    height: 330px;
+    position: absolute;
+    bottom: 0;
+}
+
+.rowTableLine {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    border-top: 1px solid #C4C4C4;
+}
+
+.closeIconModal {
+    position: absolute;
+    right: 0;
+}
+
+.chooseTextDiv {
+    position: absolute;
+    top: 55px;
+}
+
+.twiceButtonDiv {
+    position: absolute;
+    top: 113px;
+    display: flex;
+    left: 50%;
+}
+
+.twiceButton {
+    width: 122px;
+    height: 38px;
+    position: relative;
+}
+
+.twiceButton>p {
+    position: absolute;
+    left: 30%;
+    top: 17%;
+    margin: 0;
+}
+
+.saveOfferText {
+    position: absolute;
+    top: 179px;
+    left: 50%;
+}
+
+
+.rowTableTextStyle {
+    width: 35%;
+    height: 66px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
