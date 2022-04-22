@@ -1,0 +1,121 @@
+.tableTitleDiv {
+    margin: 31px 6px 0px 14px;
+    background: #1A344B;
+    height: 46px;
+    border-radius: 29px 29px 0px 0px;
+    position: relative;
+  }
+  
+  .inActiveDiv {
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    background: #84AC04;
+    border-radius: 14.5px;
+    color: White;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: normal;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .activeDiv {
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    background: #fff;
+    border-radius: 14.5px;
+    color: #000;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: normal;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .tableHeaderDiv {
+    background: #D5D3D3;
+    margin: 0px 6px 0px 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    height: 31px;
+    position: relative;
+  }
+  
+  .headerMainLogoBg {
+    height: 17px;
+    width: 17px;
+    border-radius: 11px;
+  }
+  
+  .headerLogoBg {
+    height: 20px;
+    width: 20px;
+    border-radius: 11px;
+  }
+  
+  .headerLine {
+    position: absolute;
+    width: 16px;
+    height: 0px;
+    top: 15px;
+    margin: 0 5% 0 5%;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+  }
+  
+  .tableMainRowDiv {
+    background: #fff;
+    margin: 0px 6px 0px 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    position: relative;
+    height: auto;
+    padding: 2%;
+  }
+  
+  .tableRowDivBox {
+    position: relative;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    margin-bottom: 6px;
+  }
+  
+  .tableRowFlexDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+  
+  .tableRowText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .headerTitleDiv {
+    position: absolute;
+    width: 98px;
+    height: 14px;
+    top: 6px;
+  }
+  
+  .tableRowHighLightLine {
+    width: 10px;
+    height: 76px;
+    border-radius: 8px 0px 0px 8px;
+  }
