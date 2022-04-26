@@ -105,7 +105,6 @@
 }
 
 .homeImage {
-    /* width: 50%; */
     height: 22px;
 }
 
@@ -451,7 +450,6 @@
 
 .rightSideSecImg {
     display: flex;
-    /* margin-top: 12px; */
 }
 
 .mainRight {
