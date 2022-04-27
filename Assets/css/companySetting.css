@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-input{
+input {
     padding-left: 20px;
 }
 
@@ -32,6 +32,17 @@ input{
     font-style: normal;
     font-weight: 600;
     font-size: 19.4434px;
+}
+
+.menu-title:hover {
+    margin: 0px 0px 0px 18px;
+    color: #1A344B;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.4434px;
+    text-decoration: none;
 }
 
 .menu-titleSec {
@@ -154,15 +165,16 @@ input{
     margin-top: 20px;
 }
 
+
 /* .gapp{
     padding: 0 983px 0 0;
 } */
+
 .sign {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
     opacity: 0.5;
-
 }
 
 .mainDiv {
@@ -314,7 +326,6 @@ input{
     height: 24px;
 }
 
-
 .modal {
     z-index: 1;
     width: 100%;
@@ -336,7 +347,6 @@ input{
     color: #000000;
     cursor: pointer;
 }
-
 
 .modelmain-titleDiv {
     width: 100%;
