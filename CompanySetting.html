@@ -14,51 +14,52 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
         <div class="row">
-            <div class="main-titleDiv">
-                <div>
-                    <p class="main-title m-0">Company Settings</p>
-                </div>
-                <div>
-                    <img class="crossIcon" src="Assets/image/CrossIcon.png" alt="CrossIcon" />
+            <div class="col-12">
+                <div class="main-header">
+                    <div class="titleClass">Company Settings</div>
+                    <div><img class="titleImg" src="./Assets/image/CrossIcon.png" alt="CrossIcon"></div>
                 </div>
             </div>
         </div>
-        <div class="row allheight">
-            <div class="mainDiv">
-                <div class="topgeneral">
-                    <div class="mainInnerClass">
-                        <div class="BoldBg">
-                            <img class="menuIconBig" src="Assets/image/SettingsFilled.png" alt="GeneralIcon" />
+        <div class="row">
+            <div class="col-3 leftMainDiv">
+                <div class="col-12 main-leftDiv">
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder active">
+                            <img class="settingIcon" src="Assets/image/SettingIcon.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-title">General</p>
+                        <a href="./CompanySetting.html" class="titleClass iconText activeText">General</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="NormalBg">
-                            <img class="menuIconNormal" src="Assets/image/User.png" alt="GeneralIcon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/userIcon.png" alt="SettingIcon">
                         </div>
-                        <a href="./company_setting_users.html" class="menu-title menu-titleSec">Users</a>
+                        <a href="./company_setting_users.html" class="titleClass iconText">Users</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="NormalBg">
-                            <img class="menuIconNormal" src="Assets/image/lock.png" alt="GeneralIcon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Vector.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-title menu-titleSec">Permissions</p>
+                        <p class="titleClass iconText">Permissions</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="NormalBg">
-                            <img class="menuIconNormal" src="Assets/image/people.png" alt="GeneralIcon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Group.png" alt="SettingIcon">
                         </div>
-                        <a href="./company_teams.html" class="menu-title menu-titleSec">Teams</a>
+                        <p class="titleClass iconText">Teams</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="NormalBg">
-                            <img class="menuIconNormal" src="Assets/image/journal-page.png" alt="GeneralIcon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/BilIcon.png" alt="SettingIcon">
                         </div>
-                        <a href="./CompanySettingsBilling.html" class="menu-title menu-titleSec">Billing</a>
+                        <a href="./CompanySettingsBilling.html" class="titleClass iconText">Billing</a>
                     </div>
                 </div>
+            </div>
+            <div class="col-9">
                 <div class="manageDiv">
                     <p class="divheader mb-0 underline">General</p>
                     <div class="mainInnerGeneralClass underline">
@@ -126,7 +127,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname emp_aoto_join">
                             <div>
                                 <p class="compname mb-0">Employee Auto-Join</p>
@@ -149,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname emp_aoto_join emp_border">
                             <div>
                                 <p class="compname mb-0">Candidate Data</p>
@@ -183,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="compliance emp_aoto_join emp_border">
                             <div>
                                 <p class="compname mb-0">GDPR Compliance</p>
@@ -201,7 +202,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="compliance emp_aoto_join emp_border">
                             <div>
                                 <p class="compname mb-0">EEOC Compliance</p>
@@ -219,7 +220,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="dispositions emp_aoto_join emp_border">
                             <div>
                                 <p class="compdic_min mb-0">Dispositions</p>
@@ -249,6 +250,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+    
 
     <div id="myModal" class="modal">
         <!-- Modal content -->

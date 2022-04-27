@@ -14,51 +14,52 @@
 </head>
 
 <body>
-    <div class="container-fluid m-0 pl-0">
+
+    <div class="container-fluid">
         <div class="row">
-            <div class="main-titleDiv">
-                <div>
-                    <p class="main-title m-0">Company Settings</p>
-                </div>
-                <div>
-                    <img class="crossIcon" src="Assets/image/CrossIcon.png" alt="CrossIcon" />
+            <div class="col-12">
+                <div class="main-header">
+                    <div class="titleClass">Company Settings</div>
+                    <div><img class="titleImg" src="./Assets/image/CrossIcon.png" alt="CrossIcon"></div>
                 </div>
             </div>
         </div>
-        <div class="row allheight">
-            <div class="mainDiv">
-                <div class="topgeneral">
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/SettingsFilled.png" alt="Icon" />
+        <div class="row">
+            <div class="col-3 leftMainDiv">
+                <div class="col-12 main-leftDiv">
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/SettingIcon.png" alt="SettingIcon">
                         </div>
-                        <a href="./CompanySetting.html" class="menu-titleNormal menu-titleOpacity">General</a>
+                        <a href="./CompanySetting.html" class="titleClass iconText">General</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/User.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/userIcon.png" alt="SettingIcon">
                         </div>
-                        <a href="./company_setting_users.html" class="menu-titleNormal menu-titleOpacity">Users</a>
+                        <a href="./company_setting_users.html" class="titleClass iconText">Users</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/lock.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Vector.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal menu-titleOpacity">Permissions</p>
+                        <p class="titleClass iconText">Permissions</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/people.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Group.png" alt="SettingIcon">
                         </div>
-                        <a href="./company_teams.html" class="menu-titleNormal menu-titleOpacity">Teams</a>
+                        <p class="titleClass iconText">Teams</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="boldBgImg">
-                            <img class="menuIconBold" src="Assets/image/journal-page.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder active">
+                            <img class="settingIcon" src="Assets/image/BilIcon.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal">Billing</p>
+                        <a href="./CompanySettingsBilling.html" class="titleClass iconText activeText">Billing</a>
                     </div>
                 </div>
+            </div>
+            <div class="col-9">
                 <div class="manageDiv">
                     <p class="divheader mb-0 underline">General</p>
                     <div class="mainInnerGeneralClass underline">
@@ -75,7 +76,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname">
                             <p class="compname mb-0">Cancel Subscription</p>
                             <p class="compdic mb-0">
@@ -85,7 +86,7 @@
                                 <p class="cansetingtext m-0">Cancel Subscription</p>
                             </div>
                         </div>
-
+            
                         <div class="cname bottomborder">
                             <p class="compname mb-0">Feature Subscriptions</p>
                             <p class="compdic mb-0">
@@ -98,7 +99,7 @@
                                 <p class="enatelenttext m-0">Enable Talent Search</p>
                             </div>
                         </div>
-
+            
                         <div class="cname newpadding">
                             <p class="compname mb-0">Text/SMS Messaging</p>
                             <p class="compdic mb-0">
@@ -111,12 +112,12 @@
                                 <p class="addSmsText m-0">Add SMS Plan</p>
                             </div>
                         </div>
-
+            
                         <div class="cname newpadding">
                             <p class="compname mb-0">Card Details</p>
                             <p class="compdic mb-0">
                                 We have the following credit card on file:
-
+            
                             </p>
                             <p class="compdic mb-0">
                                 Card ending in <span class="compspam">6084</span>· Expires <span class="compspam">6/2022</span>
@@ -129,7 +130,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname">
                             <p class="compname mb-0">Invoice Details</p>
                             <div class="invoiceDivMain">
@@ -158,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname invoicesbottomBorder">
                             <p class="compname mb-0">Invoices</p>
                             <div class="invoicesDivMain ">
@@ -202,13 +203,20 @@
                                 </div>
                             </div>
                         </div>
-
+            
                     </div>
                     <div class="mainInnerGeneralClassBottom">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+
+
+    
         <!-- -------------------------------------------------------------------------------------------------------------- -->
         <div id="myModal" class="modal">
             <div class="modal-content">
