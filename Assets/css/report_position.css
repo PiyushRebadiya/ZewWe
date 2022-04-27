@@ -634,207 +634,104 @@
     background-image: url('../image/Logo.png')
 }
 
-.graphInner {
+.report_inner {
     width: 100%;
 }
 
-.graphHeading {
-    padding: 0px 49px 20px 33px;
+.innerHeading {
+    padding: 0 49px 20px 33px;
     display: flex;
     justify-content: space-between;
 }
 
-.graphText {
+.Heading {
     font-weight: 700;
     font-size: 22px;
-    line-height: 30px;
     text-transform: capitalize;
     color: #777777;
+    margin: 0;
 }
 
-.graphDate {
+.dateClass {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     text-transform: capitalize;
     color: #1A344B;
+    margin: 0;
 }
 
-.graphCards {
-    padding: 0px 34px 0 22px
+.cards {
+    padding: 0 34px 0px 22px
 }
 
-.graphBox {
+.firstCard {
     width: 100%;
-    height: 470px;
+    height: 364px;
     background: #F9F9F9;
     border: 1px solid #DFDFDF;
     box-sizing: border-box;
     border-radius: 5px;
-    margin-bottom: 27px;
+    margin-bottom: 24px;
 }
 
-.gaphBoxHeading {
-    margin: 25px 22.38px 18px 21px;
+.exportIcon {
+    margin: 26px 20.38px 9.91px 0;
+}
+
+.exportImg {
+    display: flex;
+    float: right;
+}
+
+.cardHeader {
+    margin: 49px 86px 63px 21px;
+}
+
+.cardHeading {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 23px;
-    color: #777777;
 }
 
-.exportbtn {
+.cardTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+}
+
+.exportBtn {
     width: 92px;
     height: 27px;
     background: #84AC04;
     border-radius: 14.5px;
-    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.exportbtnIcon {
+.exportVectorImg {
     margin-right: 9px;
 }
 
 .exportText {
     font-weight: 400;
     font-size: 14px;
-}
-
-.ExportV {
-    margin-left: 20px;
-}
-
-.graphColors {
-    margin: 0 930px 15px 21px;
-    display: flex;
-    align-items: center;
-}
-
-.rectanglePink {
-    width: 13px;
-    height: 14px;
-    background: #FB02C4;
-    border-radius: 1px;
-}
-
-.PinkText {
-    font-weight: 600;
-    font-size: 14px;
-    color: #777777;
+    line-height: 19px;
     text-transform: capitalize;
-    margin: 0;
-    margin-left: 4px;
+    color: #FFFFFF;
 }
 
-.rectangleLightBlue {
-    width: 13px;
-    height: 14px;
-    background: #5AC0E5;
-    border-radius: 1px;
-    margin-left: 17px;
-}
-
-.lightBlueText {
-    font-weight: 600;
-    font-size: 13px;
-    text-transform: capitalize;
-    color: #777777;
-    margin: 0;
-    margin-left: 4px;
-}
-
-.chartDiv {
-    padding: 0 22px 37px 22px;
-}
-
-.Chart {
-    width: 100%;
-    height: 333px;
-    border: 1px solid #DEDEDE;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-
-.GraphImg {
-    padding: 17px 30px 18px 17px;
-    width: 100%;
-    height: 330px;
-}
-
-.ChartBox {
-    margin: 34px 47px 34px 17px;
-}
-
-.y-axis-style {
-    margin: 0 0 30px 0;
-}
-
-.y-axis-font {
-    font-weight: 600;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    color: #777777;
-}
-
-.graphBox2 {
-    width: 100%;
-    height: 714px;
-    background: #F9F9F9;
-    border: 1px solid #DFDFDF;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin-bottom: 27px;
-}
-
-.gaphBox2Heading {
-    margin: 24px 22.38px 23px 21px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.graphBox2Heading2 {
-    margin: 39px 22.38px 17px 21px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.HedingText {
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 23px;
-    color: #777777;
-    text-transform: capitalize;
-}
-
-.innerBox {
-    margin: 0 22px 39px 21px;
-}
-
-.innerStyle {
-    width: 100%;
-    height: 263px;
-    border: 1px solid #DEDEDE;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-
-.innerDiv {
+.cardMiddle {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 61px 495px 108px 466px;
 }
 
-.emojiImage {
+.emojiImg {
     width: 52px;
     height: 52px;
     margin-bottom: 12px;
@@ -843,49 +740,212 @@
 .emojiText {
     font-weight: 600;
     font-size: 22px;
+    line-height: 30px;
     text-transform: capitalize;
     color: #1A344B;
+    margin: 0;
 }
 
-.graphBox3 {
+.secondCard {
     width: 100%;
-    height: 110px;
+    height: 328px;
     background: #F9F9F9;
     border: 1px solid #DFDFDF;
     box-sizing: border-box;
     border-radius: 5px;
-    margin-bottom: 27px;
+    margin-bottom: 24px;
 }
 
-.gaphBox3Heading {
-    margin: 24px 22.38px 16px 21px;
+.secondExportIcon {
+    margin: 23px 20.38px 9.91px 0;
+}
+
+.secondExportImg {
+    display: flex;
+    float: right;
+}
+
+.card2Header {
+    margin: 43px 86px 51px 21px;
+}
+
+.card2Heading {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.exportDatabtn {
-    width: 100%;
-    height: 27px;
-    background: #84AC04;
-    border-radius: 14.5px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px 26px 4px 26px;
-}
-
-.graphBox3Text {
-    margin: 0 1092px 28px 21px;
-}
-
-.textStyle {
-    margin: 0;
-    font-weight: 600;
-    font-size: 14px;
+.card2Title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
     text-transform: capitalize;
-    color: #AAAAAA;
+    color: #777777;
+    margin: 0;
+}
+
+.thirdCard {
+    width: 100%;
+    height: 484px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.thirdExportIcon {
+    margin: 20px 20.38px 9.91px 0;
+}
+
+.thirdExportImg {
+    display: flex;
+    float: right;
+}
+
+.card3Header {
+    margin: 42px 86px 50px 22px;
+}
+
+.card3Heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card3Title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+}
+
+.chartDiv {
+    margin: 0 41px 27px 20px;
+}
+
+.chart {
+    width: 100%;
+    height: 333px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.GraphImg {
+    width: 100%;
+    height: 330px;
+    padding: 14px 25px 0 17px;
+}
+
+.forthCard {
+    width: 100%;
+    height: 328px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.forthExportIcon {
+    margin: 20px 40.38px 9.91px 0;
+}
+
+.forthExportImg {
+    display: flex;
+    float: right;
+}
+
+.card4Header {
+    margin: 43px 106px 71px 21px;
+}
+
+.card4Heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card4Title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+}
+
+.fifthcard {
+    width: 100%;
+    height: 484px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.fifthExportIcon {
+    margin: 20px 20.38px 9.91px 0;
+}
+
+.fifthExportImg {
+    display: flex;
+    float: right;
+}
+
+.card5Header {
+    margin: 42px 86px 59px 22px;
+}
+
+.card5Heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card5Title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+}
+
+.sixthCard {
+    width: 100%;
+    height: 328px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.sixthExportIcon {
+    margin: 20px 40.38px 9.91px 0;
+}
+
+.sixthExportImg {
+    display: flex;
+    float: right;
+}
+
+.card6Header {
+    margin: 43px 106px 71px 21px;
+}
+
+.card6Heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card6Title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #777777;
 }
 
 .settingImageBg {
