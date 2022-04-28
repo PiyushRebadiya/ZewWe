@@ -1,0 +1,971 @@
+.head1 {
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+}
+
+.head2 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.headerLength {
+    height: 90px;
+}
+
+.dashboard {
+    height: 900px;
+}
+
+.headerSlider {
+    background-color: #1a344b;
+    padding: 0px;
+}
+
+.mainView {
+    background-color: #e4e3e3;
+}
+
+.board {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    border-radius: 20px 00px 0px 20px;
+    background-color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    color: #1a344b;
+    text-align: center;
+    line-height: 50px;
+}
+
+.homeImage {
+    width: 50%;
+    height: 22px;
+}
+
+.homeImageMain {
+    width: 45%;
+    height: 20px;
+}
+
+.sliderText {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+}
+
+.upperSlider {
+    height: 400px;
+}
+
+.mainDiv {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 550px;
+}
+
+.settingImage {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.mainHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.headIcon {
+    width: 40%;
+    height: 35px;
+    padding: 0px 5px;
+}
+
+.profileName {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.headIconProfile {
+    width: 50%;
+    height: 40px;
+    padding: 0px 5px;
+}
+
+.dashboardView {
+    background: #FFFFFF;
+    padding: 27px 14px 14px 14px;
+}
+
+.vertical {
+    width: 0.5%;
+    height: 112px;
+    background: #1a344b;
+    opacity: 0.5;
+}
+
+.groupEllipse {
+    height: 17px;
+}
+
+.imgPosition {
+    height: 50px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+.imgjobSearch {
+    height: 70px;
+}
+
+.cardText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 114.4%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.w-25 {
+    width: 25%;
+    margin: 0px 7px;
+    border-radius: 10px;
+    height: 128px;
+}
+
+.leftCardTopImage {
+    height: 112px;
+    margin-left: 15px;
+}
+
+.w-33 {
+    width: 33.33%;
+    height: 670px;
+    margin: 27px 15px 10px 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.boxShadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background {
+    background-color: #f6f2f2;
+}
+
+.briefcase {
+    margin: 15px 10px 11px 18px;
+}
+
+.briefcaseText {
+    margin: 13px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2088px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.cardEvent {
+    height: auto;
+    padding: 0px 15px;
+}
+
+.headEllipseTitle {
+    width: 65%;
+    margin: 0px 0px 0px 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2088px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.promoteBackground {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #84ac04;
+    width: 16%;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.settingBackground {
+    width: 5%;
+}
+
+.eventInnerHead {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.positionCard {
+    background: #ffffff;
+    padding: 14px 6px;
+    border-bottom: 0.900491px solid #b0b6bb;
+}
+
+.candidateCard {
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    padding: 26px 14px 26px 14px;
+    border-bottom: 0.900491px solid #b0b6bb;
+}
+
+.myCardTask {
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    padding: 15px 17px 15px 17px;
+}
+
+.promoteBackgroundText {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.7064px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.locationImg {
+    opacity: 0.7;
+    padding: 0px 5px 5px 5px;
+}
+
+.locationText {
+    width: 65%;
+    margin: 0px;
+    padding: 0px 5px 5px 5px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.7064px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.pipelineText {
+    padding: 5px 5px 0px 5px;
+    width: 17%;
+}
+
+.candidatesText {
+    padding: 5px 5px 0px 5px;
+    width: 18%;
+}
+
+.border-radius {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.addEllipse {
+    padding: 8px 11px 8px 5px;
+    height: 27px;
+    width: 27px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.innerDashboard {
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    background-color: #f6f2f2;
+}
+
+.agendaClass {
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    height: 30%;
+    background-color: #f6f2f2;
+}
+
+.conversation {
+    height: 70%;
+}
+
+.polygonDown {
+    padding: 0px 1px 0px 1px;
+    margin: 20px 4px 16px 4px;
+}
+
+.round {
+    height: 40px;
+    border-radius: 50px 50px;
+    width: 10.3%;
+    background-color: #1a344b;
+}
+
+.ellipseText {
+    position: absolute;
+    top: 26.5%;
+    left: 10%;
+    transform: translate(-50%, -43%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.6118px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.ellipseText1 {
+    position: absolute;
+    top: 55.5%;
+    left: 10%;
+    transform: translate(-45%, -50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.6118px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.candidateText {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2088px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.candidateInnerText {
+    width: 55%;
+    margin: 4px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12.6069px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+
+.timerText {
+    width: auto;
+    margin: 0px 0px 0px 5px;
+    font-weight: 600;
+    font-size: 10.8059px;
+    line-height: 14px;
+    opacity: 0.8;
+}
+
+.conversationTimerText {
+    display: contents;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 10.8059px;
+    line-height: 14px;
+}
+
+.timerInnerText {
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 13.5074px;
+    line-height: 17px;
+}
+
+.candidateIconText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2088px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1a344b;
+    margin: 0px 10px 0px 10px;
+}
+
+.conversationInnerText {
+    margin: 6px 0px 0px 14px;
+    font-size: 10.8059px;
+    font-weight: 600;
+    line-height: 124.4%;
+}
+
+.candidateIconTextSecond {
+    font-weight: 200;
+    font-size: 10.8059px;
+    line-height: 14px;
+    margin: 3px 5px 0px 10px;
+}
+
+.candidateIcon {
+    height: 14px;
+    width: 14px;
+    margin: 6px 5px 0px 10px;
+}
+
+.candidateIconSecond {
+    height: 14px;
+    width: 14px;
+    margin: 4px 5px 2px 10px;
+}
+
+.timerIcon {
+    margin: 0px;
+    height: 13px;
+    width: 13px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.circleCheck {
+    height: 18px;
+    width: 18px;
+}
+
+.agendaText {
+    margin: 0px;
+    width: 100%;
+    font-size: 16.2088px;
+    line-height: 21px;
+}
+
+.timerClass {
+    display: flex;
+    padding: 2px 5px 2px 39px;
+}
+
+.agendaMinDiv {
+    width: 100%;
+    height: 33%;
+    padding: 0px 100px 0px 44px;
+}
+
+.EllipseProfileIconImg {
+    height: 36px;
+    width: 36px;
+}
+
+.ellipseProfileIcon {
+    padding: 15px 0px 11px 17px;
+}
+
+.conversationClass {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 12px 18px 21px;
+}
+
+.myTaskInnerClass {
+    display: flex;
+    align-items: center;
+    padding: 11px 6px 0px 6px;
+}
+
+.ml-14 {
+    margin-left: 14px;
+}
+
+.conversationInnerIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.secondConversationClass {
+    padding: 7px 84px 0px 11px;
+}
+
+.ellipse-18 {
+    border-radius: 50%;
+    background-color: #1a344b;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerEllipseText {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.8059px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.innerEllipseText2 {
+    top: 77.4%;
+    left: 11.2%;
+}
+
+.greenLine {
+    margin: 0px 2px 0px 14px;
+    width: 3.6px;
+    height: 20.71px;
+    background: #84ac04;
+    border-radius: 1.80098px;
+}
+
+.notification_Icon_div {
+    position: absolute;
+    left: 7%;
+    top: 0px;
+}
+
+.notification_count {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.option_label_report {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.drop_relative {
+    position: relative;
+}
+
+.down_arrow_icon {
+    left: 80%;
+    width: 12.61px;
+    height: 9px;
+    position: absolute;
+    top: 22px;
+}
+
+.drop-down {
+    margin-top: 18px;
+}
+
+.drop-down select {
+    -webkit-appearance: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 0px 15px 20px;
+    width: 220px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+}
+
+.watch_icon {
+    height: 12px;
+    width: 12px;
+    left: 8%;
+    top: 21px;
+    position: absolute;
+}
+
+.title_report_text {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.report_link {
+    width: 100%;
+    height: 37px;
+    border-radius: 3.60197px;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.report_link_text_style {
+    margin: 0 0 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.active_report_link_left_border {
+    background: #65378F;
+    border-radius: 8px 0px 0px 8px;
+    width: 3px;
+    height: 37px;
+}
+
+.logoBgSide {
+    background-image: url('../image/Logo.png')
+}
+
+.graphInner {
+    width: 100%;
+}
+
+.graphHeading {
+    padding: 0px 49px 20px 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphText {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.graphDate {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.graphCards {
+    padding: 0px 34px 0 22px
+}
+
+.graphBox {
+    width: 100%;
+    height: 470px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.gaphBoxHeading {
+    margin: 25px 22.38px 18px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #777777;
+}
+
+.exportbtn {
+    width: 92px;
+    height: 27px;
+    background: #84AC04;
+    border-radius: 14.5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exportbtnIcon {
+    margin-right: 9px;
+}
+
+.exportText {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ExportV {
+    margin-left: 20px;
+}
+
+.graphColors {
+    margin: 0 930px 15px 21px;
+    display: flex;
+    align-items: center;
+}
+
+.rectanglePink {
+    width: 13px;
+    height: 14px;
+    background: #FB02C4;
+    border-radius: 1px;
+}
+
+.PinkText {
+    font-weight: 600;
+    font-size: 14px;
+    color: #777777;
+    text-transform: capitalize;
+    margin: 0;
+    margin-left: 4px;
+}
+
+.rectangleLightBlue {
+    width: 13px;
+    height: 14px;
+    background: #5AC0E5;
+    border-radius: 1px;
+    margin-left: 17px;
+}
+
+.lightBlueText {
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+    margin-left: 4px;
+}
+
+.chartDiv {
+    padding: 0 22px 37px 22px;
+}
+
+.Chart {
+    width: 100%;
+    height: 333px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.GraphImg {
+    padding: 17px 30px 18px 17px;
+    width: 100%;
+    height: 330px;
+}
+
+.ChartBox {
+    margin: 34px 47px 34px 17px;
+}
+
+.y-axis-style {
+    margin: 0 0 30px 0;
+}
+
+.y-axis-font {
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #777777;
+}
+
+.graphBox2 {
+    width: 100%;
+    height: 714px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.gaphBox2Heading {
+    margin: 24px 22.38px 23px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graphBox2Heading2 {
+    margin: 39px 22.38px 17px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HedingText {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #777777;
+    text-transform: capitalize;
+}
+
+.innerBox {
+    margin: 0 22px 39px 21px;
+}
+
+.innerStyle {
+    width: 100%;
+    height: 263px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.innerDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 61px 495px 108px 466px;
+}
+
+.emojiImage {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 12px;
+}
+
+.emojiText {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.graphBox3 {
+    width: 100%;
+    height: 110px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.gaphBox3Heading {
+    margin: 24px 22.38px 16px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exportDatabtn {
+    width: 100%;
+    height: 27px;
+    background: #84AC04;
+    border-radius: 14.5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 26px 4px 26px;
+}
+
+.graphBox3Text {
+    margin: 0 1092px 28px 21px;
+}
+
+.textStyle {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #AAAAAA;
+}
+
+.settingImageBg {
+    display: none;
+}
+
+.innerHome {
+    display: none !important;
+}
+
+.outerDashboard {
+    background-color: #fff;
+    border-radius: 15px 0px 0px 15px;
+}
+
+@media screen and (max-width: 1500px) {
+    .logoBgSide {
+        background-image: url('');
+    }
+    .settingImageBg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+    .settingImage {
+        display: none;
+    }
+    .innerHome {
+        display: flex !important;
+    }
+    .innerIcon {
+        margin: 0 !important;
+        justify-content: center;
+    }
+    .innerIcon>.col-3 {
+        padding: 0;
+    }
+    .innerIcon>.col-9 {
+        display: none;
+    }
+    .innerIcon>.name {
+        display: none;
+    }
+    .innerIcon>.plusIcon {
+        display: none;
+    }
+    .outerDashboard {
+        display: none !important;
+    }
+    .innerIcon>.col-3>#Dashboard {
+        width: 38.18px;
+        height: 36.05px;
+    }
+    .innerIcon>.col-3>#Inbox {
+        width: 35px;
+        height: 28px;
+    }
+    .innerIcon>.col-3>#Tasks {
+        width: 35px;
+        height: 35px;
+    }
+    .innerIcon>.col-3>#Calender {
+        width: 35px;
+        height: 35px;
+    }
+    .innerIcon>.col-3>#Reports {
+        width: 35px;
+        height: 39.38px;
+    }
+    .innerIcon>.col-3>#Positions {
+        width: 36.59px;
+        height: 30.28px;
+    }
+    .innerIcon>.col-3>#Candidates {
+        width: 28.64px;
+        height: 30.23px;
+    }
+    .col-12>.card {
+        width: 50% !important;
+    }
+}

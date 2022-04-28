@@ -1,0 +1,210 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <title>Company Setting Users</title>
+    <link rel="stylesheet" href="./Assets/css/company_setting_users.css" />
+</head>
+
+<body>
+    <div class="container-fluid position-relative">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-header">
+                    <div class="titleClass">Company Settings</div>
+                    <div><img class="titleImg" src="Assets/image/CrossIcon.png" alt="CrossIcon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 leftMainDiv">
+                <div class="col-12 main-leftDiv">
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/SettingIcon.png" alt="SettingIcon">
+                        </div>
+                        <a href="./CompanySetting.html" class="titleClass iconText">General</a>
+                    </div>
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder active">
+                            <img class="settingIcon" src="Assets/image/userIcon.png" alt="SettingIcon">
+                        </div>
+                        <p class="titleClass iconText activeText">Users</p>
+                    </div>
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Vector.png" alt="SettingIcon">
+                        </div>
+                        <p class="titleClass iconText">Permissions</p>
+                    </div>
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Group.png" alt="SettingIcon">
+                        </div>
+                        <a href="./company_teams.html" class="titleClass iconText">Teams</a>
+                    </div>
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/BilIcon.png" alt="SettingIcon">
+                        </div>
+                        <a href="./CompanySettingsBilling.html" class="titleClass iconText">Billing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="manageDiv">
+                    <div class="headingManage">
+                        Manage Members
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="innerManageMemberDiv">
+                        <div class="text-contain">
+                            <p>Manage the team who's involved in the hiring effort at plenty.</p>
+                            <img src="./Assets/image/mailbtn.png" alt="MailBtn" data-toggle="modal" data-target="#exampleModal">
+                        </div>
+                        <div class="tex-box">
+                            <p>Pending Invitations</p>
+                            <div class="box-model">
+                                <div class="model-img"><img src="./Assets/image/userImg.png" alt="userImg"></div>
+                                <div class="main-text">
+                                    <div class="text-headingH1">Ron Swanson</div>
+                                    <div class="text-headingH6">Invited by Josh Bass 6d Ago</div>
+                                </div>
+                                <img class="box-imgClass" src="./Assets/image/crossSign.png" alt="crossSign">
+                            </div>
+                        </div>
+                        <div class="memberMain">
+                            <p>
+                                Members
+                            </p>
+                            <div class="box-model">
+                                <div class="model-img"><img src="./Assets/image/userImg.png" alt="userImg"></div>
+                                <div class="main-text">
+                                    <div class="text-headingH1">Ron Swanson</div>
+                                    <div class="text-headingH6">Invited by Josh Bass 6d Ago</div>
+                                </div>
+                                <div class="addminstrator">
+                                    Administrator
+                                </div>
+                                <div class="dropMenu">
+                                    <img src="./Assets/image/dropMenu.png" alt="dropMenuIcon">
+                                </div>
+                                <div class="mens">
+                                    <img src="./Assets/image/mens.png" alt="mens">
+                                </div>
+                                <p id="button" data-toggle="modal" data-target="#exampleModal1">Teams</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade m-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="model">
+                                <div class="modal-content bordrerNo">
+                                    <div class="modal-header bordrerNo main_modelHeading ">
+                                        <h5 class="modal-title" id="exampleModalLabel">Invite Users</h5>
+                                        <img src="./Assets/image/CrossIcon.png" data-dismiss="modal" aria-label="Close" alt="CrossIcon">
+                                    </div>
+
+                                    <div class="main-body-model">
+                                        <div class="cody-text-div">
+                                            Invite new users by email address. <a href="" class="inner-aLink">Learn
+                                                More</a>
+                                        </div>
+
+                                        <div class="email-invite">
+                                            <div class="email-inner-invite">
+                                                <p class="m-0">Invite by Email</p>
+                                                <div class="inputClass"> <input type="text" placeholder="Type Here..">
+                                                </div>
+                                                <div class="drop-down">
+                                                    <div class="drop_relative">
+                                                        <select name="" id="">
+                                                            <option class="option_label" value="">Add To This Role
+                                                            </option>
+                                                        </select>
+                                                        <img src="./Assets/image/dropIcons.png" alt="dropIcons">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="email-by">
+                                            <p class="m-0">Invite by Email</p>
+                                            <div class="inputClass"> <input type="text" placeholder="No Teams Available" style="width: 661px ; background : #F0F0F0 ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-btns">
+                                        <div class="d-flex">
+                                            <button class="cancel_btn" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                            <button class="invite_btn"> <img src="./Assets/image/mailBtnImg.png"
+                                                    alt="mailBtnImg"> invite Users</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade m-0" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content model1">
+                                <div class="modalHeader">
+                                    <h5 class="modalTitle" id="exampleModalLabel">Teams</h5>
+                                    <img data-dismiss="modal" aria-label="Close" class="modalImg" src="./Assets/image/CrossIcon.png" alt="CrossIcon">
+                                </div>
+                                <div class="modalBody">
+                                    <p class="paragraph">
+                                        Manage the teams Josh Bass is associated with. You can associate these teams with positions & candidate pools for easier administration.
+                                    </p>
+                                    <div class="modalCard">
+                                        <div class="cardText">Add Teams
+                                            <div class="dropdownClass">
+                                                <div class="drop_relative drop_relative_left">
+                                                    <select class="dropdownInput">
+                                                        <option value="Select a Team to add">Select a Team to add
+                                                        </option>
+                                                    </select>
+                                                    <img src="./Assets/image/dropIcons.png" alt="dropIcons">
+                                                </div>
+                                                <div class="addBtn">
+                                                    <img class="vectorIcon" src="./Assets/image/VectorPlusIcon.png" alt="">Add
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modalText">Team Membership</div>
+                                    <div>
+                                        <input type="text" class="inputTextClass" placeholder="All Members">
+                                    </div>
+                                    <div class="modelFooter">
+                                        <div class="cancelBtn" data-dismiss="modal" aria-label="Close" alt="CrossIcon">
+                                            Cancel
+                                        </div>
+                                        <div class="saveBtn">
+                                            <img class="vectorIcon" src="./Assets/image/vectorFile.png" alt=""> Save Changes
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</script>
+</script>
+
+</html>

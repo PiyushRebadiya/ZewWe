@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
@@ -15,59 +14,59 @@
 </head>
 
 <body>
-    <div class="container-fluid m-0 pl-0">
+
+    <div class="container-fluid">
         <div class="row">
-            <div class="main-titleDiv">
-                <div>
-                    <p class="main-title m-0">Company Settings</p>
-                </div>
-                <div>
-                    <img class="crossIcon" src="Assets/image/CrossIcon.png" alt="CrossIcon" />
+            <div class="col-12">
+                <div class="main-header">
+                    <div class="titleClass">Company Settings</div>
+                    <div><img class="titleImg" src="./Assets/image/CrossIcon.png" alt="CrossIcon"></div>
                 </div>
             </div>
         </div>
-        <div class="row allheight">
-            <div class="mainDiv">
-                <div class="topgeneral">
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/SettingsFilled.png" alt="Icon" />
+        <div class="row">
+            <div class="col-3 leftMainDiv">
+                <div class="col-12 main-leftDiv">
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/SettingIcon.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal menu-titleOpacity">General</p>
+                        <a href="./CompanySetting.html" class="titleClass iconText">General</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/User.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/userIcon.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal menu-titleOpacity">Users</p>
+                        <a href="./company_setting_users.html" class="titleClass iconText">Users</a>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/lock.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Vector.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal menu-titleOpacity">Permissions</p>
+                        <p class="titleClass iconText">Permissions</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="normalBgImg">
-                            <img class="menuIconNormal" src="Assets/image/people.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder">
+                            <img class="settingIcon" src="Assets/image/Group.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal menu-titleOpacity">Teams</p>
+                        <p class="titleClass iconText">Teams</p>
                     </div>
-                    <div class="mainInnerClass">
-                        <div class="boldBgImg">
-                            <img class="menuIconBold" src="Assets/image/journal-page.png" alt="Icon" />
+                    <div class="d-flex m-26 align-items-center">
+                        <div class="ellipseBorder active">
+                            <img class="settingIcon" src="Assets/image/BilIcon.png" alt="SettingIcon">
                         </div>
-                        <p class="menu-titleNormal">Billing</p>
+                        <a href="./CompanySettingsBilling.html" class="titleClass iconText activeText">Billing</a>
                     </div>
                 </div>
+            </div>
+            <div class="col-9">
                 <div class="manageDiv">
                     <p class="divheader mb-0 underline">General</p>
                     <div class="mainInnerGeneralClass underline">
                         <div class="cname pt-0">
                             <p class="compname mb-0">Current Subscription</p>
                             <p class="compdic mb-0">
-                                You're subscribed to the <a href="" class="blinglink">Startup</a> plan at <span
-                                    class="compspam"> $171 per month.</span>
+                                You're subscribed to the <a href="" class="blinglink">Startup</a> plan at <span class="compspam"> $171 per month.</span>
                             </p>
                             <div class="cursetingbtn">
                                 <div class="curimgdiv"><img src="Assets/image/SettingsFilled.png" class="curimg" alt="">
@@ -77,39 +76,34 @@
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname">
                             <p class="compname mb-0">Cancel Subscription</p>
                             <p class="compdic mb-0">
-                                You can cancel your plan at any time. The change will take effect at the end of your
-                                current <br />
-                                billing cycle.
+                                You can cancel your plan at any time. The change will take effect at the end of your current <br /> billing cycle.
                             </p>
                             <div class="cansetingbtn">
                                 <p class="cansetingtext m-0">Cancel Subscription</p>
                             </div>
                         </div>
-
+            
                         <div class="cname bottomborder">
                             <p class="compname mb-0">Feature Subscriptions</p>
                             <p class="compdic mb-0">
                                 Talent Search
                             </p>
                             <p class="TelentDiv mb-0">
-                                You aren’t subscribed to Talent Search. You can still search, but results will be
-                                anonymized <br />
-                                with contact details removed.
+                                You aren’t subscribed to Talent Search. You can still search, but results will be anonymized <br /> with contact details removed.
                             </p>
                             <div class="enatelentbtn" id="myBtn">
                                 <p class="enatelenttext m-0">Enable Talent Search</p>
                             </div>
                         </div>
-
+            
                         <div class="cname newpadding">
                             <p class="compname mb-0">Text/SMS Messaging</p>
                             <p class="compdic mb-0">
-                                You aren’t subscribed to an SMS messaging plan and are limited to 10 SMS credits per
-                                month.
+                                You aren’t subscribed to an SMS messaging plan and are limited to 10 SMS credits per month.
                             </p>
                             <p class="compdic mb-0">
                                 You have used <span class="compspam">0 of 10</span> credits.
@@ -118,27 +112,25 @@
                                 <p class="addSmsText m-0">Add SMS Plan</p>
                             </div>
                         </div>
-
+            
                         <div class="cname newpadding">
                             <p class="compname mb-0">Card Details</p>
                             <p class="compdic mb-0">
                                 We have the following credit card on file:
-
+            
                             </p>
                             <p class="compdic mb-0">
-                                Card ending in <span class="compspam">6084</span>· Expires <span
-                                    class="compspam">6/2022</span>
+                                Card ending in <span class="compspam">6084</span>· Expires <span class="compspam">6/2022</span>
                             </p>
                             <div class="editBtn">
-                                <div class="editImgDiv"><img src="Assets/image/SettingsFilled.png" class="editImg"
-                                        alt="">
+                                <div class="editImgDiv"><img src="Assets/image/SettingsFilled.png" class="editImg" alt="">
                                 </div>
                                 <div class="Center">
                                     <p class="addSmsText m-0">Edit Details</p>
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname">
                             <p class="compname mb-0">Invoice Details</p>
                             <div class="invoiceDivMain">
@@ -160,15 +152,14 @@
                                 </div>
                             </div>
                             <div class="editBtn newmt">
-                                <div class="editImgDiv"><img src="Assets/image/SettingsFilled.png" class="editImg"
-                                        alt="">
+                                <div class="editImgDiv"><img src="Assets/image/SettingsFilled.png" class="editImg" alt="">
                                 </div>
                                 <div class="Center">
                                     <p class="addSmsText m-0">Edit Details</p>
                                 </div>
                             </div>
                         </div>
-
+            
                         <div class="cname invoicesbottomBorder">
                             <p class="compname mb-0">Invoices</p>
                             <div class="invoicesDivMain ">
@@ -212,13 +203,20 @@
                                 </div>
                             </div>
                         </div>
-
+            
                     </div>
                     <div class="mainInnerGeneralClassBottom">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+
+
+    
         <!-- -------------------------------------------------------------------------------------------------------------- -->
         <div id="myModal" class="modal">
             <div class="modal-content">
@@ -237,8 +235,7 @@
 
                 <div class="modelDiv bBorder">
                     <p class="modeltxt mb-0">
-                        Search billions of professional profiles. Currently available for <br />
-                        US-based candidates.
+                        Search billions of professional profiles. Currently available for <br /> US-based candidates.
                     </p>
                     <p class="modeltxt topMargin mb-0">To enable Talent Search just choose a billing option below:</p>
                     <div class="mergrCla topMarginRadio">
@@ -262,157 +259,153 @@
             </div>
         </div>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+        <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
-<div id="myModal1" class="modalSec">
-    <div class="modal-contentSec">
-<div class="modalMainDiv">
-    <div class="centerModalDiv">
-        <div class="title">
-            <p class="textFontGlobally">SMS Messaging</p>
-        </div>
-        <div class="closeIconModal">
-            <span class="close1"> <img src="Assets/image/CrossIcon.png" style="width: 38px;height: 38px;" /></span>
-        </div>
-        <div class="chooseTextDiv">
-            <p style="color: #000000;opacity: 0.7;margin: 0;" class="textFontGlobally">Choose an SMS messaging
-                subscription plan and interact with candidates the way they want you to.</p>
-        </div>
-        <div class="twiceButtonDiv">
-            <div style="background: #DADADA;border-radius: 2.70147px 0px 0px 2.70147px;" class="twiceButton">
-                <p>Monthly</p>
-            </div>
-            <div style="background: #76D691;border-radius: 0px 2.70147px 2.70147px 0px;" class="twiceButton">
-                <p>Annually</p>
-            </div>
-        </div>
-        <div class="saveOfferText">
-            <p style="color: #000000;opacity: 0.7;margin: 0;" class="textFontGlobally">Save 15% with annual billing
-            </p>
-        </div>
-        <div class="tableHeaderMainDiv">
-            <div class="tableHeaderBox">
-                <div style="background-color: #4CABCD;" class="firstBoxDiv">
-                    <div class="tableFirstBoxDivMain"
-                        style="display: flex;flex-direction: column;justify-content: space-between;">
-                        <p class="m-0 text-white textFontGlobally">US/Canada</p>
-                        <div style="display: flex;justify-content: center;">
-                            <p class="m-0 text-white textFontGlobally" style="font-size: 36px;">$127
-                            <p class="text-white ms-2 mt-1">/Mo</p>
+        <div id="myModal1" class="modalSec">
+            <div class="modal-contentSec">
+                <div class="modalMainDiv">
+                    <div class="centerModalDiv">
+                        <div class="title">
+                            <p class="textFontGlobally">SMS Messaging</p>
+                        </div>
+                        <div class="closeIconModal">
+                            <span class="close1"> <img src="Assets/image/CrossIcon.png" style="width: 38px;height: 38px;" /></span>
+                        </div>
+                        <div class="chooseTextDiv">
+                            <p style="color: #000000;opacity: 0.7;margin: 0;" class="textFontGlobally">Choose an SMS messaging subscription plan and interact with candidates the way they want you to.</p>
+                        </div>
+                        <div class="twiceButtonDiv">
+                            <div style="background: #DADADA;border-radius: 2.70147px 0px 0px 2.70147px;" class="twiceButton">
+                                <p>Monthly</p>
+                            </div>
+                            <div style="background: #76D691;border-radius: 0px 2.70147px 2.70147px 0px;" class="twiceButton">
+                                <p>Annually</p>
+                            </div>
+                        </div>
+                        <div class="saveOfferText">
+                            <p style="color: #000000;opacity: 0.7;margin: 0;" class="textFontGlobally">Save 15% with annual billing
                             </p>
                         </div>
-                        <p class="m-0 text-white textFontGlobally">Billed Annually</p>
-                    </div>
-                </div>
-                <div style="background-color: #4CABCD;" class="secondBoxDiv">
-                    <p class="m-0 textFontGlobally text-white">Select Plan</p>
-                </div>
-            </div>
-            <div class="tableHeaderBox">
-                <div style="background-color: #76D691;" class="firstBoxDiv">
-                    <div class="tableFirstBoxDivMain" style="display: block;">
-                        <p class="m-0 text-white textFontGlobally">International</p>
-                        <div style="display: flex;justify-content: center;">
-                            <p class="text-white textFontGlobally"
-                                style="font-size: 36px;margin-top: 15px !important;">Custom
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div style="background-color: #76D691;" class="secondBoxDiv">
-                    <p class="m-0 textFontGlobally text-white">Contact Us</p>
-                </div>
-            </div>
-            <div class="tableHeaderBox">
-                <div style="background-color: #853DB1;" class="firstBoxDiv">
-                    <div class="tableFirstBoxDivMain" style="display: block;">
-                        <p class="m-0 text-white textFontGlobally">Big Texter</p>
-                        <div style="display: flex;justify-content: center;">
-                            <p class="text-white textFontGlobally"
-                                style="font-size: 36px;margin-top: 15px !important;">Custom
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div style="background-color: #853DB1;" class="secondBoxDiv">
-                    <p class="m-0 textFontGlobally text-white">Contact Us</p>
-                </div>
-            </div>
+                        <div class="tableHeaderMainDiv">
+                            <div class="tableHeaderBox">
+                                <div style="background-color: #4CABCD;" class="firstBoxDiv">
+                                    <div class="tableFirstBoxDivMain" style="display: flex;flex-direction: column;justify-content: space-between;">
+                                        <p class="m-0 text-white textFontGlobally">US/Canada</p>
+                                        <div style="display: flex;justify-content: center;">
+                                            <p class="m-0 text-white textFontGlobally" style="font-size: 36px;">$127
+                                                <p class="text-white ms-2 mt-1">/Mo</p>
+                                            </p>
+                                        </div>
+                                        <p class="m-0 text-white textFontGlobally">Billed Annually</p>
+                                    </div>
+                                </div>
+                                <div style="background-color: #4CABCD;" class="secondBoxDiv">
+                                    <p class="m-0 textFontGlobally text-white">Select Plan</p>
+                                </div>
+                            </div>
+                            <div class="tableHeaderBox">
+                                <div style="background-color: #76D691;" class="firstBoxDiv">
+                                    <div class="tableFirstBoxDivMain" style="display: block;">
+                                        <p class="m-0 text-white textFontGlobally">International</p>
+                                        <div style="display: flex;justify-content: center;">
+                                            <p class="text-white textFontGlobally" style="font-size: 36px;margin-top: 15px !important;">Custom
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="background-color: #76D691;" class="secondBoxDiv">
+                                    <p class="m-0 textFontGlobally text-white">Contact Us</p>
+                                </div>
+                            </div>
+                            <div class="tableHeaderBox">
+                                <div style="background-color: #853DB1;" class="firstBoxDiv">
+                                    <div class="tableFirstBoxDivMain" style="display: block;">
+                                        <p class="m-0 text-white textFontGlobally">Big Texter</p>
+                                        <div style="display: flex;justify-content: center;">
+                                            <p class="text-white textFontGlobally" style="font-size: 36px;margin-top: 15px !important;">Custom
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="background-color: #853DB1;" class="secondBoxDiv">
+                                    <p class="m-0 textFontGlobally text-white">Contact Us</p>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="tableRowMainDiv">
+                            <div class="rowTableLine">
+                                <div class="rowTableTextStyle">
+                                    <p class="textFontGlobally" style="margin: 0;">Send to US / Canadian numbers</p>
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 23%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="rowTableLine">
+                                <div class="rowTableTextStyle">
+                                    <p class="textFontGlobally" style="margin: 0;">Send up to 5000 SMS messages/month</p>
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 23%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="rowTableLine">
+                                <div class="rowTableTextStyle">
+                                    <p class="textFontGlobally" style="margin: 0;">Receive unlimited SMS messages</p>
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 23%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="rowTableLine">
+                                <div class="rowTableTextStyle">
+                                    <p class="textFontGlobally" style="margin: 0;">Send to International numbers</p>
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                </div>
+                                <div style="width: 23%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="rowTableLine" style="border-bottom: 1px solid #C4C4C4;">
+                                <div class="rowTableTextStyle">
+                                    <p class="textFontGlobally" style="margin: 0;">More than 5000 messages/month</p>
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                </div>
+                                <div style="width: 23%;height: 66px;" class="center_icon">
+                                </div>
+                                <div style="width: 21%;height: 66px;" class="center_icon">
+                                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="tableRowMainDiv">
-            <div class="rowTableLine">
-                <div class="rowTableTextStyle">
-                    <p class="textFontGlobally" style="margin: 0;">Send to US / Canadian numbers</p>
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 23%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-            </div>
-            <div class="rowTableLine">
-                <div class="rowTableTextStyle">
-                    <p class="textFontGlobally" style="margin: 0;">Send up to 5000 SMS messages/month</p>
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 23%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-            </div>
-            <div class="rowTableLine">
-                <div class="rowTableTextStyle">
-                    <p class="textFontGlobally" style="margin: 0;">Receive unlimited SMS messages</p>
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 23%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-            </div>
-            <div class="rowTableLine">
-                <div class="rowTableTextStyle">
-                    <p class="textFontGlobally" style="margin: 0;">Send to International numbers</p>
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                </div>
-                <div style="width: 23%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/green_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-            </div>
-            <div class="rowTableLine" style="border-bottom: 1px solid #C4C4C4;">
-                <div class="rowTableTextStyle">
-                    <p class="textFontGlobally" style="margin: 0;">More than 5000 messages/month</p>
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                </div>
-                <div style="width: 23%;height: 66px;" class="center_icon">
-                </div>
-                <div style="width: 21%;height: 66px;" class="center_icon">
-                    <img src="Assets/image/violate_teenyicons_tick-circle-solid.png" style="width: 28px;height: 28px;" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
 
 
 
@@ -432,29 +425,28 @@
             var span1 = document.getElementsByClassName("close1")[0];
 
             // When the user clicks the button, open the modal
-            btn.onclick = function () {
+            btn.onclick = function() {
                 // modal.style.display = "block";
                 modal.style.display = "block";
             };
-            btn1.onclick = function () {
+            btn1.onclick = function() {
                 // modal.style.display = "block";
                 modal1.style.display = "block";
             };
 
             // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+            span.onclick = function() {
                 modal.style.display = "none";
             };
-            span1.onclick = function () {
+            span1.onclick = function() {
                 modal1.style.display = "none";
             };
 
             // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
+            window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
-                }
-                else if (event.target == modal1) {
+                } else if (event.target == modal1) {
                     modal1.style.display = "none";
                 }
             };
