@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <title>Pipelines</title>
+    <link rel="stylesheet" href="./Assets/css/position_profile.css" />
     <link rel="stylesheet" href="./Assets/css/Pipelines.css" />
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="position: absolute; display: block;">
         <div class="row headerLength">
             <div class="head1">
                 <img class="logoImg" src="./Assets/image/Logo.png" alt="">
@@ -80,13 +81,13 @@
                             <img class="roomySecImg" src="./Assets/image/PolygonDown.png" alt="">
                         </div>
                     </div>
-                    <div class="addCandidate">
+                    <div class="addCandidate" id="myBtn">
                         <img class="addCandidatePlusImg" src="./Assets/image/Vector (3).png" alt="">
                         <p class="addCandidateText m-0">Add Candidate</p>
                     </div>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex" style="overflow-x: scroll;">
                     <div class="mainBox">
                         <div class="mainBoxFlex">
                             <div class="d-flex">
@@ -739,6 +740,256 @@
                 </div>
             </div>
         </div>
-</body>
+</div>
 
+            <div class="container-fluid p-0" style="position: absolute;">
+                <div class="profile_model model" id="myModal">
+                    <div class="row m-0 profile_header">
+                        <div class="col-12 d-flex justify-content-end p-0">
+                            <img class="crossImg close" src="./Assets/image/header_cross.png" alt="header_cross">
+                        </div>
+                        <div class="col-12 d-flex justify-content-between p-0">
+                            <div class="d-flex"><img class="profileImg" src="./Assets/image/Mask_group.png" alt="Mask_logo">
+                                <div class="Header_Title">
+                                    <div class="d-flex">
+                                        <p class="inner_middle">Kyle May</p>
+                                        <img class="starImg" src="Assets/image/Star.png" alt="Star">
+                                    </div>
+                                    <div class="mainTextOne d-flex">
+                                        <img class="iconCall" src="./Assets/image/iconCall.png" alt="IconCall">
+                                        <p class="textClass">0300-28384775</p>
+                                        <img class="mailIcon" src="./Assets/image/mailIcon.png" alt="MailIcon">
+                                        <p class="textClass">kylemay@gmail.com</p>
+                                    </div>
+                                    <div class="mainTextTwo d-flex">
+                                        <p class="textClassTwo">Position: Depurty Director of Parks and Recreation .</p>
+                                        <p class="textClassTwo">Other Places (1).</p>
+                                        <img class="downArrow" src="./Assets/image/downArrow.png" alt="downArrow">
+                                        <p class="textClassTwo" style="padding-left: 12px;">Source: Portal</p>
+                                    </div>
+                                    <div class="mainTextThree d-flex">
+                                        <div class="outerDivText d-flex" style="width: 159px">
+                                            <img class="IconPen" src="./Assets/image/iconPen.png" alt="IconPen">
+                                            <p class="textThree">Account Manager</p>
+                                        </div>
+                                        <div class="outerDivText d-flex" style="width: 108px">
+                                            <img class="IconPen" src="./Assets/image/iconPen.png" alt="IconPen">
+                                            <p class="textThree">Awesome</p>
+                                        </div>
+                                        <div class="outerDivText d-flex" style="width: 80px">
+                                            <img class="IconPen" src="./Assets/image/iconPen.png" alt="IconPen">
+                                            <p class="textThree">Cool</p>
+                                        </div>
+                                        <div class="outerDivText d-flex" style="width: 95px">
+                                            <img class="IconPen" src="./Assets/image/iconPen.png" alt="IconPen">
+                                            <p class="textThree">Friendly</p>
+                                        </div>
+                                        <div class="outerAddDivText d-flex" style="width: 95px">
+                                            <p class="AddtextThree">+ Add Tag</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_right">
+                                <div class="mainTextone d-flex">
+                                    <div class="outerDivText d-flex" style="width: 159px; background: #84AC04;">
+                                        <img class="IconPen" src="./Assets/image/iconPen.png" alt="IconPen">
+                                        <p class="textThree textThreeColor">+ brandboardHR</p>
+                                    </div>
+                                    <div class="outerDivText d-flex" style="width: 36px ;  background: #84AC04">
+                                        <img class="calendarImg" src="./Assets/image/calendar.png" alt="calendar">
+                                    </div>
+                                    <div class="outerDivText d-flex" style="width: 123px ;  background: #84AC04">
+                                        <img class="IconPen" src="./Assets/image/email_Img.png" alt="EmailIco">
+                                        <p class="textThree textThreeColor">send Email</p>
+                                    </div>
+                                </div>
+                                <div class="mainTextTwo d-flex justify-content-end" style="padding-top: 12px;">
+                                    <div class="outerDivText d-flex" style="width: 83px ; margin-right: 63px;">
+                                        <img class="IconPen" src="./Assets/image/business_job.png" alt="Businessjob">
+                                        <p class="textThree" style="color: #000000">Hired</p>
+                                    </div>
+                                    <div class="outerDivText d-flex" style="width: 36px ; margin-right: 8px;">
+                                        <img class="fileIcon" src="./Assets/image/fileIcon.png" alt="fileIcon">
+                                    </div>
+                                    <div class="outerDivText d-flex" style="width: 83px">
+                                        <p class="moreText">More</p>
+                                        <img class="downBlack" src="./Assets/image/downBlack.png" alt="downBlack">
+                                    </div>
+                                </div>
+                                <div class="mainTextThree d-flex justify-content-end" style="padding-top: 12px;">
+                                    <div class="outerDivText d-flex" style="width: 36px ; margin-right: 8px;">
+                                        <img class="fileIcon" src="./Assets/image/wifiIcon.png" alt="wifiIcon">
+                                    </div>
+                                    <div class="outerDivText d-flex" style="width: 145px; background: #84AC04;">
+                                        <img class="Thumb_icon" src="./Assets/image/thumb.png" alt="Thumb">
+                                        <p class="textThree textThreeColor">Your Scorecard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="profile_body">
+                        <div class="row m-0 col-12 d-flax ">
+                            <div class="row col-6 main_row">
+                                <div class="parentDiv">
+                                    <p class="body_header">Details</p>
+                                </div>
+                                <p class="body_header">experience</p>
+                                <p class="body_header">Resume</p>
+                                <p class="body_header">Attachements</p>
+                                <p class="body_header">questionnaire</p>
+                                <div class="more-Div">
+                                    <p class="body_header">More</p>
+                                    <img class="DownVector" src="./Assets/image/DownVector.png" alt="DownVector">
+                                </div>
+                            </div>
+                            <div class="row col-6 main_row" style="margin-left: 35px;">
+                                <div class="parentDiv">
+                                    <p class="body_header">Discussion</p>
+                                </div>
+                                <p class="body_header sub_Div">Calendar</p>
+                                <p class="body_header sub_Div">Scorecards</p>
+                                <p class="body_header sub_Div">Notes</p>
+                                <p class="body_header sub_Div">Email/SMS</p>
+                                <p class="body_header sub_Div">Tasks</p>
+                            </div>
+                        </div>
+                        <div class="row m-0 col-12 d-flax" style="padding-top: 18px; display: flex;
+                        justify-content: space-between;">
+                            <div class="row " style="width: 51%; margin-left: 4px;">
+                                <div class="profile_leftMain">
+                                    <div class="headingLeft">Candidate Details</div>
+                                    <div class="d-flex logoLeft">
+                                        <img style="padding-left: 29px;" src="./Assets/image/mask_img.png" alt="mask_img">
+                                        <div class="kyle_may">kyle may</div>
+                                    </div>
+                                    <div class="candicateClass">Candidate Source</div>
+                                    <div class="text-portel">Portal</div>
+                                    <div class="candicateClass">Contact Points</div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Email:</p>
+                                        <p class="emialText">kylemay@gmail.com</p>
+                                    </div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Phone:</p>
+                                        <p class="emialText" style="padding-left: 20px;">0393902837</p>
+                                    </div>
+                                    <div class="candicateClass">GDPR Compliance</div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Status:</p>
+                                        <p class="statusText" style="padding-left: 48px;">Consent Pending</p>
+                                    </div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Expiration:</p>
+                                        <p class="statusText" style="padding-left: 14px;">2019-05-19</p>
+                                    </div>
+                                    <div class="candicateClass">Social Profiles</div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Instagram:</p>
+                                        <p class="emialText" style="padding-left: 14px;">https://instagram.com/johndoe</p>
+                                    </div>
+                                    <div class="candicateClass">Other Information</div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Salary:</p>
+                                        <p class="statusText" style="padding-left: 49px;">100,0000</p>
+                                    </div>
+                                    <div class="emailDiv" style="display: flex;">
+                                        <p class="text-portel">Recruiter <br/>Comission</p>
+                                        <p class="statusText" style="padding-left: 18px;">500</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row col-6">
+                                <div class="profile_rightMain">
+                                    <div class="headingLeft">Team Discussions</div>
+                                    <div style="margin-left: 31px;">
+                                        <textarea class="textAreaClass" rows="4" cols="50" name="" form=""
+                                            placeholder="Enter your message and tag by entering @name"></textarea>
+                                    </div>
+                                    <div class="main_btnDiv">
+                                        <div class="innerIconDiv">
+                                            <img class="setIcon" src="./Assets/image/setIcon.png" alt="setIcon">
+                                        </div>
+                                        <div class="innerSecDiv">
+                                            <img class="sendIcon" src="./Assets/image/sendIcon.png" alt="sendIcon">
+                                            <p class="sendText">Send</p>
+                                        </div>
+                                    </div>
+                                    <div class="lowerMainDiv">
+                                        <div class="kyleHeader">
+                                            <img class="maskImgLogo" src="./Assets/image/mask_img.png" alt="mask_img">
+                                            <div class="verticalLine"></div>
+                                            <div class="textKyleDiv">kyle may</div>
+                                            <div class="textKyleDiv saidClass">Said</div>
+                                            <div class="dayDiv">7 days ago</div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="arrow">
+                                                <div class="outer"></div>
+                                                <div class="inner"></div>
+                                            </div>
+                                            <div class="message-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="kyleHeader" style="padding-top: 5px">
+                                            <img class="maskImgLogo" src="./Assets/image/Mask group (2).png" alt="mask_img">
+                                            <div class="verticalLine"></div>
+                                            <div class="textKyleDiv">kyle may</div>
+                                            <div class="textKyleDiv saidClass">Said</div>
+                                            <div class="dayDiv">7 days ago</div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="arrow">
+                                                <div class="outer"></div>
+                                                <div class="inner"></div>
+                                            </div>
+                                            <div class="message-body" style="height: 42px;">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            </div>
+                                        </div>
+                                        <div class="kyleHeader" style="padding-top: 5px">
+                                            <div class="blueCircle"></div>
+                                            <div class="verticalLine" style="left: 6.6%; margin-top: 59px;width: 40px;"></div>
+                                            <div class="gdprText"> <span class="gdpr">GDPR</span> was requested from the HR</div>
+                                            <div class="dayDiv" style="width: 50%;">7 days ago</div>
+                                        </div>
+                                        <div class="kyleHeader" style="padding-top: 18px">
+                                            <div class="greenCircle"></div>
+                                            <div class="gdprText"> <span class="gdpr">Kyle May</span> removed a document</div>
+                                            <div class="dayDiv" style="width: 53%;">7 days ago</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+    
+            var btn = document.getElementById("myBtn");
+    
+            var span = document.getElementsByClassName("close")[0];
+    
+            btn.onclick = function() {
+                modal.style.display = "block";
+            };
+    
+            span.onclick = function() {
+                modal.style.display = "none";
+            };
+    
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            };
+        </script>
+</body>
 </html>
