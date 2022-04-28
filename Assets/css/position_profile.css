@@ -2,6 +2,7 @@
   background-color: #a6a6a6;
   padding: 211px 212px 137px 240px;
 }
+
 .profile_header {
   padding: 6px 5px 52px 48px;
   background-color: #1a344b;
@@ -20,19 +21,23 @@
   line-height: 49px;
   text-transform: capitalize;
 }
+
 .profileImg {
   height: 88px;
   width: 88px;
 }
+
 .crossImg {
   height: 26px;
   width: 26px;
 }
+
 .Header_Title {
   padding: 9px 41px 0px 25px;
   display: flex;
   flex-direction: column;
 }
+
 .starImg {
   height: 26px;
   width: 28px;
@@ -42,10 +47,12 @@
 .mainTextOne {
   padding-top: 12px;
 }
+
 .iconCall {
   width: 14px;
   height: 14px;
 }
+
 .textClass {
   font-weight: 400;
   font-size: 12px;
@@ -54,6 +61,7 @@
   color: #ffffff;
   padding: 0px 27px 0px 7px;
 }
+
 .mailIcon {
   width: 14.08px;
   height: 10.67px;
@@ -68,17 +76,20 @@
   color: #ffffff;
   padding: 0px 7px 0px 0px;
 }
+
 .downArrow {
   width: 9px;
   height: 6px;
   margin-top: 7px;
 }
+
 .outerDivText {
   margin-right: 15px;
   height: 27px;
   background: #bac2c9;
   border-radius: 14.5px;
 }
+
 .IconPen {
   width: 10px;
   height: 10px;
@@ -102,6 +113,7 @@
   box-sizing: border-box;
   border-radius: 14.5px;
 }
+
 .AddtextThree {
   padding: 4px 0px 4px 15px;
   font-weight: 400;
@@ -110,11 +122,13 @@
   text-transform: capitalize;
   color: #ffffff;
 }
+
 .header_right {
   padding-top: 9px;
   display: flex;
   flex-direction: column;
 }
+
 .calendarImg {
   width: 13px;
   height: 13px;
@@ -124,6 +138,7 @@
 .textThreeColor {
   color: #ffffff;
 }
+
 .fileIcon {
   margin: 8px 12px 8px 13px;
 }
@@ -137,6 +152,7 @@
   text-transform: capitalize;
   color: #000000;
 }
+
 .downBlack {
   padding: 11px 13px 10px 12px;
 }
@@ -158,6 +174,7 @@
   text-transform: capitalize;
   color: #1a344b;
 }
+
 .parentDiv {
   margin-right: 12px;
   display: flex;
@@ -166,6 +183,7 @@
   height: 30px;
   border-bottom: 3px solid #84ac04;
 }
+
 /* .sub_Div{
   padding-right: 22px;
   margin: 0px;
@@ -174,11 +192,13 @@
 .more-Div {
   display: flex;
 }
+
 .DownVector {
   position: absolute;
   right: 0px;
   top: 9px;
 }
+
 .main_row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   height: 30px;
@@ -189,9 +209,9 @@
 .profile_leftMain {
   background-color: #ffffff;
   width: 100%;
-  margin-right: 15px;
   /* height: 765px; */
 }
+
 .profile_rightMain {
   background-color: #ffffff;
   /* width: 100%; */
@@ -206,6 +226,7 @@
   text-transform: capitalize;
   color: #000000;
 }
+
 .kyle_may {
   padding: 24px 0px 0px 22px;
   font-style: normal;
@@ -215,6 +236,7 @@
   text-transform: capitalize;
   color: #282828;
 }
+
 .candicateClass {
   padding: 27px 0px 9px 30px;
   font-style: normal;
@@ -224,6 +246,7 @@
   text-transform: capitalize;
   color: #777777;
 }
+
 .text-portel {
   padding-left: 32px;
   font-style: normal;
@@ -233,6 +256,7 @@
   text-transform: capitalize;
   color: #1a344b;
 }
+
 .emialText {
   padding-left: 28px;
   font-style: normal;
@@ -243,6 +267,7 @@
   text-transform: lowercase;
   color: #6aa8de;
 }
+
 .statusText {
   font-style: normal;
   font-weight: 400;
@@ -283,6 +308,7 @@ align-items: flex-end; */
   justify-content: center;
   align-items: center;
 }
+
 .setIcon {
   width: 15.07px;
   height: 15.07px;
@@ -298,6 +324,7 @@ align-items: flex-end; */
   justify-content: center;
   align-items: center;
 }
+
 .sendText {
   margin: 0px 0px 0px 4px;
   font-style: normal;
@@ -307,12 +334,14 @@ align-items: flex-end; */
   text-transform: capitalize;
   color: #ffffff;
 }
+
 .main_btnDiv {
   display: flex;
   margin-top: 9px;
   justify-content: end;
   margin-right: 27px;
 }
+
 .lowerMainDiv {
   margin-top: 18px;
   margin-left: 28px;
@@ -321,10 +350,12 @@ align-items: flex-end; */
 .kyleHeader {
   display: flex;
 }
+
 .maskImgLogo {
   width: 41px;
   height: 41px;
 }
+
 .textKyleDiv {
   padding-left: 10px;
   font-style: normal;
@@ -336,10 +367,12 @@ align-items: flex-end; */
   align-items: center;
   display: flex;
 }
+
 .saidClass {
   text-transform: lowercase;
   color: #727272;
 }
+
 .dayDiv {
   width: 72%;
   font-style: italic;
@@ -352,6 +385,7 @@ align-items: flex-end; */
   align-items: center;
   justify-content: end;
 }
+
 .verticalLine {
   position: absolute;
   left: 3%;
@@ -361,7 +395,8 @@ align-items: flex-end; */
   border: 1px solid #c8c8c8;
   transform: rotate(90deg);
 }
-.right_div_text{
+
+/* .right_div_text{
   margin: 15px 0px 0px 79px;
 }
 .main_text_div{
@@ -369,7 +404,6 @@ width: 451px;
 height: 61px;
 background: #FFFFFF;
 border: 1px solid #E7E7E7;
-/* border: 1px solid black; */
 box-sizing: border-box;
 border-radius: 4px;
 }
@@ -380,7 +414,101 @@ border-radius: 4px;
   width: 10px;
   height: 1.3px;
   left: 19.8%;
+} */
+
+
+
+
+/* For better visibility of the example */
+
+.container {
+  padding-left: 69px;
 }
+
+.container .arrow {
+  width: 12px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  float: top;
+  transform: rotate(90deg);
+  top: 6px;
+  left: 12px;
+}
+
+.container .arrow .outer {
+  /* width: 0;
+  height: 0; */
+  border-right: 20px solid #E7E7E7;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.container .arrow .inner {
+  border-right: 20px solid #ffffff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.container .message-body {
+
+  width: 451px;
+  height: 61px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.container .message-body p {
+  padding: 14px 20px 13px 19px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  color: #898989;
+}
+
+.blueCircle {
+  width: 20px;
+  height: 20px;
+  background: #59C9EC;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.gdprText {
+  padding-left: 21px;
+  padding-top: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #282828;
+}
+.gdpr{
+  font-weight: 600;
+}
+
+.greenCircle{
+  width: 20px;
+  height: 20px;
+  background: #38A79A;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
 
 
 
@@ -468,4 +596,4 @@ border-radius: 4px;
   transform: rotate(-45deg);
   
   box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
-} */ 
+} */
