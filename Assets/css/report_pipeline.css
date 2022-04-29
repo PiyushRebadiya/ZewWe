@@ -1013,6 +1013,105 @@
     border-radius: 15px 0px 0px 15px;
 }
 
+
+.candidates_modal {
+    position: relative;
+    background: #F9F9F9;
+border: 1px solid #DFDFDF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.candidates_modal_left_title {
+    position: absolute;
+    top: 49px;
+    left: 21px;
+}
+.candidates_modal_left_title > p {
+    font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 23px;
+   text-transform: capitalize;
+   color: #777777;
+    margin: 0;
+}
+
+.export_btn_div {
+    position: absolute;
+    top: 42px;
+    right: 86px;
+    background: #84AC04;
+    border-radius: 14.5px;
+    width: 102px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.export_btn_div > p {
+    margin:0 0 0 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sources_view_table_perfect {
+    height: auto;
+    margin: 80px 22px 19px 23px;
+    width: 96%;
+  }
+  .sources_view_table_row {
+    height: 33px;
+    width: 100%;
+    display: flex;
+  }
+
+  .sources_view_table_row_first_start_div {
+    height: 100%;
+    align-items: center;
+    width: 16%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .sources_view_table_row_inner_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #777777;
+    margin: 0;
+  }
+  .sources_view_table_row_all_center_div {
+    height: 100%;
+    align-items: center;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .down_arrow_right_main_div {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+
+  .text_border_bottom {
+    border: 2px solid #DEDEDE;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
 @media screen and (max-width: 1500px) {
     .logoBgSide {
         background-image: url('');
