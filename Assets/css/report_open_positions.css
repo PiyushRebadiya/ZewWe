@@ -60,6 +60,14 @@
     font-family: inherit;
 }
 
+.sliderText:hover {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 .upperSlider {
     height: 400px;
 }
