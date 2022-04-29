@@ -622,8 +622,9 @@
     text-transform: capitalize;
     color: #000000;
 }
+
 .report_link_text_style:hover {
-    margin: 0 0 0 15px; 
+    margin: 0 0 0 15px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -631,7 +632,8 @@
     text-transform: capitalize;
     color: #000000;
     text-decoration: none;
-  }
+}
+
 .active_report_link_left_border {
     background: #65378F;
     border-radius: 8px 0px 0px 8px;
@@ -719,9 +721,10 @@
 }
 
 .graphColors {
-    margin: 0 930px 15px 21px;
+    margin: 0 0 15px 21px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .rectanglePink {
@@ -886,7 +889,8 @@
 }
 
 .graphBox3Text {
-    margin: 0 1092px 28px 21px;
+    margin: 0 0 28px 21px;
+    width: 100%;
 }
 
 .textStyle {
