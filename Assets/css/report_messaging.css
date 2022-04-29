@@ -60,6 +60,14 @@
     font-family: inherit;
 }
 
+.sliderText:hover {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 .upperSlider {
     height: 400px;
 }
@@ -631,8 +639,9 @@
     text-transform: capitalize;
     color: #000000;
 }
+
 .report_link_text_style:hover {
-    margin: 0 0 0 15px; 
+    margin: 0 0 0 15px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -640,7 +649,8 @@
     text-transform: capitalize;
     color: #000000;
     text-decoration: none;
-  }
+}
+
 .active_report_link_left_border {
     background: #65378F;
     border-radius: 8px 0px 0px 8px;

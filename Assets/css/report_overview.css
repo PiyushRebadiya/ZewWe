@@ -1,33 +1,33 @@
 .head1 {
     background-repeat: no-repeat;
     background-color: #f0f0f0;
-  }
-  
-  .head2 {
+}
+
+.head2 {
     background-color: #ffffff;
     display: flex;
     align-items: center;
     height: 90px;
-  }
-  
-  .headerLength {
+}
+
+.headerLength {
     height: 90px;
-  }
-  
-  .dashboard {
+}
+
+.dashboard {
     height: 900px;
-  }
-  
-  .headerSlider {
+}
+
+.headerSlider {
     background-color: #1a344b;
     padding: 0px;
-  }
-  
-  .mainView {
+}
+
+.mainView {
     background-color: #e4e3e3;
-  }
-  
-  .board {
+}
+
+.board {
     height: 60px;
     display: flex;
     align-items: center;
@@ -39,45 +39,53 @@
     color: #1a344b;
     text-align: center;
     line-height: 50px;
-  }
-  
-  .homeImage {
+}
+
+.homeImage {
     width: 50%;
     height: 22px;
-  }
-  
-  .homeImageMain {
+}
+
+.homeImageMain {
     width: 45%;
     height: 20px;
-  }
-  
-  .sliderText {
+}
+
+.sliderText {
     font-size: 1em;
     font-weight: 400;
     color: white;
     font-family: inherit;
-  }
-  
-  .upperSlider {
+}
+
+.sliderText:hover {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.upperSlider {
     height: 400px;
-  }
-  
-  .mainDiv {
+}
+
+.mainDiv {
     display: flex;
     padding: 20px 0px 20px 0px;
     justify-content: space-evenly;
     flex-direction: column;
     height: 550px;
-  }
-  
-  .settingImage {
+}
+
+.settingImage {
     position: absolute;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
-  }
-  
-  .mainHead {
+}
+
+.mainHead {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,15 +93,15 @@
     font-size: 28px;
     font-weight: 600;
     font-family: inherit;
-  }
-  
-  .headIcon {
+}
+
+.headIcon {
     width: 40%;
     height: 35px;
     padding: 0px 5px;
-  }
-  
-  .profileName {
+}
+
+.profileName {
     padding: 0px 10px;
     display: flex;
     align-items: center;
@@ -103,41 +111,41 @@
     line-height: 23px;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .headIconProfile {
+}
+
+.headIconProfile {
     width: 50%;
     height: 40px;
     padding: 0px 5px;
-  }
-  
-  .dashboardView {
+}
+
+.dashboardView {
     background: #e4e3e3;
     padding: 27px 14px 14px 14px;
-  }
-  
-  .vertical {
+}
+
+.vertical {
     width: 0.5%;
     height: 112px;
     background: #1a344b;
     opacity: 0.5;
-  }
-  
-  .groupEllipse {
+}
+
+.groupEllipse {
     height: 17px;
-  }
-  
-  .imgPosition {
+}
+
+.imgPosition {
     height: 50px;
     margin-bottom: 5px;
     width: 90%;
-  }
-  
-  .imgjobSearch {
+}
+
+.imgjobSearch {
     height: 70px;
-  }
-  
-  .cardText {
+}
+
+.cardText {
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -145,40 +153,40 @@
     text-align: center;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .w-25 {
+}
+
+.w-25 {
     width: 25%;
     margin: 0px 7px;
     border-radius: 10px;
     height: 128px;
-  }
-  
-  .leftCardTopImage {
+}
+
+.leftCardTopImage {
     height: 112px;
     margin-left: 15px;
-  }
-  
-  .w-33 {
+}
+
+.w-33 {
     width: 33.33%;
     height: 670px;
     margin: 27px 15px 10px 15px;
     border-radius: 10px 10px 0px 0px;
-  }
-  
-  .boxShadow {
+}
+
+.boxShadow {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-  .background {
+}
+
+.background {
     background-color: #f6f2f2;
-  }
-  
-  .briefcase {
+}
+
+.briefcase {
     margin: 15px 10px 11px 18px;
-  }
-  
-  .briefcaseText {
+}
+
+.briefcaseText {
     margin: 13px 0px 0px 0px;
     font-style: normal;
     font-weight: 600;
@@ -186,14 +194,14 @@
     line-height: 21px;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .cardEvent {
+}
+
+.cardEvent {
     height: auto;
     padding: 0px 15px;
-  }
-  
-  .headEllipseTitle {
+}
+
+.headEllipseTitle {
     width: 65%;
     margin: 0px 0px 0px 8px;
     font-style: normal;
@@ -202,9 +210,9 @@
     line-height: 21px;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .promoteBackground {
+}
+
+.promoteBackground {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -212,39 +220,39 @@
     width: 16%;
     height: 18px;
     border-radius: 4px;
-  }
-  
-  .settingBackground {
+}
+
+.settingBackground {
     width: 5%;
-  }
-  
-  .eventInnerHead {
+}
+
+.eventInnerHead {
     align-items: flex-start;
     justify-content: space-between;
-  }
-  
-  .positionCard {
+}
+
+.positionCard {
     background: #ffffff;
     padding: 14px 6px;
     border-bottom: 0.900491px solid #b0b6bb;
-  }
-  
-  .candidateCard {
+}
+
+.candidateCard {
     width: 100%;
     display: flex;
     background: #ffffff;
     padding: 26px 14px 26px 14px;
     border-bottom: 0.900491px solid #b0b6bb;
-  }
-  
-  .myCardTask {
+}
+
+.myCardTask {
     width: 100%;
     display: flex;
     background: #ffffff;
     padding: 15px 17px 15px 17px;
-  }
-  
-  .promoteBackgroundText {
+}
+
+.promoteBackgroundText {
     margin: 0px;
     font-style: normal;
     font-weight: 600;
@@ -252,14 +260,14 @@
     line-height: 16px;
     text-transform: capitalize;
     color: #ffffff;
-  }
-  
-  .locationImg {
+}
+
+.locationImg {
     opacity: 0.7;
     padding: 0px 5px 5px 5px;
-  }
-  
-  .locationText {
+}
+
+.locationText {
     width: 65%;
     margin: 0px;
     padding: 0px 5px 5px 5px;
@@ -271,64 +279,64 @@
     text-transform: capitalize;
     color: #000000;
     opacity: 0.6;
-  }
-  
-  .pipelineText {
+}
+
+.pipelineText {
     padding: 5px 5px 0px 5px;
     width: 17%;
-  }
-  
-  .candidatesText {
+}
+
+.candidatesText {
     padding: 5px 5px 0px 5px;
     width: 18%;
-  }
-  
-  .border-radius {
+}
+
+.border-radius {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  
-  .addEllipse {
+}
+
+.addEllipse {
     padding: 8px 11px 8px 5px;
     height: 27px;
     width: 27px;
-  }
-  
-  .h-100 {
+}
+
+.h-100 {
     height: 100%;
-  }
-  
-  .innerDashboard {
+}
+
+.innerDashboard {
     height: 50%;
     border-radius: 10px 10px 0px 0px;
     padding: 0px;
     background-color: #f6f2f2;
-  }
-  
-  .agendaClass {
+}
+
+.agendaClass {
     border-radius: 10px 10px 0px 0px;
     padding: 0px;
     height: 30%;
     background-color: #f6f2f2;
-  }
-  
-  .conversation {
+}
+
+.conversation {
     height: 70%;
-  }
-  
-  .polygonDown {
+}
+
+.polygonDown {
     padding: 0px 1px 0px 1px;
     margin: 20px 4px 16px 4px;
-  }
-  
-  .round {
+}
+
+.round {
     height: 40px;
     border-radius: 50px 50px;
     width: 10.3%;
     background-color: #1a344b;
-  }
-  
-  .ellipseText {
+}
+
+.ellipseText {
     position: absolute;
     top: 26.5%;
     left: 10%;
@@ -338,9 +346,9 @@
     font-size: 21.6118px;
     line-height: 29px;
     color: #ffffff;
-  }
-  
-  .ellipseText1 {
+}
+
+.ellipseText1 {
     position: absolute;
     top: 55.5%;
     left: 10%;
@@ -350,9 +358,9 @@
     font-size: 21.6118px;
     line-height: 29px;
     color: #ffffff;
-  }
-  
-  .candidateText {
+}
+
+.candidateText {
     margin-left: 10px;
     font-style: normal;
     font-weight: 600;
@@ -360,9 +368,9 @@
     line-height: 21px;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .candidateInnerText {
+}
+
+.candidateInnerText {
     width: 55%;
     margin: 4px 0px 0px 0px;
     font-style: normal;
@@ -371,33 +379,33 @@
     line-height: 16px;
     text-transform: capitalize;
     color: #1a344b;
-  }
-  
-  .timerText {
+}
+
+.timerText {
     width: auto;
     margin: 0px 0px 0px 5px;
     font-weight: 600;
     font-size: 10.8059px;
     line-height: 14px;
     opacity: 0.8;
-  }
-  
-  .conversationTimerText {
+}
+
+.conversationTimerText {
     display: contents;
     margin: 0px;
     font-weight: 600;
     font-size: 10.8059px;
     line-height: 14px;
-  }
-  
-  .timerInnerText {
+}
+
+.timerInnerText {
     margin-left: 5px;
     margin-top: 0px;
     font-size: 13.5074px;
     line-height: 17px;
-  }
-  
-  .candidateIconText {
+}
+
+.candidateIconText {
     font-style: normal;
     font-weight: 600;
     font-size: 16.2088px;
@@ -405,102 +413,102 @@
     text-transform: capitalize;
     color: #1a344b;
     margin: 0px 10px 0px 10px;
-  }
-  
-  .conversationInnerText {
+}
+
+.conversationInnerText {
     margin: 6px 0px 0px 14px;
     font-size: 10.8059px;
     font-weight: 600;
     line-height: 124.4%;
-  }
-  
-  .candidateIconTextSecond {
+}
+
+.candidateIconTextSecond {
     font-weight: 200;
     font-size: 10.8059px;
     line-height: 14px;
     margin: 3px 5px 0px 10px;
-  }
-  
-  .candidateIcon {
+}
+
+.candidateIcon {
     height: 14px;
     width: 14px;
     margin: 6px 5px 0px 10px;
-  }
-  
-  .candidateIconSecond {
+}
+
+.candidateIconSecond {
     height: 14px;
     width: 14px;
     margin: 4px 5px 2px 10px;
-  }
-  
-  .timerIcon {
+}
+
+.timerIcon {
     margin: 0px;
     height: 13px;
     width: 13px;
-  }
-  
-  .w-100 {
+}
+
+.w-100 {
     width: 100%;
-  }
-  
-  .circleCheck {
+}
+
+.circleCheck {
     height: 18px;
     width: 18px;
-  }
-  
-  .agendaText {
+}
+
+.agendaText {
     margin: 0px;
     width: 100%;
     font-size: 16.2088px;
     line-height: 21px;
-  }
-  
-  .timerClass {
+}
+
+.timerClass {
     display: flex;
     padding: 2px 5px 2px 39px;
-  }
-  
-  .agendaMinDiv {
+}
+
+.agendaMinDiv {
     width: 100%;
     height: 33%;
     padding: 0px 100px 0px 44px;
-  }
-  
-  .EllipseProfileIconImg {
+}
+
+.EllipseProfileIconImg {
     height: 36px;
     width: 36px;
-  }
-  
-  .ellipseProfileIcon {
+}
+
+.ellipseProfileIcon {
     padding: 15px 0px 11px 17px;
-  }
-  
-  .conversationClass {
+}
+
+.conversationClass {
     display: flex;
     justify-content: space-between;
     padding: 13px 12px 18px 21px;
-  }
-  
-  .myTaskInnerClass {
+}
+
+.myTaskInnerClass {
     display: flex;
     align-items: center;
     padding: 11px 6px 0px 6px;
-  }
-  
-  .ml-14 {
+}
+
+.ml-14 {
     margin-left: 14px;
-  }
-  
-  .conversationInnerIcon {
+}
+
+.conversationInnerIcon {
     width: 35px;
     height: 35px;
-  }
-  
-  .secondConversationClass {
+}
+
+.secondConversationClass {
     padding: 7px 84px 0px 11px;
-  }
-  
-  .ellipse-18 {
+}
+
+.ellipse-18 {
     border-radius: 50%;
     background-color: #1a344b;
     height: 18px;
@@ -508,8 +516,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .innerEllipseText {
+}
+
+.innerEllipseText {
     margin: 0px;
     font-style: normal;
     font-weight: 700;
@@ -517,28 +526,28 @@
     line-height: 15px;
     text-transform: capitalize;
     color: #ffffff;
-  }
-  
-  .innerEllipseText2 {
+}
+
+.innerEllipseText2 {
     top: 77.4%;
     left: 11.2%;
-  }
-  
-  .greenLine {
+}
+
+.greenLine {
     margin: 0px 2px 0px 14px;
     width: 3.6px;
     height: 20.71px;
     background: #84ac04;
     border-radius: 1.80098px;
-  }
-  
-  .notification_Icon_div {
+}
+
+.notification_Icon_div {
     position: absolute;
     left: 7%;
     top: 0px;
-  }
-  
-  .notification_count {
+}
+
+.notification_count {
     position: absolute;
     top: 3px;
     left: 8px;
@@ -548,32 +557,34 @@
     line-height: 14px;
     text-transform: capitalize;
     color: #FFFFFF;
-  }
-  
-  .option_label_report {
+}
+
+.option_label_report {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     text-transform: capitalize;
     color: #1A344B;
-  }
-  .drop_relative {
+}
+
+.drop_relative {
     position: relative;
-  }
-  .down_arrow_icon {
-    left: 80%; 
+}
+
+.down_arrow_icon {
+    left: 80%;
     width: 12.61px;
     height: 9px;
     position: absolute;
     top: 22px;
-  }
-  
-  .drop-down {
+}
+
+.drop-down {
     margin-top: 18px;
-  }
-  
-  .drop-down select {
+}
+
+.drop-down select {
     -webkit-appearance: none;
     font-weight: 600;
     font-size: 14px;
@@ -582,7 +593,7 @@
     height: 52px;
     border: none;
     border-radius: 4px;
-  }
+}
 
 .watch_icon {
     height: 12px;
@@ -611,7 +622,7 @@
 }
 
 .report_link_text_style {
-    margin: 0 0 0 15px; 
+    margin: 0 0 0 15px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -619,16 +630,18 @@
     text-transform: capitalize;
     color: #000000;
 }
+
 .report_link_text_style:hover {
-  margin: 0 0 0 15px; 
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  text-transform: capitalize;
-  color: #000000;
-  text-decoration: none;
+    margin: 0 0 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
 }
+
 .active_report_link_left_border {
     background: #65378F;
     border-radius: 8px 0px 0px 8px;
@@ -641,12 +654,14 @@
     position: relative;
     padding-bottom: 50px;
 }
+
 .analytical_view_right_title_date_time {
     position: absolute;
     top: 2px;
     right: 3%;
 }
-.analytical_view_right_title_date_time > p {
+
+.analytical_view_right_title_date_time>p {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -655,11 +670,13 @@
     color: #1A344B;
     margin: 0;
 }
+
 .analytical_Overview_title {
     position: absolute;
     top: 0px;
 }
-.analytical_Overview_title > p {
+
+.analytical_Overview_title>p {
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -675,12 +692,14 @@
     border-radius: 9.00491px 9.00491px 0px 0px;
     position: relative;
 }
+
 .candidates_modal_left_title {
     position: absolute;
     top: 13px;
     left: 26px;
 }
-.candidates_modal_left_title > p {
+
+.candidates_modal_left_title>p {
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -702,8 +721,9 @@
     justify-content: center;
     align-items: center;
 }
-.export_btn_div > p {
-    margin:0 0 0 5px;
+
+.export_btn_div>p {
+    margin: 0 0 0 5px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -725,12 +745,14 @@
     display: flex;
     width: 105px;
 }
-.chart_box_view_main > img {
+
+.chart_box_view_main>img {
     height: 16px;
     width: 16px;
 }
-.chart_box_view_main > p {
-    margin:0 0 0 10px;
+
+.chart_box_view_main>p {
+    margin: 0 0 0 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -796,7 +818,7 @@
     line-height: 30px;
     text-transform: capitalize;
     color: #1A344B;
-    margin:0px;
+    margin: 0px;
 }
 
 .analytical_chart_main_div {
@@ -806,27 +828,27 @@
     margin: 110px 0px 0px 30px;
 }
 
-  .logoBgSide {
+.logoBgSide {
     background-image: url('../image/Logo.png')
-  }
-  
-  .settingImageBg {
-      display: none;
-  }
-  .innerHome {
-      display: none !important;
-  }
-  
-  .outerDashboard {
+}
+
+.settingImageBg {
+    display: none;
+}
+
+.innerHome {
+    display: none !important;
+}
+
+.outerDashboard {
     background-color: #fff;
     border-radius: 15px 0px 0px 15px;
-  }
-  
-  @media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1500px) {
     .logoBgSide {
         background-image: url('');
     }
-  
     .settingImageBg {
         position: absolute;
         top: 50%;
@@ -834,64 +856,60 @@
         transform: translate(-50%, -50%);
         display: block;
     }
-  
     .settingImage {
         display: none;
     }
     .innerHome {
         display: flex !important;
     }
-  
-    .innerIcon{
+    .innerIcon {
         margin: 0 !important;
         justify-content: center;
     }
-  
-    .innerIcon > .col-3 {
+    .innerIcon>.col-3 {
         padding: 0;
     }
-    .innerIcon > .col-9 {
+    .innerIcon>.col-9 {
         display: none;
     }
-    .innerIcon > .name {
+    .innerIcon>.name {
         display: none;
     }
-    .innerIcon > .plusIcon {
+    .innerIcon>.plusIcon {
         display: none;
     }
-    .outerDashboard{
+    .outerDashboard {
         display: none !important;
     }
-    .innerIcon > .col-3 > #Dashboard {
+    .innerIcon>.col-3>#Dashboard {
         width: 38.18px;
         height: 36.05px;
     }
-    .innerIcon > .col-3 > #Inbox {
+    .innerIcon>.col-3>#Inbox {
         width: 35px;
         height: 28px;
     }
-    .innerIcon > .col-3 > #Tasks {
+    .innerIcon>.col-3>#Tasks {
         width: 35px;
         height: 35px;
     }
-    .innerIcon > .col-3 > #Calender {
+    .innerIcon>.col-3>#Calender {
         width: 35px;
         height: 35px;
     }
-    .innerIcon > .col-3 > #Reports {
+    .innerIcon>.col-3>#Reports {
         width: 35px;
         height: 39.38px;
     }
-    .innerIcon > .col-3 > #Positions {
+    .innerIcon>.col-3>#Positions {
         width: 36.59px;
         height: 30.28px;
     }
-    .innerIcon > .col-3 > #Candidates {
+    .innerIcon>.col-3>#Candidates {
         width: 28.64px;
         height: 30.23px;
     }
-    .col-12 > .card {
+    .col-12>.card {
         width: 50% !important;
     }
-  }
-  
+}

@@ -115,6 +115,14 @@
     font-family: inherit;
 }
 
+.sliderText:hover {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 .innerHome {
     display: none !important;
 }
@@ -234,7 +242,8 @@
 .polygonImg {
     width: 12px;
     height: 9px;
-    margin: 14px 14px 17px 28px; /*14 14 17 20 */
+    margin: 14px 14px 17px 28px;
+    /*14 14 17 20 */
 }
 
 .roomy {
@@ -537,4 +546,3 @@
     text-transform: capitalize;
     color: #FFFFFF;
 }
-
