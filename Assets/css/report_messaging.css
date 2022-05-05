@@ -579,6 +579,7 @@
 
 .drop_relative {
     position: relative;
+    width: 220px;
 }
 
 .down_arrow_icon {
@@ -959,5 +960,12 @@
     }
     .col-12>.card {
         width: 50% !important;
+    }
+    .down_arrow_icon {
+        left: 65%;
+        width: 12.61px;
+        height: 9px;
+        position: absolute;
+        top: 22px;
     }
 }
