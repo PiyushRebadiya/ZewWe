@@ -641,7 +641,7 @@
 }
 
 .main-header {
-    padding: 60px 113px 56px 113px;
+    padding: 60px 0px 56px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -717,7 +717,7 @@
 }
 
 .manageDiv {
-    width: 1299px;
+    width: 100%;
     border: 1px solid #c4c4c4;
     border-radius: 12px;
 }
@@ -828,4 +828,10 @@
     font-weight: 600;
     font-size: 18px;
     margin: 5px 13px 7px 7px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 90%;
+    }
 }
