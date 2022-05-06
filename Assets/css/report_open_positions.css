@@ -949,4 +949,14 @@
         position: absolute;
         top: 22px;
     }
+
+    a.navarLink {
+        width: 45%;
+        height: 20px;
+    }
+
+    .homeImageMain{
+        height: auto;
+        width: auto;
+    }
 }
