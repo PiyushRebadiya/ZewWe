@@ -1,842 +1,831 @@
 .main-titleDiv {
-    width: 100%;
-    display: flex;
-    padding: 60px 113px 56px 113px;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  padding: 60px 113px 56px 113px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-title {
-    /* font-family: 'Mont'; */
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 46px;
-    text-transform: capitalize;
-    color: #1A344B;
+  /* font-family: 'Mont'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #1a344b;
 }
 
 .crossIcon {
-    height: 38px;
-    width: 38px;
+  height: 38px;
+  width: 38px;
 }
 
 .allheight {
-    padding: 0 0 70px 0;
+  padding: 0 0 70px 0;
 }
 
 .mainDiv {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 113px 0px 113px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 113px 0px 113px;
 }
 
 .topgeneral {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 
 .mainInnerClass {
-    display: flex;
-    align-items: center;
-    margin-bottom: 26px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
 }
 
 .boldBgImg {
-    background-color: #1A344B;
-    height: 36px;
-    width: 36px;
-    left: 113px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #1a344b;
+  height: 36px;
+  width: 36px;
+  left: 113px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .normalBgImg {
-    background-color: #1A344B;
-    height: 36px;
-    width: 36px;
-    left: 113px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.5;
+  background-color: #1a344b;
+  height: 36px;
+  width: 36px;
+  left: 113px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
 }
 
 .menuIconBold {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .menu-titleNormal {
-    margin: 0px 0px 0px 18px;
-    color: #1A344B;
-    display: flex;
-    align-items: center;
-    /* font-family: 'Mont'; */
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19.4434px;
+  margin: 0px 0px 0px 18px;
+  color: #1a344b;
+  display: flex;
+  align-items: center;
+  /* font-family: 'Mont'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.4434px;
 }
 
 .menu-titleNormal:hover {
-    margin: 0px 0px 0px 18px;
-    color: #1A344B;
-    display: flex;
-    align-items: center;
-    /* font-family: 'Mont'; */
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19.4434px;
-    text-decoration: none;
+  margin: 0px 0px 0px 18px;
+  color: #1a344b;
+  display: flex;
+  align-items: center;
+  /* font-family: 'Mont'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.4434px;
+  text-decoration: none;
 }
 
 .menu-titleOpacity {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .menuIconNormal {
-    height: 22px;
-    width: 22px;
-    border-radius: 0px;
+  height: 22px;
+  width: 22px;
+  border-radius: 0px;
 }
 
 .manageDiv {
-    width: 80%;
-    height: 100%;
-    border: 1px solid #c4c4c4;
-    border-radius: 12px;
+  width: 80%;
+  height: 100%;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
 }
 
 .divheader {
-    /* font-family: 'Mont'; */
-    padding: 38px 0px 22px 58px;
-    color: #1A344B;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 30px;
+  /* font-family: 'Mont'; */
+  padding: 38px 0px 22px 58px;
+  color: #1a344b;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .underline {
-    border-bottom: 1px solid #c4c4c4;
-    /* opacity: 0.5; */
+  border-bottom: 1px solid #c4c4c4;
+  /* opacity: 0.5; */
 }
 
 .mainInnerGeneralClass {
-    padding: 30px 93px 120px 55px;
+  padding: 30px 93px 120px 55px;
 }
 
 .mainInnerGeneralClassBottom {
-    padding: 30px 93px 60px 55px;
+  padding: 30px 93px 60px 55px;
 }
 
 .cname {
-    padding: 27px 0px 27px 0px;
+  padding: 27px 0px 27px 0px;
 }
 
 .compname {
-    font-style: normal;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 28px;
-    color: #1A344B;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1a344b;
 }
 
 .compdic {
-    margin-top: 18px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
-    text-transform: capitalize;
-    color: #000000;
-    opacity: 0.7;
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .TelentDiv {
-    margin-top: 12px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 32px;
-    text-transform: capitalize;
-    color: #000000;
-    opacity: 0.7;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .compspam {
-    margin-top: 18px;
-    /* font-family: 'Mont'; */
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 23px;
-    text-transform: capitalize;
-    color: #000000;
-    /* opacity: 0.7; */
+  margin-top: 18px;
+  /* font-family: 'Mont'; */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #000000;
+  /* opacity: 0.7; */
 }
 
 .blinglink {
-    color: #4CABCD;
+  color: #4cabcd;
 }
 
 .cursetingbtn {
-    margin-top: 18px;
-    display: flex;
-    background-color: #1A344B;
-    width: 256px;
-    height: 38px;
+  margin-top: 18px;
+  display: flex;
+  background-color: #1a344b;
+  width: 256px;
+  height: 38px;
 }
 
 .cursetingtext {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    padding: 8px 12px 8px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 8px 12px 8px 0;
 }
 
 .curimg {
-    height: 22px;
-    width: 22px;
+  height: 22px;
+  width: 22px;
 }
 
 .curimgdiv {
-    padding: 8px 12px 8px 18px;
+  padding: 8px 12px 8px 18px;
 }
 
 .cansetingbtn {
-    margin-top: 18px;
-    width: 210px;
-    height: 38px;
-    background-color: #DADADA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 18px;
+  width: 210px;
+  height: 38px;
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cansetingtext {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    text-transform: capitalize;
-    color: #1A344B;
-    opacity: 0.8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #1a344b;
+  opacity: 0.8;
 }
 
 .enatelentbtn {
-    background-color: #1A344B;
-    margin-top: 18px;
-    width: 212px;
-    height: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #1a344b;
+  margin-top: 18px;
+  width: 212px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .enatelenttext {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .bottomborder {
-    border-bottom: 0.4px solid #C4C4C4;
-    padding: 27px 0 18px 0;
+  border-bottom: 0.4px solid #c4c4c4;
+  padding: 27px 0 18px 0;
 }
 
 .newpadding {
-    padding: 40px 0 27px 0;
+  padding: 40px 0 27px 0;
 }
 
 .addSmsBtn {
-    margin-top: 18px;
-    background-color: #1A344B;
-    width: 152px;
-    height: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 18px;
+  background-color: #1a344b;
+  width: 152px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .addSmsText {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .editBtn {
-    width: 142px;
-    margin-top: 18px;
-    height: 38px;
-    background-color: #1A344B;
-    display: flex;
+  width: 142px;
+  margin-top: 18px;
+  height: 38px;
+  background-color: #1a344b;
+  display: flex;
 }
 
 .editImg {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .editImgDiv {
-    padding: 10px 8px 10px 13px;
+  padding: 10px 8px 10px 13px;
 }
 
 .Center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .invoiceDivMain {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .newmt {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 .invoicesDivMain {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .success {
-    display: flex;
-    align-self: flex-end;
+  display: flex;
+  align-self: flex-end;
 }
 
 .trueImg {
-    padding: 0 12px 0 0;
+  padding: 0 12px 0 0;
 }
 
 .invoicesbottomBorder {
-    border-bottom: 0.4px solid #C4C4C4;
-    padding: 27px 0 22px 0;
+  border-bottom: 0.4px solid #c4c4c4;
+  padding: 27px 0 22px 0;
 }
 
 .line {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .modal {
-    z-index: 1;
-    width: 100%;
-    padding: 233px 514px 1306px 515px;
-    height: 100%;
-    background-color: #000000;
-    background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  padding: 233px 514px 1306px 515px;
+  height: 100%;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .modalSec {
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 1;
-    padding: 162px 273px 1965px 273px;
-    display: none;
-    width: 100%;
-    height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 1;
+  padding: 162px 273px 1965px 273px;
+  display: none;
+  width: 100%;
+  height: 100%;
 }
 
 .modal-content {
-    background-color: #FFFFFF;
-    margin: auto;
-    width: 759px;
-    height: 491px;
+  background-color: #ffffff;
+  margin: auto;
+  width: 759px;
+  height: 491px;
 }
 
 .modal-contentSec {
-    background-color: #FFFFFF;
-    margin: auto;
-    border-radius: 8px;
-    width: 1357px;
-    height: 989px;
-    ;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 8px;
+  /* width: 1357px; */
+  height: 989px;
+  width: 100%;
+  padding: 40px 20px;
+  /* position: relative; */
 }
 
 .modelmain-titleDiv {
-    width: 100%;
-    display: flex;
-    padding: 40px 48px 22px 50px;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  padding: 40px 48px 22px 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 31px;
-    text-transform: capitalize;
-    color: #1A344B;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #1a344b;
 }
 
 .close:hover,
 .close:focus {
-    color: #000000;
-    cursor: pointer;
+  color: #000000;
+  cursor: pointer;
 }
 
 .crossIcon {
-    height: 38px;
-    width: 38px;
+  height: 38px;
+  width: 38px;
 }
 
 .modelDiv {
-    padding: 0 0px 32px 40px;
+  padding: 0 0px 32px 40px;
 }
 
 .modeltxt {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
-    text-transform: capitalize;
-    color: #000000;
-    opacity: 0.7;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .topMargin {
-    margin-top: 28px;
+  margin-top: 28px;
 }
 
 .topMarginRadio {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .topMarginEna {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .boldTag {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 30px;
-    text-transform: capitalize;
-    color: #000000;
-    opacity: 0.7;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .mergrCla {
-    display: flex;
+  display: flex;
 }
 
 .mergrCla input {
-    height: 18px;
-    width: 18px;
+  height: 18px;
+  width: 18px;
 }
 
 .radioCls {
-    padding: 6px 12px 6px 0;
+  padding: 6px 12px 6px 0;
 }
 
 .bBorder {
-    border-bottom: 0.4px solid #C4C4C4;
+  border-bottom: 0.4px solid #c4c4c4;
 }
 
 .sizeBtnCan {
-    width: 126px;
-    height: 38px;
-    background-color: #DADADA;
-    color: #1A344B;
-    border: none;
+  width: 126px;
+  height: 38px;
+  background-color: #dadada;
+  color: #1a344b;
+  border: none;
 }
 
 .sizeBtnEna {
-    width: 136px;
-    height: 38px;
-    background-color: #1A344B;
-    color: #FFFFFF;
-    border: none;
+  width: 136px;
+  height: 38px;
+  background-color: #1a344b;
+  color: #ffffff;
+  border: none;
 }
 
 .canP {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    text-transform: capitalize;
-    color: #1A344B;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #1a344b;
 }
 
 .enbP {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 23px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .enbSize {
-    width: 14px;
-    height: 14px;
+  width: 14px;
+  height: 14px;
 }
 
 .endPadding {
-    padding: 12px 12px 12px 24px;
+  padding: 12px 12px 12px 24px;
 }
 
 .mainBtn {
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 48px 38px 419px;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 48px 38px 419px;
 }
-
 
 /* ------------------------------------------------------------------------- */
 
 .modalMainDiv {
-    position: absolute;
+  position: absolute;
 }
 
 .centerModalDiv {
-    width: 1263px;
-    height: 860px;
-    margin: 65px 47px 64px 47px;
-    position: relative;
+  width: 1263px;
+  height: 860px;
+  margin: 65px 47px 64px 47px;
+  position: relative;
 }
 
-.centerModalDiv>.title {
-    position: absolute;
+.title {
+  position: absolute;
+  top: 15px;
+  left: 4%;
 }
 
 .textFontGlobally {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 31px;
-    text-transform: capitalize;
-    color: #1A344B;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #1a344b;
 }
 
-.centerModalDiv>.title>p {
-    margin: 0;
+.centerModalDiv > .title > p {
+  margin: 0;
 }
 
 .tableHeaderMainDiv {
-    top: 237px;
-    left: 33%;
-    position: absolute;
-    width: 745px;
-    height: 243px;
-    display: flex;
-    justify-content: space-between;
+  top: 237px;
+  left: 33%;
+  position: absolute;
+  width: 745px;
+  height: 243px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tableHeaderBox {
-    width: 227px;
-    height: 243px;
-    position: relative;
+  width: 30%;
+  height: 243px;
+  position: relative;
 }
 
-.tableHeaderBox>.firstBoxDiv {
-    position: absolute;
-    width: 227px;
-    height: 183px;
-    top: 0;
-    text-align: -webkit-center;
-    border-radius: 5px;
+.tableHeaderBox > .firstBoxDiv {
+  width: 100%;
+  height: 183px;
+  text-align: -webkit-center;
+  border-radius: 5px;
 }
 
-.tableHeaderBox>.secondBoxDiv {
-    position: absolute;
-    width: 227px;
-    height: 38px;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
+.tableHeaderBox > .secondBoxDiv {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
 }
 
 .tableFirstBoxDivMain {
-    margin: 41px 26px;
-    width: 144px;
-    height: 131px;
-    margin-top: 12%;
+  height: 100%;
 }
 
 .center_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tableRowMainDiv {
-    width: 1179px;
-    height: 330px;
-    position: absolute;
-    bottom: 0;
+  width: 95%;
+  height: 330px;
+  position: absolute;
+  bottom: 0;
+  left: 4%;
 }
 
 .rowTableLine {
-    width: 100%;
-    height: 66px;
-    display: flex;
-    border-top: 1px solid #C4C4C4;
+  width: 100%;
+  height: 66px;
+  display: flex;
+  border-top: 1px solid #c4c4c4;
 }
 
 .closeIconModal {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 1%;
+  top: 15px;
 }
 
 .chooseTextDiv {
-    position: absolute;
-    top: 55px;
-}
-
-.twiceButtonDiv {
-    position: absolute;
-    top: 113px;
-    display: flex;
-    left: 50%;
+  position: absolute;
+  top: 55px;
+  left: 4%;
+  right: 25%;
 }
 
 .twiceButton {
-    width: 122px;
-    height: 38px;
-    position: relative;
+  width: 122px;
+  height: 38px;
+  position: relative;
 }
 
-.twiceButton>p {
-    position: absolute;
-    left: 30%;
-    top: 17%;
-    margin: 0;
+.twiceButton > p {
+  position: absolute;
+  left: 30%;
+  top: 17%;
+  margin: 0;
 }
 
 .saveOfferText {
-    position: absolute;
-    top: 179px;
-    left: 50%;
+  position: absolute;
+  top: 179px;
+  left: 50%;
 }
 
 .rowTableTextStyle {
-    width: 35%;
-    height: 66px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  width: 35%;
+  height: 66px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .main-header {
-    padding: 60px 0px 56px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 60px 0px 56px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .titleClass {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 46px;
-    text-transform: capitalize;
-    color: #1a344b;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #1a344b;
 }
 
 .titleImg {
-    height: 38px;
-    width: 38px;
+  height: 38px;
+  width: 38px;
 }
 
 .leftMainDiv {
-    padding: 0px 0px 0px 113px;
-    display: flex;
-    justify-content: space-between;
+  padding: 0px 0px 0px 113px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-leftDiv {
-    padding: 24px 0px 0px 0px;
+  padding: 24px 0px 0px 0px;
 }
 
 .ellipseBorder {
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-    background-color: #1a344b;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #1a344b;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .active {
-    background-color: #1a344b;
-    opacity: 1;
+  background-color: #1a344b;
+  opacity: 1;
 }
 
 .settingIcon {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .iconText {
-    margin: 0px 0px 0px 18px;
-    font-size: 19.4434px;
-    line-height: 25px;
-    opacity: 0.5;
+  margin: 0px 0px 0px 18px;
+  font-size: 19.4434px;
+  line-height: 25px;
+  opacity: 0.5;
 }
 
 .iconText:hover {
-    margin: 0px 0px 0px 18px;
-    font-size: 19.4434px;
-    line-height: 25px;
-    text-decoration: none;
-    color: #1a344b;
+  margin: 0px 0px 0px 18px;
+  font-size: 19.4434px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #1a344b;
 }
 
 .activeText {
-    color: #1a344b !important;
-    opacity: 1;
+  color: #1a344b !important;
+  opacity: 1;
 }
 
 .m-26 {
-    margin-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .manageDiv {
-    width: 100%;
-    border: 1px solid #c4c4c4;
-    border-radius: 12px;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
 }
 
 .headingManage {
-    width: 100%;
-    font-weight: 600;
-    font-size: 24px;
-    color: #1a344b;
-    padding: 30px 0px 30px 55px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1a344b;
+  padding: 30px 0px 30px 55px;
 }
 
 .horizontal-line {
-    border: 1px solid #c4c4c4;
+  border: 1px solid #c4c4c4;
 }
 
 .text-contain p {
-    margin: 0px 0px 28px 0px;
+  margin: 0px 0px 28px 0px;
 }
 
 .tex-box {
-    /* margin: 0px 0px 18px 0px; */
-    font-weight: 600;
-    font-size: 22px;
-    color: #1a344b;
+  /* margin: 0px 0px 18px 0px; */
+  font-weight: 600;
+  font-size: 22px;
+  color: #1a344b;
 }
 
 .box-model {
-    margin: 0px 0px 60px 0px;
-    background-color: #f6f2f2;
-    width: 1151px;
-    height: 68px;
-    border: 1px solid #c4c4c4;
-    border-radius: 4px;
-    position: relative;
+  margin: 0px 0px 60px 0px;
+  background-color: #f6f2f2;
+  width: 1151px;
+  height: 68px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  position: relative;
 }
 
 .main-text {
-    margin: 11px 0px 39px 20px;
-    ;
+  margin: 11px 0px 39px 20px;
 }
 
 .innerManageMemberDiv {
-    padding: 30px 93px 80px 55px;
-    border-bottom: 1px solid #c4c4c4;
+  padding: 30px 93px 80px 55px;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .text-headingH1 {
-    font-weight: 600;
-    font-size: 14px;
-    color: #1a344b;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a344b;
 }
 
 .addminstrator {
-    position: absolute;
-    top: 20px;
-    right: 219;
-    font-weight: 600;
-    font-size: 14px;
-    color: #1a344b;
+  position: absolute;
+  top: 20px;
+  right: 219;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a344b;
 }
 
 .dropMenu {
-    position: absolute;
-    top: 28px;
-    right: 195;
+  position: absolute;
+  top: 28px;
+  right: 195;
 }
 
 .mens {
-    position: absolute;
-    top: 21.75px;
-    right: 114.37px;
+  position: absolute;
+  top: 21.75px;
+  right: 114.37px;
 }
 
 .box-model p {
-    position: absolute;
-    right: 59px;
-    top: 21px;
-    font-weight: 600;
-    font-size: 14px;
-    color: #1a344b;
+  position: absolute;
+  right: 59px;
+  top: 21px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a344b;
 }
 
 .addTeam {
-    display: flex;
-    width: 148px;
-    height: 38px;
-    background: #1a344b;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 18px;
-    border-radius: 4px;
+  display: flex;
+  width: 148px;
+  height: 38px;
+  background: #1a344b;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
 }
 
 .textWithBtn {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
 }
 
 .addTeam img {
-    margin: 10px 7px 7px 10px;
-    width: 18px;
-    height: 18px;
+  margin: 10px 7px 7px 10px;
+  width: 18px;
+  height: 18px;
 }
 
 .AddText {
-    font-weight: 600;
-    font-size: 18px;
-    margin: 5px 13px 7px 7px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 5px 13px 7px 7px;
 }
 
-@media (min-width: 1200px){
-    .container {
-        max-width: 90%;
-    }
-}
-@media (max-width: 1620px){
-    .modal {
-        padding: 230px 0px 0px 0px;
-    }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
 }
