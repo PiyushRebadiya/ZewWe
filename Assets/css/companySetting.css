@@ -133,6 +133,7 @@ input {
     font-weight: 600;
     font-size: 22px;
     line-height: 28px;
+    color: #1A344B;
 }
 
 .compdic {
@@ -332,10 +333,13 @@ input {
     width: 759px;
     height: 264px;
 }
-
-.close:hover,
-.close:focus {
-    color: #000000;
+.close{
+    color: #1A344B;
+    opacity: 1;
+}
+.close:hover {
+    color:#1A344B;
+    opacity: 1;
     cursor: pointer;
 }
 
