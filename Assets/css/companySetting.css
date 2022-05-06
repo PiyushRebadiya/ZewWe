@@ -333,14 +333,9 @@ input {
     width: 759px;
     height: 264px;
 }
-.close{
+.close1{
     color: #1A344B;
     opacity: 1;
-}
-.close:hover {
-    color:#1A344B;
-    opacity: 1;
-    cursor: pointer;
 }
 
 .modelmain-titleDiv {
