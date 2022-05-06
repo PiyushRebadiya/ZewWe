@@ -329,7 +329,7 @@ input {
 .modal {
     z-index: 1;
     width: 100%;
-    padding: 250px 515px 570px 515px;
+    padding: 250px 0px 0px 0px;
     height: 100%;
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.2);
@@ -416,7 +416,7 @@ input {
 }
 
 .main-header {
-    padding: 60px 113px 56px 113px;
+    padding: 60px 0px 56px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -436,11 +436,11 @@ input {
     width: 38px;
 }
 
-.leftMainDiv {
+/* .leftMainDiv {
     padding: 0px 0px 0px 113px;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .main-leftDiv {
     padding: 24px 0px 0px 0px;
@@ -492,7 +492,7 @@ input {
 }
 
 .manageDiv {
-    width: 1299px;
+    width: 100%;
     border: 1px solid #c4c4c4;
     border-radius: 12px;
 }
@@ -603,4 +603,32 @@ input {
     font-weight: 600;
     font-size: 18px;
     margin: 5px 13px 7px 7px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 90%;
+    }
+}
+@media (max-width: 1350px){
+    .modal-content {
+        margin: auto;
+        width: 640px;
+        height: 264px;
+    }
+    .mainModelfooter{
+        padding: 30px 48px 30px 384px;
+        padding: 30px 35px 30px 330px;
+    }
+    .upgModalDiv {
+        width: 140px;
+        height: 38px;
+    }
+    .disModel {
+        width: 110px;
+        height: 38px;
+    }
+    .modelDisImg {
+        padding: 9px 7px 8px 10px;
+    }
 }
