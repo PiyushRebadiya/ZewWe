@@ -829,3 +829,8 @@
     max-width: 90%;
   }
 }
+@media (max-width: 1620px){
+  .modal {
+      padding: 230px 0px 0px 0px;
+  }
+}
