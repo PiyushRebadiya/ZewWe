@@ -587,6 +587,11 @@
         padding: 23px 600px 0px 0;
     }
 }
+@media (min-width:1200px) and (max-width:1450px){
+    .headerMainNav {
+        padding: 23px 515px 0px 0 !important;
+    }
+}
 @media (max-width: 1355px) {
     .head1 {
         /* max-width: 90%; */
@@ -655,7 +660,7 @@
     .outerDashboard {
         display: none !important;
     }
-    .innerIcon>.col-3>#Dashboard {
+    .innerIcon>.col-3>.homeImageMain>#Dashboard {
         width: 38.18px;
         height: 36.05px;
     }
