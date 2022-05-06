@@ -43,7 +43,7 @@
 }
 
 .Header_Title {
-  padding: 9px 41px 0px 25px;
+  padding: 9px 0px 0px 25px;
   display: flex;
   flex-direction: column;
 }
@@ -179,10 +179,13 @@
 .body_header {
   font-style: normal;
   font-weight: 600;
-  font-size: 16.2088px;
+  font-size: 13px;
   line-height: 22px;
   text-transform: capitalize;
   color: #1a344b;
+}
+.sub_div{
+  padding-right: 15px;
 }
 
 .parentDiv {
@@ -199,9 +202,9 @@
 }
 
 .DownVector {
-  position: absolute;
-  right: 0px;
-  top: 9px;
+  width: 20%;
+  height: 20%;
+  margin: 9px 0px 0px 6px;
 }
 
 .main_row {
@@ -219,7 +222,7 @@
 
 .profile_rightMain {
   background-color: #ffffff;
-  padding-right: 28px;
+  padding-right: 43px;
 }
 
 .headingLeft {
@@ -282,7 +285,7 @@
 }
 
 .textAreaClass {
-  width: 499px;
+  width: 100%;
   height: 126px;
   background: #f0f0f0;
   border: 1px solid #a2a2a2;
@@ -345,12 +348,17 @@
 }
 
 .lowerMainDiv {
-  margin-top: 18px;
-  margin-left: 28px;
+  padding: 18px 0px 0px 28px ;
 }
 
 .kyleHeader {
   display: flex;
+  justify-content: space-between;
+}
+.verticalBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .maskImgLogo {
@@ -376,7 +384,6 @@
 }
 
 .dayDiv {
-  width: 72%;
   font-style: italic;
   font-weight: 600;
   font-size: 10px;
@@ -389,21 +396,27 @@
 }
 
 .verticalLine {
-  position: absolute;
-  left: 3%;
-  margin-top: 83px;
-  width: 88px;
-  height: 0px;
-  border: 1px solid #c8c8c8;
-  transform: rotate(90deg);
+  width: 2px;
+  height: 89px;
+  background-color: #c8c8c8;
+}
+.verticalLineIcon {
+  height: 45px;
+}
+.verticalLineDiv {
+  width: 41px;
+  display: flex;
+  justify-content: center;
 }
 
 
-.container {
-  padding-left: 69px;
+.msgBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.container .arrow {
+.msgBox .arrow {
   width: 12px;
   height: 20px;
   overflow: hidden;
@@ -414,13 +427,13 @@
   left: 12px;
 }
 
-.container .arrow .outer {
+.msgBox .arrow .outer {
   border-right: 20px solid #E7E7E7;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
 
-.container .arrow .inner {
+.msgBox .arrow .inner {
   border-right: 20px solid #ffffff;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -429,17 +442,17 @@
   left: 2px;
 }
 
-.container .message-body {
+.msgBox .message-body {
 
-  width: 451px;
-  height: 61px;
+  /* width: 451px; */
+  /* height: 61px; */
   background: #FFFFFF;
   border: 1px solid #E7E7E7;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
-.container .message-body p {
+.msgBox .message-body p {
   padding: 14px 20px 13px 19px;
   margin: 0;
   font-style: normal;
@@ -452,17 +465,14 @@
 }
 
 .blueCircle {
+  margin: 0px 11px 0px 11px;
   width: 20px;
   height: 20px;
   background: #59C9EC;
   border-radius: 50%;
-  margin-left: 12px;
-  margin-top: 20px;
 }
 
 .gdprText {
-  padding-left: 21px;
-  padding-top: 22px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -475,10 +485,24 @@
 }
 
 .greenCircle {
-  width: 20px;
-  height: 20px;
   background: #38A79A;
-  border-radius: 50%;
-  margin-left: 12px;
-  margin-top: 20px;
+}
+
+@media (min-width: 1596px) and (max-width: 1640px) { 
+  .body_header{
+    font-size: 13.2px;
+  }
+}
+@media (min-width: 1550px) and (max-width: 1595px) { 
+  .body_header{
+    font-size: 12.2px;
+  }
+}
+@media (min-width: 1298px) and (max-width: 1548px) { 
+  .body_header{
+    font-size: 10.2px;
+  }
+  .profileClass{
+    padding-bottom: 12px;
+  }
 }
