@@ -438,7 +438,12 @@
     text-transform: capitalize;
     color: rgba(26, 52, 75, 0.7);
 }
-
+.mainPiplineHeader{
+    color: #1A344B;
+    font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+}
 .curent {
     width: 7;
     height: 10;
