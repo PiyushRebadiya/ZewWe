@@ -1,321 +1,401 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>CompanySetting</title>
     <link rel="stylesheet" href="./Assets/css/companySetting.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="main-header">
-                    <div class="titleClass">Company Settings</div>
-                    <div><img class="titleImg" src="./Assets/image/CrossIcon.png" alt="CrossIcon"></div>
-                </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="main-header">
+            <div class="titleClass">Company Settings</div>
+            <div>
+              <img
+                class="titleImg"
+                src="./Assets/image/CrossIcon.png"
+                alt="CrossIcon"
+              />
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-3 ">
-                <div class="col-12 main-leftDiv">
-                    <div class="d-flex m-26 align-items-center">
-                        <div class="ellipseBorder active">
-                            <img class="settingIcon" src="Assets/image/SettingIcon.png" alt="SettingIcon">
-                        </div>
-                        <a href="./CompanySetting.html" class="titleClass iconText activeText">General</a>
-                    </div>
-                    <div class="d-flex m-26 align-items-center">
-                        <div class="ellipseBorder">
-                            <img class="settingIcon" src="Assets/image/userIcon.png" alt="SettingIcon">
-                        </div>
-                        <a href="./company_setting_users.html" class="titleClass iconText">Users</a>
-                    </div>
-                    <div class="d-flex m-26 align-items-center">
-                        <div class="ellipseBorder">
-                            <img class="settingIcon" src="Assets/image/Vector.png" alt="SettingIcon">
-                        </div>
-                        <p class="titleClass iconText">Permissions</p>
-                    </div>
-                    <div class="d-flex m-26 align-items-center">
-                        <div class="ellipseBorder">
-                            <img class="settingIcon" src="Assets/image/Group.png" alt="SettingIcon">
-                        </div>
-                        <p class="titleClass iconText">Teams</p>
-                    </div>
-                    <div class="d-flex m-26 align-items-center">
-                        <div class="ellipseBorder">
-                            <img class="settingIcon" src="Assets/image/BilIcon.png" alt="SettingIcon">
-                        </div>
-                        <a href="./CompanySettingsBilling.html" class="titleClass iconText">Billing</a>
-                    </div>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="col-12 main-leftDiv">
+            <div class="d-flex m-26 align-items-center">
+              <div class="ellipseBorder active">
+                <img
+                  class="settingIcon"
+                  src="Assets/image/SettingIcon.png"
+                  alt="SettingIcon"
+                />
+              </div>
+              <a
+                href="./CompanySetting.html"
+                class="titleClass iconText activeText"
+                >General</a
+              >
             </div>
-            <div class="col-9">
-                <div class="manageDiv">
-                    <p class="divheader mb-0 underline">General</p>
-                    <div class="mainInnerGeneralClass underline">
-                        <div class="cname pt-0">
-                            <p class="compname mb-0">Company Name</p>
-                            <p class="compdic mb-0">
-                                Keep It Short And Don't Include Things Like "Inc", "LLC" Etc.
-                            </p>
-                            <input type="text" placeholder="Type Here.." />
-                        </div>
-                        <div class="cname">
-                            <p class="compname mb-0">Company Location</p>
-                            <p class="compdic mb-0">
-                                Select the main location of your company. Breezy will use this to designate your primary<br /> timezone for system emails.
-                            </p>
-                            <input type="text" placeholder="Enter a location" />
-                        </div>
-                        <div class="cname">
-                            <p class="compname mb-0">Single Sign-On (SSO)</p>
-                            <p class="compdic mb-0">
-                                Require employees to sign in with your company’s SSO system.
-                            </p>
-                            <div class="signdata">
-                                <div class="bline">
-                                    <p class="sign m-0">Google Apps</p>
-                                    <div class="ssobox" id="myBtn">
-                                        <div class="simg">
-                                            <img src="Assets/image/Setting.png" class="menuIcon2" alt="Settingslogo" />
-                                        </div>
-                                        <p class="sp">Settings</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="signdata">
-                                <div class="bline">
-                                    <p class="sign m-0">Okta</p>
-                                    <div class="ssobox" onclick="myBtn()">
-                                        <div class="simg">
-                                            <img src="Assets/image/Setting.png" class="menuIcon2" alt="Settingslogo" />
-                                        </div>
-                                        <p class="sp">Settings</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="signdata">
-                                <div class="bline">
-                                    <p class="sign m-0">OneLogin</p>
-                                    <div class="ssobox">
-                                        <div class="simg">
-                                            <img src="Assets/image/Setting.png" class="menuIcon2" alt="Settingslogo" />
-                                        </div>
-                                        <p class="sp">Settings</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="signdata">
-                                <div class="bline">
-                                    <p class="sign m-0">SAML</p>
-                                    <div class="ssobox">
-                                        <div class="simg">
-                                            <img src="Assets/image/Setting.png" class="menuIcon2" alt="Settingslogo" />
-                                        </div>
-                                        <p class="sp">Settings</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="cname emp_aoto_join">
-                            <div>
-                                <p class="compname mb-0">Employee Auto-Join</p>
-                                <p class="compdic mb-0">
-                                    Let your employees use their company email address to automagically add themselves as members.
-                                </p>
-                                <p class="compdic_min mb-0">Employee Auto-Join</p>
-                                <p class="compdic_min mb-0">
-                                    Auto-Join URL: &nbsp&nbsp<a class="blinglink" href="http://app.breezy.hr/signup/zenwe"><i
-                                            class="fa fa-external-link"></i>
-                                        &nbsphttp://app.breezy.hr/signup/zenwe</a>
-                                </p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Enabled</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="cname emp_aoto_join emp_border">
-                            <div>
-                                <p class="compname mb-0">Candidate Data</p>
-                                <p class="compdic mb-0">Social Discovery</p>
-                                <p class="compdic_min mb-0">
-                                    Gather social data about candidates from their public profiles, such as social <br /> profiles and photos from Linkedin, Twitter, etc.
-                                </p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Enabled</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="candiDateName emp_aoto_join emp_border">
-                            <div>
-                                <p class="compdic mb-0">Aggregate/Combine/Collect Data</p>
-                                <p class="compdic_min mb-0">
-                                    When viewing a candidate, display information for them across multiple positions <br /> or candidate pools (documents, assessments, discussion, etc.).
-                                </p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Enabled</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="compliance emp_aoto_join emp_border">
-                            <div>
-                                <p class="compname mb-0">GDPR Compliance</p>
-                                <p class="compdic mb-0">
-                                    Use our simple GDPR features to help save you time and simplify compliance. <a class="blinglink" href="">Learn More</a>
-                                </p>
-                                <p class="compdic_min mb-0">GDPR Features</p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Enabled</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="compliance emp_aoto_join emp_border">
-                            <div>
-                                <p class="compname mb-0">EEOC Compliance</p>
-                                <p class="compdic mb-0">
-                                    Use our simple EEOC/OFCCP compliance functionality to take the pain out of candidate <br /> surveys and compliance reporting.
-                                </p>
-                                <p class="compdic_min mb-0">EEOC Survey</p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Enabled</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="dispositions emp_aoto_join emp_border">
-                            <div>
-                                <p class="compdic_min mb-0">Dispositions</p>
-                            </div>
-                            <div class="emp_aoto_join_inside">
-                                <div class="ena_div">
-                                    <p class="enable m-0">Required</p>
-                                </div>
-                                <div class="ena_div ena_div_Border enaRadius">
-                                    <p class="enable m-0">Optional</p>
-                                </div>
-                                <div class="dis_div">
-                                    <p class="disable m-0">Disabled</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainInnerGeneralClassBottom savemain">
-                        <div class="savebtn">
-                            <div class="saveimg">
-                                <img src="Assets/image/Save.png" class="saveIcon" alt="Settingslogo" />
-                            </div>
-                            <p class="savetxt m-0">Save Changes</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="d-flex m-26 align-items-center">
+              <div class="ellipseBorder">
+                <img
+                  class="settingIcon"
+                  src="Assets/image/userIcon.png"
+                  alt="SettingIcon"
+                />
+              </div>
+              <a href="./company_setting_users.html" class="titleClass iconText"
+                >Users</a
+              >
             </div>
+            <div class="d-flex m-26 align-items-center">
+              <div class="ellipseBorder">
+                <img
+                  class="settingIcon"
+                  src="Assets/image/Vector.png"
+                  alt="SettingIcon"
+                />
+              </div>
+              <p class="titleClass iconText">Permissions</p>
+            </div>
+            <div class="d-flex m-26 align-items-center">
+              <div class="ellipseBorder">
+                <img
+                  class="settingIcon"
+                  src="Assets/image/Group.png"
+                  alt="SettingIcon"
+                />
+              </div>
+              <p class="titleClass iconText">Teams</p>
+            </div>
+            <div class="d-flex m-26 align-items-center">
+              <div class="ellipseBorder">
+                <img
+                  class="settingIcon"
+                  src="Assets/image/BilIcon.png"
+                  alt="SettingIcon"
+                />
+              </div>
+              <a
+                href="./CompanySettingsBilling.html"
+                class="titleClass iconText"
+                >Billing</a
+              >
+            </div>
+          </div>
         </div>
+        <div class="col-9">
+          <div class="manageDiv">
+            <p class="divheader mb-0 underline">General</p>
+            <div class="mainInnerGeneralClass underline">
+              <div class="cname pt-0">
+                <p class="compname mb-0">Company Name</p>
+                <p class="compdic mb-0">
+                  Keep It Short And Don't Include Things Like "Inc", "LLC" Etc.
+                </p>
+                <input type="text" placeholder="Type Here.." />
+              </div>
+              <div class="cname">
+                <p class="compname mb-0">Company Location</p>
+                <p class="compdic mb-0">
+                  Select the main location of your company. Breezy will use this
+                  to designate your primary<br />
+                  timezone for system emails.
+                </p>
+                <input type="text" placeholder="Enter a location" />
+              </div>
+              <div class="cname">
+                <p class="compname mb-0">Single Sign-On (SSO)</p>
+                <p class="compdic mb-0">
+                  Require employees to sign in with your company’s SSO system.
+                </p>
+                <div class="signdata">
+                  <div class="bline">
+                    <p class="sign m-0">Google Apps</p>
+                    <div class="ssobox" id="myBtn">
+                      <div class="simg">
+                        <img
+                          src="Assets/image/Setting.png"
+                          class="menuIcon2"
+                          alt="Settingslogo"
+                        />
+                      </div>
+                      <p class="sp">Settings</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="signdata">
+                  <div class="bline">
+                    <p class="sign m-0">Okta</p>
+                    <div class="ssobox" onclick="myBtn()">
+                      <div class="simg">
+                        <img
+                          src="Assets/image/Setting.png"
+                          class="menuIcon2"
+                          alt="Settingslogo"
+                        />
+                      </div>
+                      <p class="sp">Settings</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="signdata">
+                  <div class="bline">
+                    <p class="sign m-0">OneLogin</p>
+                    <div class="ssobox">
+                      <div class="simg">
+                        <img
+                          src="Assets/image/Setting.png"
+                          class="menuIcon2"
+                          alt="Settingslogo"
+                        />
+                      </div>
+                      <p class="sp">Settings</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="signdata">
+                  <div class="bline">
+                    <p class="sign m-0">SAML</p>
+                    <div class="ssobox">
+                      <div class="simg">
+                        <img
+                          src="Assets/image/Setting.png"
+                          class="menuIcon2"
+                          alt="Settingslogo"
+                        />
+                      </div>
+                      <p class="sp">Settings</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cname emp_aoto_join">
+                <div>
+                  <p class="compname mb-0">Employee Auto-Join</p>
+                  <p class="compdic mb-0">
+                    Let your employees use their company email address to
+                    automagically add themselves as members.
+                  </p>
+                  <p class="compdic_min mb-0">Employee Auto-Join</p>
+                  <p class="compdic_min mb-0">
+                    Auto-Join URL: &nbsp&nbsp<a
+                      class="blinglink"
+                      href="http://app.breezy.hr/signup/zenwe"
+                      ><i class="fa fa-external-link"></i>
+                      &nbsphttp://app.breezy.hr/signup/zenwe</a
+                    >
+                  </p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Enabled</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cname emp_aoto_join emp_border">
+                <div>
+                  <p class="compname mb-0">Candidate Data</p>
+                  <p class="compdic mb-0">Social Discovery</p>
+                  <p class="compdic_min mb-0">
+                    Gather social data about candidates from their public
+                    profiles, such as social <br />
+                    profiles and photos from Linkedin, Twitter, etc.
+                  </p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Enabled</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+              <div class="candiDateName emp_aoto_join emp_border">
+                <div>
+                  <p class="compdic mb-0">Aggregate/Combine/Collect Data</p>
+                  <p class="compdic_min mb-0">
+                    When viewing a candidate, display information for them
+                    across multiple positions <br />
+                    or candidate pools (documents, assessments, discussion,
+                    etc.).
+                  </p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Enabled</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="compliance emp_aoto_join emp_border">
+                <div>
+                  <p class="compname mb-0">GDPR Compliance</p>
+                  <p class="compdic mb-0">
+                    Use our simple GDPR features to help save you time and
+                    simplify compliance.
+                    <a class="blinglink" href="">Learn More</a>
+                  </p>
+                  <p class="compdic_min mb-0">GDPR Features</p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Enabled</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="compliance emp_aoto_join emp_border">
+                <div>
+                  <p class="compname mb-0">EEOC Compliance</p>
+                  <p class="compdic mb-0">
+                    Use our simple EEOC/OFCCP compliance functionality to take
+                    the pain out of candidate <br />
+                    surveys and compliance reporting.
+                  </p>
+                  <p class="compdic_min mb-0">EEOC Survey</p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Enabled</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dispositions emp_aoto_join emp_border">
+                <div>
+                  <p class="compdic_min mb-0">Dispositions</p>
+                </div>
+                <div class="emp_aoto_join_inside">
+                  <div class="ena_div">
+                    <p class="enable m-0">Required</p>
+                  </div>
+                  <div class="ena_div ena_div_Border enaRadius">
+                    <p class="enable m-0">Optional</p>
+                  </div>
+                  <div class="dis_div">
+                    <p class="disable m-0">Disabled</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mainInnerGeneralClassBottom savemain">
+              <div class="savebtn">
+                <div class="saveimg">
+                  <img
+                    src="Assets/image/Save.png"
+                    class="saveIcon"
+                    alt="Settingslogo"
+                  />
+                </div>
+                <p class="savetxt m-0">Save Changes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
-
-    
-
     <div id="myModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-            <!-- <span class="close"><img src="" alt=""></span> -->
+      <!-- Modal content -->
+      <div class="modal-content">
+        <!-- <span class="close"><img src="" alt=""></span> -->
 
-            <div class="row">
-                <div class="modelmain-titleDiv">
-                    <div>
-                        <p class="main-title m-0">Google Apps Integration</p>
-                    </div>
-                    <div>
-                        <span class="close"><img class="crossIcon" src="Assets/image/CrossIcon.png" alt="CrossIcon" /></span>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="modelmain-titleDiv">
+            <div>
+              <p class="main-title m-0">Google Apps Integration</p>
             </div>
-
-            <p class="modeltxt underline m-0">
-                This feature isn't enabled on your current subscription plan.
-            </p>
-
-            <div class="mainModelfooter">
-                <div class="disModel">
-                    <div class="modelDisImg"><img src="Assets/image/Close.png" class="menuIcon2" alt="Close"></div>
-                    <div class="mButtom">
-                        <p class="modelDis m-0">Dismiss</p>
-                    </div>
-                </div>
-                <div class="upgModalDiv">
-                    <p class="upgModal m-0">Upgrade Plan</p>
-                </div>
+            <div>
+              <span class="close"
+                ><img
+                  class="crossIcon"
+                  src="Assets/image/CrossIcon.png"
+                  alt="CrossIcon"
+              /></span>
             </div>
+          </div>
         </div>
+        <p class="modeltxt underline m-0">
+          This feature isn't enabled on your current subscription plan.
+        </p>
+        <div class="mainModelfooter">
+          <div class="disModel">
+            <div class="modelDisImg">
+              <img src="Assets/image/Close.png" class="menuIcon2" alt="Close" />
+            </div>
+            <div class="mButtom">
+              <p class="modelDis m-0">Dismiss</p>
+            </div>
+          </div>
+          <div class="upgModalDiv">
+            <p class="upgModal m-0">Upgrade Plan</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
+      // Get the modal
+      var modal = document.getElementById("myModal");
 
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
 
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
 
-        // When the user clicks the button, open the modal
-        btn.onclick = function() {
-            modal.style.display = "block";
-        };
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
 
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        };
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        };
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
     </script>
-</body>
-
+  </body>
 </html>

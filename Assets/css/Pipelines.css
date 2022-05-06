@@ -26,7 +26,7 @@
 .settingImage {
     height: 24px;
     width: 24px;
-    margin: 37px 0 0 0;
+    margin: 37px 0 0 10px;
 }
 
 .mainHead {
@@ -559,6 +559,7 @@
         height: 95px;
     }
     .settingImage {
+        margin: 34px 0 0 5px;
         height: 22px;
         width: 22px;
     }
@@ -578,7 +579,7 @@
         height: 85px;
     }
     .settingImage {
-        margin: 34px 0 0 0;
+        margin: 34px 0 0 20px;
         height: 19px;
         width: 19px;
     }
@@ -603,5 +604,97 @@
     }
     .headerMainNav {
         padding: 23px 550px 0px 0;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+.mainSingle{
+    display: none;
+}
+}
+
+@media screen and (max-width: 1500px) {
+    .logoImg {
+        display: none;
+    }
+    .mainSingle{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .settingImageBg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+    .settingImage {
+        display: none;
+    }
+    .innerHome {
+        display: flex !important;
+    }
+    .innerIcon {
+        margin: 0 !important;
+        justify-content: center;
+    }
+    .innerIcon>.col-3 {
+        padding: 0;
+    }
+    .innerIcon>.col-9 {
+        display: none;
+    }
+    .innerIcon>.name {
+        display: none;
+    }
+    .innerIcon>.plusIcon {
+        display: none;
+    }
+    .outerDashboard {
+        display: none !important;
+    }
+    .innerIcon>.col-3>#Dashboard {
+        width: 38.18px;
+        height: 36.05px;
+    }
+    .innerIcon>.col-3>#Inbox {
+        width: 35px;
+        height: 28px;
+    }
+    .innerIcon>.col-3>#Tasks {
+        width: 35px;
+        height: 35px;
+    }
+    .innerIcon>.col-3>#Calender {
+        width: 35px;
+        height: 35px;
+    }
+    .innerIcon>.col-3>#Reports {
+        width: 35px;
+        height: 39.38px;
+    }
+    .innerIcon>.col-3>#Positions {
+        width: 36.59px;
+        height: 30.28px;
+    }
+    .innerIcon>.col-3>#Candidates {
+        width: 28.64px;
+        height: 30.23px;
+    }
+    .col-12>.card {
+        width: 50% !important;
+    }
+    .down_arrow_icon {
+        left: 65%;
+        width: 12.61px;
+        height: 9px;
+        position: absolute;
+        top: 22px;
+    }
+    .briefcaseShow{
+        width: 50px;
+        height: 50px;
     }
 }
