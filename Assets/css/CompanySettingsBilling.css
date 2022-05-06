@@ -7,7 +7,6 @@
 }
 
 .main-title {
-  /* font-family: 'Mont'; */
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -75,7 +74,6 @@
   color: #1a344b;
   display: flex;
   align-items: center;
-  /* font-family: 'Mont'; */
   font-style: normal;
   font-weight: 600;
   font-size: 19.4434px;
@@ -86,7 +84,6 @@
   color: #1a344b;
   display: flex;
   align-items: center;
-  /* font-family: 'Mont'; */
   font-style: normal;
   font-weight: 600;
   font-size: 19.4434px;
@@ -111,7 +108,6 @@
 }
 
 .divheader {
-  /* font-family: 'Mont'; */
   padding: 38px 0px 22px 58px;
   color: #1a344b;
   font-weight: 600;
@@ -122,7 +118,6 @@
 
 .underline {
   border-bottom: 1px solid #c4c4c4;
-  /* opacity: 0.5; */
 }
 
 .mainInnerGeneralClass {
@@ -170,14 +165,12 @@
 
 .compspam {
   margin-top: 18px;
-  /* font-family: 'Mont'; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 23px;
   text-transform: capitalize;
   color: #000000;
-  /* opacity: 0.7; */
 }
 
 .blinglink {
@@ -366,11 +359,9 @@
   background-color: #ffffff;
   margin: auto;
   border-radius: 8px;
-  /* width: 1357px; */
   height: 989px;
   width: 100%;
   padding: 40px 20px;
-  /* position: relative; */
 }
 
 .modelmain-titleDiv {
@@ -390,9 +381,14 @@
   color: #1a344b;
 }
 
-.close:hover,
-.close:focus {
-  color: #000000;
+.close {
+  color: #1A344B !important;
+  opacity: 1;
+}
+
+.close:hover {
+  color: #1A344B !important;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -505,7 +501,6 @@
   padding: 32px 48px 38px 419px;
 }
 
-/* ------------------------------------------------------------------------- */
 
 .modalMainDiv {
   position: absolute;
@@ -533,7 +528,7 @@
   color: #1a344b;
 }
 
-.centerModalDiv > .title > p {
+.centerModalDiv>.title>p {
   margin: 0;
 }
 
@@ -553,14 +548,14 @@
   position: relative;
 }
 
-.tableHeaderBox > .firstBoxDiv {
+.tableHeaderBox>.firstBoxDiv {
   width: 100%;
   height: 183px;
   text-align: -webkit-center;
   border-radius: 5px;
 }
 
-.tableHeaderBox > .secondBoxDiv {
+.tableHeaderBox>.secondBoxDiv {
   width: 100%;
   height: 38px;
   display: flex;
@@ -614,9 +609,9 @@
   position: relative;
 }
 
-.twiceButton > p {
+.twiceButton>p {
   position: absolute;
-  left: 30%;
+  left: 22%;
   top: 17%;
   margin: 0;
 }
@@ -734,7 +729,6 @@
 }
 
 .tex-box {
-  /* margin: 0px 0px 18px 0px; */
   font-weight: 600;
   font-size: 22px;
   color: #1a344b;
@@ -824,13 +818,30 @@
   margin: 5px 13px 7px 7px;
 }
 
+.Monthly {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #1A344B;
+}
+
+.Annually {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 90%;
   }
 }
-@media (max-width: 1620px){
+
+@media (max-width: 1620px) {
   .modal {
-      padding: 230px 0px 0px 0px;
+    padding: 230px 0px 0px 0px;
   }
 }

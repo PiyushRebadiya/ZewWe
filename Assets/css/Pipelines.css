@@ -243,7 +243,6 @@
     width: 12px;
     height: 9px;
     margin: 14px 14px 17px 28px;
-    /*14 14 17 20 */
 }
 
 .roomy {
@@ -550,7 +549,6 @@
 
 @media (max-width: 1700px) {
     .head1 {
-        /* max-width: 90%; */
         padding: 20px 10px 2px 0;
         width: 150px !important;
     }
@@ -570,7 +568,6 @@
 }
 @media (max-width: 1550px) {
     .head1 {
-        /* max-width: 90%; */
         padding: 25px 10px 2px 0;
         width: 150px !important;
     }
@@ -589,7 +586,6 @@
 }
 @media (max-width: 1355px) {
     .head1 {
-        /* max-width: 90%; */
         padding: 27px 0px 2px 0;
         width: 150px !important;
     }
