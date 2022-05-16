@@ -200,7 +200,12 @@ input {
     width: 144px;
     height: 38px;
     background-color: #DADADA;
+    cursor: pointer;
 }
+/* a.sp{
+    color: #1A344B;
+    text-decoration: none;
+} */
 
 .simg {
     padding: 9.2px 0px 9.2px 20px;
