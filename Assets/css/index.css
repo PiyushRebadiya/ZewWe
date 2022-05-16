@@ -644,3 +644,65 @@
         width: 50% !important;
     }
 }
+
+
+
+.pop_up_main_div {
+    position: absolute;
+    width: 306px;
+    height: 735px;
+    left: 250px;
+    top: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* display: none; */
+}
+/* #pop_up_main_div{
+    display: none ;
+} */
+.pop_up_box_modal {
+    padding: 20px;
+    border-bottom: 0.5px solid #C4C4C4;
+}
+
+.pop_up_profile_div {
+    width: 170.22px;
+    height: 43.22px;
+    display: flex;
+}
+.pop_up_icon_div {
+    display: flex;
+    margin: 15px;
+}
+.pop_up_icon_div > p {
+    margin: 0px 0px 0px 15px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+
+.pop_up_profile_name {
+    margin: 0;
+    width: 111px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2088px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1A344B;
+}
+.pop_up_profile_email {
+    margin: 0;
+    width: 97px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.6069px;
+    line-height: 16px;
+    color: #1A344B;
+}

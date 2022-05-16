@@ -8,22 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    <title>setting pop-up</title>
-    <link rel="stylesheet" href="./Assets/css/dashboard.css" />
-    <link rel="stylesheet" href="./Assets/css/setting_popup_design.css" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="./Assets/css/index.css" />
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row headerLength">
             <div class="col-2 head1 logoBgSide logoBgSideInner">
-                <img class="settingImage" src="./Assets/image/Setting.png" alt="Setting" />
+                <img class="settingImage" onclick="myFunction()" src="./Assets/image/Setting.png" alt="Setting" />
                 <img class="settingImageBg" src="./Assets/image/ZenWe_ LLC 2.png" alt="Setting" />
             </div>
             <div class="col-10 head2">
                 <div class="col-12 mainHead">
                     <div>
+<<<<<<< Updated upstream:Setting_popup.html
                         <p class="m-0">Dashboard</p>
+=======
+                        <p class="m-0" style="color: #1A344B;">Dashboard</p>
+>>>>>>> Stashed changes:index.html
                     </div>
                     <div class="d-flex position-relative">
                         <div class="notification_Icon_div">
@@ -53,7 +56,7 @@
                     </div>
                     <div class="d-flex ml-4 mt-1 innerIcon innerHome">
                         <div class="col-3">
-                            <a href="./DashBoard.html" class="homeImageMain">
+                            <a href="./index.html" class="homeImageMain">
                                 <img src="./Assets/image/home_Vector.png" alt="inbox" id="Dashboard" />
                             </a>
                         </div>
@@ -328,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-33 border-0">
+                    <div class="w-33 border-0" style="height: auto;">
                         <div class="row h-100 m-0 pb-2">
                             <div class="col-12 boxShadow innerDashboard">
                                 <div class="d-flex">
@@ -339,7 +342,7 @@
                                 <div class="cardEvent">
                                     <div class="candidateCard border-radius">
                                         <div class="round">
-                                            <p class="ellipseText">K</p>
+                                            <p class="ellipseText m-0">K</p>
                                         </div>
                                         <div class="w-100">
                                             <div class="candidateIconText">Kyle May</div>
@@ -357,7 +360,7 @@
                                 <div class="cardEvent">
                                     <div class="candidateCard">
                                         <div class="round">
-                                            <p class="ellipseText1">S</p>
+                                            <p class="ellipseText1 m-0">S</p>
                                         </div>
                                         <div class="w-100">
                                             <div class="candidateIconText">Syed Samiur Rehman</div>
@@ -533,8 +536,8 @@
                                                     <div class="innerEllipseText">S</div>
                                                 </div>
                                                 <!--  <div class="ellipse-18">
-                                  <div class="innerEllipseText innerEllipseText2" style="top: 99%;">S</div>
-                                </div> -->
+                          <div class="innerEllipseText innerEllipseText2" style="top: 99%;">S</div>
+                        </div> -->
                                                 <div class="greenLine"></div>
                                                 <p class="candidateIconText conversationInnerText m-0">Hi, Keysha. We'd Like To Ask You A Few More Que....</p>
                                             </div>
@@ -547,7 +550,7 @@
                 </div>
             </div>
         </div>
-        <div class="pop_up_main_div" id="pop_up_main_div">
+        <div class="pop_up_main_div" id="pop_up_main_div" style="display: none;">
             <div class="pop_up_box_modal">
                 <div class="pop_up_profile_div">
                     <div style="width: 43.22px;height: 43.22px;">
@@ -637,6 +640,16 @@
                 </div>
             </div>
         </div>
+    </div>
 </body>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("pop_up_main_div");
+  if (x.style.display == "none") {
+      x.style.display = "block";
+    } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </html>
