@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <title>Applied Candidates Report</title>
     <link rel="stylesheet" href="../../Assets/css/report_applied_candidates.css" />
+    <link rel="stylesheet" href="../../Assets/css/settingPopup.css" />
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row headerLength">
             <div class="col-2 head1 logoBgSide logoBgSideInner">
-                <img class="settingImage" src="../../Assets/image/Setting.png" alt="Setting" />
+                <img class="settingImage" onclick="myFunction()" src="../../Assets/image/Setting.png" alt="Setting" />
                 <img class="settingImageBg" src="../../Assets/image/ZenWe_ LLC 2.png" alt="Setting" />
             </div>
             <div class="col-10 head2">
@@ -607,6 +608,114 @@
                     </div>
                 </div>
             </div>
-</body>
+        </div>
 
+        <div class="pop_up_main_div" id="pop_up_main_div" style="display: none;">
+            <div class="pop_up_box_modal">
+                <div class="pop_up_profile_div">
+                    <div style="width: 43.22px;height: 43.22px;">
+                        <img src="../../Assets/image/unsplash_ILip77SbmOE.png" />
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <p class="pop_up_profile_name">ron swanson</p>
+                        <p class="pop_up_profile_email">jbass@lenty.ag</p>
+                    </div>
+
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/Vector_blue.png" style="height: 15px;width: 14px;" />
+                    <p>User Settings</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/Question_Vector.png" style="height: 14px;width: 14px;margin-top: 2px;" />
+                    <p>Help & Documentation</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/keyBoard_vector.png" style="height: 12px;width: 18px;margin-top: 4px;" />
+                    <p>Keyboard Shortcuts</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/sign_out.png" style="height: 18px;width: 17px;" />
+                    <p>Sign Out</p>
+                </div>
+
+            </div>
+            <div class="pop_up_box_modal">
+                <div class="pop_up_profile_div">
+                    <div style="width: 43.22px;height: 43.22px;">
+                        <img src="../../Assets/image/unsplash_ILip77SbmOE.png" />
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <p class="pop_up_profile_name">Plenty</p>
+                        <p class="pop_up_profile_email">https://zenwe.breezy.hr/</p>
+                    </div>
+
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/Building_Vector.png" style="height: 17px;width: 14px;" />
+                    <p>Company Settings</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/ic_baseline-settings-suggest.png" style="height: 20px;width: 20px;" />
+                    <p>Recruiting Preferences</p>
+                    <img src="../../Assets/image/Polygon 17.png"
+                        style="width: 16px;height: 12px;margin-left: 42px;margin-top: 5px;" />
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/sms_Vector.png" style="height: 12px;width: 17px;margin-top: 4px;" />
+                    <p>Invite Members</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/Card_Vector.png" style="height: 13px;width: 16px;margin-top: 3px;" />
+                    <p>Billing Details</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/manage_Vector.png" style="height: 13px;width: 15px;margin-top: 3px;" />
+                    <p>Manage Subscriptions</p>
+                </div>
+
+            </div>
+            <div class="pop_up_box_modal" style="padding: 10px;">
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/request_Vector.png" style="height: 16px;width: 16px;margin-left: 10px;" />
+                    <p>Feature Requests</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/live_demo_Vector.png"
+                        style="height: 16px;width: 18px;margin-left: 10px;" />
+                    <p>Live Demo</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/product_updates_Vector.png"
+                        style="height: 18px;width: 16px;margin-left: 10px;" />
+                    <p>Product Updates</p>
+                </div>
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/refer_friend_Vector.png"
+                        style="height: 18px;width: 20px;margin-left: 10px;" />
+                    <p>Refer a friend</p>
+                    <img src="../../Assets/image/Polygon 17.png"
+                        style="width: 16px;height: 12px;margin-left: 90px;margin-top: 5px;" />
+                </div>
+            </div>
+            <div style="padding: 10px;">
+                <div class="pop_up_icon_div">
+                    <img src="../../Assets/image/add_company_Vector.png"
+                        style="height: 14px;width: 14px;margin-left: 10px;" />
+                    <p>Add Company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("pop_up_main_div");
+        if (x.style.display == "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 </html>
