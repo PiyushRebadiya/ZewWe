@@ -831,9 +831,25 @@
     border-radius: 5px;
 }
 
-.chartImage {
-    width: 100%;
-    height: 90%;
+.roundChartDiv {
+    margin: 34px 0px 51px 56px;
+}
+
+.chartsflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundedChart {
+    width: 247px;
+}
+
+.roundChartCaption {
+    width: 65%;
+}
+
+.captionImage {
+    margin: 20px 50px 0 0;
 }
 
 .card2InnerHead {
@@ -940,13 +956,11 @@
         position: absolute;
         top: 22px;
     }
-
     a.navarLink {
         width: 45%;
         height: 20px;
     }
-
-    .homeImageMain{
+    .homeImageMain {
         height: auto;
         width: auto;
     }
