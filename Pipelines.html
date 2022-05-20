@@ -664,7 +664,7 @@
                 </div>
             </div>
         </div>
-        <div class="row dashboard">
+        <div class="row dashboard" id="dashboard">
             <div class="col-2 headerSlider m-0">
                 <div class="mainDiv" style="border-bottom: 1px solid #FFFFFF;">
                     <div class="d-flex ml-4 pt-1 innerIcon">
@@ -1099,20 +1099,24 @@
     var modal = document.getElementById("myModal");
 
     var btn = document.getElementById("myBtn");
+    var dashboard = document.getElementById("dashboard");
 
     var span = document.getElementsByClassName("close1")[0];
 
     btn.onclick = function () {
         modal.style.display = "block";
+        dashboard.style.height = "1382px";
     };
-
+    
     span.onclick = function () {
         modal.style.display = "none";
+        dashboard.style.height = "938px";
     };
-
+    
     window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
+            dashboard.style.height = "938px";
         }
     };
 
