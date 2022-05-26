@@ -1129,7 +1129,7 @@
     position: absolute;
     bottom: 0;
 }
-
+/* 
 @media screen and (max-width: 1500px) {
     .logoBgSide {
         background-image: url('');
@@ -1214,4 +1214,4 @@
         height: auto;
         width: auto;
     }
-}
+} */
