@@ -818,7 +818,7 @@
     border-radius: 15px 0px 0px 15px;
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     .logoBgSide {
         background-image: url('');
     }
@@ -902,4 +902,4 @@
         height: auto;
         width: auto;
     }
-}
+} */

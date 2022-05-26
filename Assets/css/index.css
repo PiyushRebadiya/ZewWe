@@ -574,7 +574,7 @@
     background-color: #fff;
     border-radius: 15px 0px 0px 15px;
 }
-
+/* 
 @media screen and (max-width: 1500px) {
     .logoBgSide {
         background-image: url('');
@@ -642,4 +642,4 @@
     .col-12>.card {
         width: 50% !important;
     }
-}
+} */
