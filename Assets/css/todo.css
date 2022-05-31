@@ -1,0 +1,119 @@
+.main-todo{
+    background-color: #039be5;
+    width: 83.33%;
+    height: 200px;
+    margin-top: -90px;
+}
+.todoHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px 0 30px;
+}
+.second-todo{
+    display: flex;
+    flex: 1;
+    padding-top: 17px;
+}
+.second_todo{
+    /* display: flex; */
+    flex: 5;
+}
+.dashboard {
+    background-color:#f0f0f0c0 ;
+}
+.search{
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    height: 56px;
+    width: 100%;
+    padding: 0 16px 0 45px;
+    border: none;
+    outline: 0;
+}
+.mailBox{
+    flex: 1;
+}
+.dropdown{
+    margin: 0 10px 0 -5px;
+    background-color: #039be5;
+    color: #fff;
+    font-size: 15px;
+    border-style: hidden;
+}
+.dropdown option{
+    background-color: #fff;
+    color: black;
+}
+
+.composeBtn{
+    background-color: #039be5;
+    color: #fff;
+    overflow: visible;
+    border-style: none;
+    /* margin: 32px 24px 12px 24px; */
+    margin: 32px 24px 12px 0px;
+    height: 35px;
+    /* width: 15%; */
+    width: 85%;
+    border-radius: 5px;
+}
+/* .innerlogo{
+    display: flex;
+} */
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 50px;
+    height: 56px;
+    line-height: 3.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.all_menu{
+    padding-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.icon-size{
+    font-size: 16px;
+    padding-right: 16px;
+    /* padding: 26px 26px 26px 0px; */
+}
+
+.taskBox{
+    height: 96%;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 45px;
+    border-radius: 7px;
+} 
+.insideHeader{
+    display: flex;
+    align-items: center;
+    padding: 22px 40px 20px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+.topBorder{
+    border-top:1px solid rgba(0,0,0,.12);
+    margin: 20px 0 15px -30px;
+}
+
+.menu-item{
+    opacity: 0.9;
+}
+
+.arrowImg{
+    height: 25px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.blankList{
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+}

@@ -1,0 +1,234 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo</title>
+    <link rel="stylesheet" href="./Assets/css/index.css" />
+    <link rel="stylesheet" href="./Assets/css/menubar.css" />
+    <link rel="stylesheet" href="./Assets/css/todo.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row headerLength">
+            <div class="col-2 head1 logoBgSide logoBgSideInner">
+                <img class="settingImage" onclick="myFunction()" src="./Assets/image/Setting.png" alt="Setting" />
+                <img class="settingImageBg" src="./Assets/image/ZenWe_ LLC 2.png" alt="Setting" />
+            </div>
+            <!-- <div class="col-10 head2">
+                <div class="col-12 mainHead">
+                    <div>
+                        <p class="m-0" style="color:#1A344B">Todo</p>
+                    </div>
+                    <div class="d-flex position-relative">
+                        <div class="notification_Icon_div">
+                            <span class="notification_count">3</span>
+                            <img src="./Assets/image/Ellipse 42.png" style="width: 20px;height: 20px;" />
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                            <img class="headIcon" src="./Assets/image/Notifications.png" alt="Notifications" />
+                            <img class="headIcon mt-1" src="./Assets/image/Question.png" alt="Question" />
+                            <img class="headIconProfile pl-4" src="./Assets/image/Profile.png" alt="Profile" />
+                        </div>
+                        <div class="profileName">joshua bass</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="row dashboard">
+            <div class="col-2 headerSlider">
+                <div class="mainDiv" style="border-bottom: 1px solid #FFFFFF;">
+                    <div class="d-flex ml-4 pt-1 innerIcon">
+                        <div class="col-3" style="margin-top: 5px;">
+                            <a href="./index.html" class="navarLink">
+                                <img class="homeIcon" src="./Assets/image/home_Vector.png" alt="home" id="Dashboard">
+                            </a>
+                        </div>
+                        <div class="col-9 p-0" style="margin-top: 5px;margin-bottom: -5px;">
+                            <a href="./index.html" class="sliderText">Dashboard</a>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon innerHome">
+                        <div class="col-3">
+                            <a href="./index.html" class="homeImageMain">
+                                <img src="./Assets/image/home_Vector.png" alt="inbox" id="Dashboard" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <img class="inboxIcon" src="./Assets/image/Inbox.png" alt="inbox" id="Inbox" />
+                        </div>
+                        <div class="col-9 p-0">
+                            <p class="sliderText">Inbox</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 p-2  outerDashboard" style="align-items : center;">
+                        <div class="col-3">
+                            <i class="fa-solid fa-calendar-check tasksIcon" style="font-size: 25px" alt="inbox"
+                                id="Tasks"></i>
+                        </div>
+                        <div class="col-9 p-0">
+                            <p class="sliderText text-dark" style="margin-bottom: 0px">Tasks</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <img class="calenderIcon" src="./Assets/image/Calender.png" alt="inbox" id="Calender" />
+                        </div>
+                        <div class="col-9 p-0">
+                            <p class="sliderText">Calender</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <a href="./component/report/report_overview.html" class="reportsIcon">
+                                <img src="./Assets/image/Report.png" alt="inbox" id="Reports" />
+                            </a>
+                        </div>
+                        <div class="col-9 p-0">
+                            <a href="./component/report/report_overview.html" class="sliderText">Reports</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainDiv" style="height: 250px;">
+                    <div class="d-flex ml-4 mt-5 innerIcon">
+                        <div class="col-3">
+                            <a href="./Pipelines.html" class="positionsIcon">
+                                <img src="./Assets/image/briefcase 2.png" alt="inbox" id="Positions" />
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 name">
+                            <a href="./Pipelines.html" class="sliderText">Positions</a>
+                        </div>
+                        <div class="col-3 plusIcon">
+                            <img class="homeImageMain" style="width: 21px;height: 21px;"
+                                src="./Assets/image/Group 12.png" alt="inbox" />
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-4 innerIcon">
+                        <div class="col-3">
+                            <img class="candidatesIcon" src="./Assets/image/Vector.png" alt="inbox" id="Candidates" />
+                        </div>
+                        <div class="col-6 p-0 name">
+                            <p class="sliderText">Candidates</p>
+                        </div>
+                        <div class="col-3 plusIcon">
+                            <img class="homeImageMain" style="width: 21px;height: 21px;"
+                                src="./Assets/image/Group 12.png" alt="inbox" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-todo">
+                <div class="todoHeader">
+                    <div class="mailBox">
+                        <div class="second-todo">
+                            <i class="fa-solid fa-list" style="font-size: 32px; color: #FFFFFF;"></i>
+                            <p class="sliderText" style="font-size: 24px; margin-left:20px">To-do</p>
+                        </div>
+                        <p class="sliderText" style="margin-top:10px;">John Doe</p>
+                        <select class="dropdown">
+                            <option value="1">johndoe@creapond.com</option>
+                            <option value="2">johndoe@withinpixels.com</option>
+                        </select>
+
+                        <div>
+                            <button class="composeBtn">ADD TASK</button>
+
+                            <div>
+                                <div class="all_menu">
+                                    <i class="fa-solid fa-bars icon-size"></i>
+                                    <p class="mb-0">All</p>
+                                </div>
+                                <div style="padding-top: 20px">
+                                    FILTERS
+                                </div>
+                                <div class="all_menu star">
+                                    <i class="fa-solid fa-star icon-size"></i>
+                                    <p class="mb-0 menu-item">Starred</p>
+                                </div>
+                                <div class="all_menu priority">
+                                    <i class="fa-solid fa-circle-exclamation icon-size"></i>
+                                    <p class="mb-0 menu-item">Priority</p>
+                                </div>
+                                <div class="all_menu sheduled">
+                                    <i class="fa fa-clock-o icon-size"></i>
+                                    <p class="mb-0 menu-item">Sheduled</p>
+                                </div>
+                                <div class="all_menu today">
+                                    <i class="fa fa-calendar-plus-o icon-size"></i>
+                                    <p class="mb-0 menu-item">Today</p>
+                                </div>
+                                <div class="all_menu done">
+                                    <i class="fa-solid fa-check icon-size"></i>
+                                    <p class="mb-0 menu-item">Done</p>
+                                </div>
+                                <div class="all_menu deleted">
+                                    <i class="fa fa-trash-o icon-size"></i>
+                                    <p class="mb-0 menu-item">Deleted</p>
+                                </div>
+                                <p class="topBorder"></p>
+                                <div style="padding-top: 10px">
+                                    TAGS
+                                </div>
+                                <div class="all_menu frontend" style="align-items:center;">
+                                    <!-- <i class="fa fa-trash-o icon-size"></i> -->
+                                    <img src="./Assets/image/greenArrow.png" class="arrowImg" alt="" id="" />
+                                    <p class="mb-0 menu-item">Frontend</p>
+                                </div>
+                                <div class="all_menu backend" style="align-items:center;">
+                                    <img src="./Assets/image/redArrow.png" class="arrowImg" alt="" id="" />
+                                    <p class="mb-0 menu-item">Backend</p>
+                                </div>
+                                <div class="all_menu api" style="align-items:center;">
+                                    <img src="./Assets/image/yellowArrow.png" class="arrowImg" alt="" id="" />
+                                    <p class="mb-0 menu-item">API</p>
+                                </div>
+                                <div class="all_menu issue" style="align-items:center;">
+                                    <img src="./Assets/image/blueArrow.png" class="arrowImg" alt="" id="" />
+                                    <p class="mb-0 menu-item">Issue</p>
+                                </div>
+                                <div class="all_menu mobile" style="align-items:center;">
+                                    <img src="./Assets/image/violetArrow.png" class="arrowImg" alt="" id="" />
+                                    <p class="mb-0 menu-item">Mobile</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second_todo">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input class="search" placeholder="Search for task" />
+                        <div class="taskBox">
+
+                            <div class="insideHeader">
+                                <input type="checkbox" style="margin-right:15px;height: 16px;width: 20px;">
+                                <img src="./Assets/image/PolygonDown.png"
+                                    style="height:8px; width:8px;" />
+                            </div>
+                                <div class="blankList">
+                                    There are no todos !
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
