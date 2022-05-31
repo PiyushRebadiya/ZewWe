@@ -13,18 +13,22 @@
 .headerLength {
     height: 90px;
 }
+
 .logoBgSide {
     background-image: url('../image/Logo.png')
 }
+
 .settingImage {
     position: absolute;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
 }
+
 .settingImageBg {
     display: none;
 }
+
 .mainHead {
     display: flex;
     align-items: center;
@@ -34,11 +38,13 @@
     font-weight: 600;
     font-family: inherit;
 }
+
 .notification_Icon_div {
     position: absolute;
     left: 7%;
     top: 0px;
 }
+
 .notification_count {
     position: absolute;
     top: 3px;
@@ -50,16 +56,19 @@
     text-transform: capitalize;
     color: #FFFFFF;
 }
+
 .headIcon {
     width: 40%;
     height: 35px;
     padding: 0px 5px;
 }
+
 .headIconProfile {
     width: 50%;
     height: 40px;
     padding: 0px 5px;
 }
+
 .profileName {
     padding: 0px 10px;
     display: flex;
@@ -71,13 +80,17 @@
     text-transform: capitalize;
     color: #1a344b;
 }
+
 .dashboard {
     height: 900px;
+    background-color:#f0f0f0c0 ;
 }
+
 .headerSlider {
     background-color: #1a344b;
     padding: 0px;
 }
+
 .mainDiv {
     display: flex;
     padding: 20px 0px 20px 0px;
@@ -85,10 +98,12 @@
     flex-direction: column;
     height: 550px;
 }
+
 .outerDashboard {
     background-color: #fff;
     border-radius: 15px 0px 0px 15px;
 }
+
 .sliderText {
     font-size: 1em;
     font-weight: 400;
@@ -103,27 +118,32 @@
     font-family: inherit;
     text-decoration: none;
 }
-.main-todo{
+
+.main-todo {
     background-color: #039be5;
     width: 83.33%;
     height: 200px;
     margin-top: -90px;
 }
-.todoHeader{
+
+.todoHeader {
     display: flex;
     justify-content: space-between;
     padding: 40px 50px 0 30px;
 }
-.second-todo{
+
+.second-todo {
     display: flex;
     flex: 1;
     padding-top: 17px;
 }
-.second_todo{
+
+.second_todo {
     /* display: flex; */
     flex: 5;
 }
-.search{
+
+.search {
     border-radius: 5px;
     background-color: #fff;
     color: black;
@@ -133,37 +153,50 @@
     border: none;
     outline: 0;
 }
-.mailBox{
+
+.mailBox {
     flex: 1;
 }
-.dropdown{
+
+.dropdown {
     margin: 0 10px 0 -5px;
     background-color: #039be5;
     color: #fff;
     font-size: 15px;
     border-style: hidden;
 }
-.dropdown option{
+
+.dropdown option {
     background-color: #fff;
     color: black;
 }
-.insideMenu{
+
+.insideMenu {
+    display: flex;
+    justify-content: space-between;
     background-color: #f0f0f0c0;
     margin-top: 16px;
+    /* margin: 16px 10px 0 10px; */
+    padding: 0 50px 0 0px;
 }
-.composeBtn{
+
+.composeBtn {
     background-color: #039be5;
     color: #fff;
     overflow: visible;
     border-style: none;
-    margin: 32px 24px 12px 24px;
+    margin: 32px 24px 12px 0px;
     height: 35px;
-    width: 15%;
+    width: 85%;
     border-radius: 5px;
 }
-.innerlogo{
+
+.innerlogo {
     display: flex;
+    padding: 0 12px 0 24px;
+    cursor: pointer;
 }
+
 .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -174,4 +207,22 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+/* .insideMenuBar{
+    flex: 1;
+} */
+/* .dataBox{
+    flex: 5;
+    height: 850px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: -60px;
+    border-radius: 7px;
+} */
+.mailbox{
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 7px;
 }
