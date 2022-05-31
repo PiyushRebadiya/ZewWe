@@ -79,17 +79,21 @@
               <!-- <div class="d-flex ml-4 pt-1 outerDashboard"> -->
               <div class="d-flex ml-4 mt-1 innerIcon">
                 <div class="col-3" style="margin-top: 5px">
-                  <img
-                    class="homeIconf"
-                    src="./Assets/image/home_Vector.png"
-                    alt="home"
-                  />
+                    <a href="./index.html">
+                        <img
+                        class="homeIconf"
+                        src="./Assets/image/home_Vector.png"
+                        alt="home"
+                        />
+                    </a>
                 </div>
                 <div
-                  class="col-9 p-0"
-                  style="margin-top: 5px; margin-bottom: -5px"
+                class="col-9 p-0"
+                style="margin-top: 5px; margin-bottom: -5px"
                 >
+                <a href="./index.html">
                   <p class="sliderText">Dashboard</p>
+                </a>
                 </div>
               </div>
               <!-- <div class="d-flex ml-4 mt-1 innerIcon innerHome">
@@ -119,15 +123,19 @@
               </div>
               <div class="d-flex ml-4 mt-1 innerIcon">
                 <div class="col-3">
-                  <img
-                    class="tasksIcon"
-                    src="./Assets/image/Task.png"
-                    alt="inbox"
-                    id="Tasks"
-                  />
+                    <a href="./todo.html">
+                        <img
+                        class="tasksIcon"
+                        src="./Assets/image/Task.png"
+                        alt="inbox"
+                        id="Tasks"
+                        />
+                    </a>
                 </div>
                 <div class="col-9 p-0">
-                  <p class="sliderText">Tasks</p>
+                    <a href="./todo.html">
+                        <p class="sliderText">Tasks</p>
+                    </a>
                 </div>
               </div>
               <div class="d-flex ml-4 mt-1 innerIcon">
@@ -225,13 +233,209 @@
                 </select>
                 <div>
                     <button class="composeBtn">COMPOSE</button>
-
+                    <div class="innerlogo boxBackgroung">
+                        <i class="material-icons m-icon i-p-color">inbox</i>
+                        <p class="p-name i-p-color">Inbox</p>
+                    </div>
+                    <div class="innerlogo">
+                        <i class="material-icons m-icon">&#xe163;</i>
+                        <p class="p-name">Sent</p>
+                    </div>
+                    <div class="innerlogo">
+                        <i class="fa fa-envelope-o m-icon"></i>
+                        <p class="p-name">Drafts</p>
+                    </div>
+                    <div class="innerlogo">
+                        <i class="fa m-icon">&#xf06a;</i>
+                        <p class="p-name">Spam</p>
+                    </div>
+                    <div class="innerlogo">
+                        <i class="fa m-icon">&#xf014;</i>
+                        <p class="p-name">Trash</p>
+                    </div>
+                    
+                    <p class="topBorder"></p>
+                    <p style="font-size:16px;">FILTERS</p>
+                    <div class="innerlogo">
+                        <i class="fa m-icon" style="color: #ffc107;">&#xf005;</i>
+                        <p class="p-name">Starred</p>
+                    </div>
+                    <div class="innerlogo">
+                        <img src="./Assets/image/importantArroww.png" class="m-icon" style="height:25px; width:20px; margin-top:10px" />
+                        <p class="p-name">Important</p>
+                    </div>
+                    <p class="topBorder"></p>
+                    <p style="font-size:16px;">LABELS</p>
+                    <div class="innerlogo">
+                        <img src="./Assets/image/greenArrow.png" class="m-icon" style="height:25px; width:20px; margin-top:10px" />
+                        <p class="p-name">Note</p>
+                    </div>
+                    <div class="innerlogo">
+                        <img src="./Assets/image/redArrow.png" class="m-icon" style="height:25px; width:20px; margin-top:10px" />
+                        <p class="p-name">Paypal</p>
+                    </div>
+                    <div class="innerlogo">
+                        <img src="./Assets/image/invoice.png" class="m-icon" style="height:25px; width:20px; margin-top:10px" />
+                        <p class="p-name">Invoice</p>
+                    </div>
+                    <div class="innerlogo">
+                        <img src="./Assets/image/blueArrow.png" class="m-icon" style="height:25px; width:20px; margin-top:10px" />
+                        <p class="p-name">Amazon</p>
+                    </div>
+                    
                 </div>
             </div>
             <div class="second_todo">
                 <span class="fa fa-search form-control-feedback"></span>
                 <input class="search" placeholder="Search for an e-mail or contact" />
-                <p class="mailbox"> HEllo</p>
+                <div class="mailbox1">
+                    <div class="insideHeader">
+                        <div class="insideHeader-first">
+                            <input type="checkbox" style="margin-right:18px;height: 16px;width: 20px;">
+                            <img src="./Assets/image/PolygonDown.png" style="height:7px; width:10px; margin-top: 5px; margin-right: 18px;" />
+                            <i class="fa fa-calendar-plus-o headerOpacity" style="font-size:19px; margin-right:18px"></i>
+                            <img src="./Assets/image/span.png"  style="height:22px; width:22px; margin-right: 15px;" />
+                            <!-- <p>h1h1</p> -->
+                        </div>
+                        <div class="insideHeader-second">
+                            <i class="material-icons headerOpacity" style="margin-right:15px;" >&#xe5d5;</i>
+                            <p class="numClass headerOpacity" style="margin-right:18px ;">1-100 of 980</p>
+                            <i class='fa fa-chevron-left headerOpacity' style="margin-top: 5px; margin-right: 30px;" ></i>
+                            <i class='fa fa-chevron-right headerOpacity' style="margin-top: 5px;"></i>
+                        </div>
+                    </div>
+                    <div class="insideBody">
+                        <div class="mailBox scroller_bar">
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                        <div class="rightSide">
+                            <div class="rightSideInside">
+                                <div class="leftSideInside">
+                                    <input type="checkbox"  style="height: 16px;width: 20px;">
+                                </div>
+                                <div style="margin-top:15px;">
+                                    <div style="display:flex;">
+                                        <div class="cir-img"></div>
+                                        <p style="margin-top:5px; margin-left:10px;">Alice Freeman</p>
+                                    </div>
+                                    <p> Commits that need to be <br /> Lorem ipsum dolor sit </p>
+                                </div>
+                                <p class="leftSideInside" style="margin-top:10px ;">28 Jun</p>
+                                <i class="fa fa-star-o leftSideInside"></i>
+                                <i class="fa fa-ellipsis-v leftSideInside"></i>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="mailBox leftside">
+                            <div class="leftSideInside">
+                                <div>
+                                    <i class="fa fa-envelope-o m-icon headerOpacity" style="font-size:110px;display: flex;justify-content: center; margin-bottom:30px;"></i>
+                                    <p style="color:rgba(0,0,0,.38); font-size:24px;font-weight:300;display: flex;justify-content: center;">Select a message to read</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
