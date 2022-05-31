@@ -1,0 +1,177 @@
+.head1 {
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+}
+
+.head2 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.headerLength {
+    height: 90px;
+}
+.logoBgSide {
+    background-image: url('../image/Logo.png')
+}
+.settingImage {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.settingImageBg {
+    display: none;
+}
+.mainHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: inherit;
+}
+.notification_Icon_div {
+    position: absolute;
+    left: 7%;
+    top: 0px;
+}
+.notification_count {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.headIcon {
+    width: 40%;
+    height: 35px;
+    padding: 0px 5px;
+}
+.headIconProfile {
+    width: 50%;
+    height: 40px;
+    padding: 0px 5px;
+}
+.profileName {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #1a344b;
+}
+.dashboard {
+    height: 900px;
+}
+.headerSlider {
+    background-color: #1a344b;
+    padding: 0px;
+}
+.mainDiv {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 550px;
+}
+.outerDashboard {
+    background-color: #fff;
+    border-radius: 15px 0px 0px 15px;
+}
+.sliderText {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+}
+
+.sliderText:hover {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+}
+.main-todo{
+    background-color: #039be5;
+    width: 83.33%;
+    height: 200px;
+    margin-top: -90px;
+}
+.todoHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px 0 30px;
+}
+.second-todo{
+    display: flex;
+    flex: 1;
+    padding-top: 17px;
+}
+.second_todo{
+    /* display: flex; */
+    flex: 5;
+}
+.search{
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    height: 56px;
+    width: 100%;
+    padding: 0 16px 0 45px;
+    border: none;
+    outline: 0;
+}
+.mailBox{
+    flex: 1;
+}
+.dropdown{
+    margin: 0 10px 0 -5px;
+    background-color: #039be5;
+    color: #fff;
+    font-size: 15px;
+    border-style: hidden;
+}
+.dropdown option{
+    background-color: #fff;
+    color: black;
+}
+.insideMenu{
+    background-color: #f0f0f0c0;
+    margin-top: 16px;
+}
+.composeBtn{
+    background-color: #039be5;
+    color: #fff;
+    overflow: visible;
+    border-style: none;
+    margin: 32px 24px 12px 24px;
+    height: 35px;
+    width: 15%;
+    border-radius: 5px;
+}
+.innerlogo{
+    display: flex;
+}
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 50px;
+    height: 56px;
+    line-height: 3.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
