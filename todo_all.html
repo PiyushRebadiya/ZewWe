@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Todo</title>
     <link rel="stylesheet" href="./Assets/css/index.css" />
     <link rel="stylesheet" href="./Assets/css/menubar.css" />
-    <link rel="stylesheet" href="./Assets/css/todo.css" />
+    <link rel="stylesheet" href="./Assets/css/todo_all.css" />
 </head>
 
 <body>
@@ -146,14 +147,14 @@
                         </select>
 
                         <div>
-                            <a href="./todo_all.html">
-                                <button class="composeBtn">ADD TASK</button>
-                            </a>
+                            <button class="composeBtn">ADD TASK</button>
 
                             <div>
-                                <div class="all_menu">
-                                    <i class="fa-solid fa-bars icon-size"></i>
-                                    <p class="mb-0">All</p>
+                                <div style="margin: 6% 0px 0px -30px">
+                                    <div class="innerlogo boxBackgroung">
+                                        <i class="fa-solid fa-bars icon-size" style="margin-left : 32px;"></i>
+                                        <p class="mb-0">All</p>
+                                    </div>
                                 </div>
                                 <div style="padding-top: 20px">
                                     FILTERS
@@ -187,7 +188,6 @@
                                     TAGS
                                 </div>
                                 <div class="all_menu frontend" style="align-items:center;">
-                                    <!-- <i class="fa fa-trash-o icon-size"></i> -->
                                     <img src="./Assets/image/greenArrow.png" class="arrowImg" alt="" id="" />
                                     <p class="mb-0 menu-item">Frontend</p>
                                 </div>
@@ -216,23 +216,77 @@
                         <div class="taskBox">
 
                             <div class="insideHeader">
-                                <input type="checkbox" style="margin-right:15px;height: 16px;width: 20px;">
-                                <img src="./Assets/image/PolygonDown.png"
-                                    style="height:8px; width:8px;" />
+                                <a href="./todo.html">
+                                    <img src="./Assets/image/backIcon.png" style="height:25px; width:20px;" />
+                                </a>
                             </div>
-                                <div class="blankList">
-                                    There are no todos !
+                            <div class="mainMarkDiv">
+                                <div class="d-flex markCheck">
+                                    <input type="checkbox" style="height: 16px;width: 20px; margin-right: 10px;">
+                                    <div>Mark as Done</div>
                                 </div>
+                                <div class="d-flex markCheckRight">
+                                    <img src="./Assets/image/span.png" style="height:24px; width:24px; " />
+                                    <i class="fa fa-star-o"></i>
+                                    <img src="./Assets/image/rightArrow.png" style="height:29px; width:23px; " />
+                                    <img src="./Assets/image/deleteIcon.png" style="height:24px; width:24px; " />
+                                </div>
+                            </div>
+
+                            <div class="formDivMain">
+                                <div class="text-field">
+                                    <textarea style="height: 11%" required></textarea>
+                                    <label>Title *</label>
+                                </div>
+                                <div class="text-field">
+                                    <input type="date" required>
+                                    <label>Due Date *</label>
+                                </div>
+                                <div class="text-field">
+                                    <textarea required></textarea>
+                                    <label>Notes</label>
+                                </div>
+
+                                <div class="input-group text-field">
+                                    <select class="" id="">
+                                        <option style="display:none"></option>
+                                        <option value="">Not Started</option>
+                                        <option value="">Deferred</option>
+                                        <option value="">In Progress</option>
+                                        <option value="">Completed</option>
+                                    </select>
+                                    <label>Select Status *</label>
+                                </div>
+                               
+                                <div class="input-group text-field">
+                                    <select class="" id="">
+                                        <option style="display:none"></option>
+                                        <option value="One">High</option>
+                                        <option value="Two">Highest</option>
+                                        <option value="Three">Low</option>
+                                        <option value="Three">Lowest</option>
+                                        <option value="Three">Normal</option>
+                                    </select>
+                                    <label>Select Priority *</label>
+                                </div>
+                                <div class="text-field">
+                                    <div class="d-flex markCheck">
+                                        <input type="checkbox" style="height: 16px;width: 20px; margin-right: 10px;">
+                                        <div>Send notification email</div>
+                                    </div>
+                                </div>
+                                <div class="text-field">
+                                    <button class="saveBtn">SAVE</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
-
     </div>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
