@@ -25,8 +25,8 @@
       rel="stylesheet"
     />
     <title>Inbox</title>
-    <link rel="stylesheet" href="./Assets/css/menubar.css" />
-    <link rel="stylesheet" href="./Assets/css/Inbox.css" />
+    <link rel="stylesheet" href="../Assets/css/menubar.css" />
+    <link rel="stylesheet" href="../Assets/css/Inbox.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -35,12 +35,12 @@
           <img
             class="settingImage"
             onclick="myFunction()"
-            src="./Assets/image/Setting.png"
+            src="../Assets/image/Setting.png"
             alt="Setting"
           />
           <img
             class="settingImageBg"
-            src="./Assets/image/ZenWe_ LLC 2.png"
+            src="../Assets/image/ZenWe_ LLC 2.png"
             alt="Setting"
           />
         </div>
@@ -53,24 +53,24 @@
               <div class="notification_Icon_div">
                 <span class="notification_count">3</span>
                 <img
-                  src="./Assets/image/Ellipse 42.png"
+                  src="../Assets/image/Ellipse 42.png"
                   style="width: 20px; height: 20px"
                 />
               </div>
               <div class="d-flex flex-row align-items-center">
                 <img
                   class="headIcon"
-                  src="./Assets/image/Notifications.png"
+                  src="../Assets/image/Notifications.png"
                   alt="Notifications"
                 />
                 <img
                   class="headIcon mt-1"
-                  src="./Assets/image/Question.png"
+                  src="../Assets/image/Question.png"
                   alt="Question"
                 />
                 <img
                   class="headIconProfile pl-4"
-                  src="./Assets/image/Profile.png"
+                  src="../Assets/image/Profile.png"
                   alt="Profile"
                 />
               </div>
@@ -88,7 +88,7 @@
                 <a href="./index.html">
                   <img
                     class="homeIconf"
-                    src="./Assets/image/home_Vector.png"
+                    src="../Assets/image/home_Vector.png"
                     alt="home"
                   />
                 </a>
@@ -106,7 +106,7 @@
                 <div class="col-3">
                   <a href="./index.html" class="homeImageMain">
                     <img
-                      src="./Assets/image/home_Vector.png"
+                      src="../Assets/image/home_Vector.png"
                       alt="inbox"
                       id="Dashboard"
                     />
@@ -118,7 +118,7 @@
               <div class="col-3 pt-2">
                 <img
                   class="inboxIconf"
-                  src="./Assets/image/Envelope.png"
+                  src="../Assets/image/Envelope.png"
                   alt="inbox"
                   id="Inbox"
                 />
@@ -132,7 +132,7 @@
                 <a href="./todo.html">
                   <img
                     class="tasksIcon"
-                    src="./Assets/image/Task.png"
+                    src="../Assets/image/Task.png"
                     alt="inbox"
                     id="Tasks"
                   />
@@ -148,7 +148,7 @@
               <div class="col-3">
                 <img
                   class="calenderIcon"
-                  src="./Assets/image/Calender.png"
+                  src="../Assets/image/Calender.png"
                   alt="inbox"
                   id="Calender"
                 />
@@ -164,7 +164,7 @@
                   class="reportsIcon"
                 >
                   <img
-                    src="./Assets/image/Report.png"
+                    src="../Assets/image/Report.png"
                     alt="inbox"
                     id="Reports"
                   />
@@ -184,7 +184,7 @@
               <div class="col-3">
                 <a href="./Pipelines.html" class="positionsIcon">
                   <img
-                    src="./Assets/image/briefcase 2.png"
+                    src="../Assets/image/briefcase 2.png"
                     alt="inbox"
                     id="Positions"
                   />
@@ -197,7 +197,7 @@
                 <img
                   class="homeImageMain"
                   style="width: 21px; height: 21px"
-                  src="./Assets/image/Group 12.png"
+                  src="../Assets/image/Group 12.png"
                   alt="inbox"
                 />
               </div>
@@ -206,7 +206,7 @@
               <div class="col-3">
                 <img
                   class="candidatesIcon"
-                  src="./Assets/image/Vector.png"
+                  src="../Assets/image/Vector.png"
                   alt="inbox"
                   id="Candidates"
                 />
@@ -218,7 +218,7 @@
                 <img
                   class="homeImageMain"
                   style="width: 21px; height: 21px"
-                  src="./Assets/image/Group 12.png"
+                  src="../Assets/image/Group 12.png"
                   alt="inbox"
                 />
               </div>
@@ -247,9 +247,13 @@
               </select>
               <div>
                 <button class="composeBtn" id="myBtn">COMPOSE</button>
-                <div class="innerlogo boxBackgroung">
-                  <i class="material-icons m-icon i-p-color">inbox</i>
-                  <p class="p-name i-p-color">Inbox</p>
+                <div class="innerlogo">
+                  <a href="../Inbox.html" class="m-icon">
+                    <i class="material-icons" style="font-size: 16px;">inbox</i>
+                  </a>
+                  <a href="../Inbox.html">
+                    <p class="p-name">Inbox</p>
+                  </a>
                 </div>
                 <div class="innerlogo">
                   <i class="material-icons m-icon">&#xe163;</i>
@@ -259,11 +263,9 @@
                   <i class="fa fa-envelope-o m-icon"></i>
                   <p class="p-name">Drafts</p>
                 </div>
-                <div class="innerlogo">
-                    <a class="m-icon" href="./inbox/spam.html">
-                      <i class="fa">&#xf06a;</i>
-                    </a>
-                  <a href="./inbox/spam.html"><p class="p-name">Spam</p></a>
+                <div class="innerlogo boxBackgroung">
+                  <i class="fa m-icon i-p-color">&#xf06a;</i>
+                  <p class="p-name i-p-color">Spam</p>
                 </div>
                 <div class="innerlogo">
                   <i class="fa m-icon">&#xf014;</i>
@@ -273,69 +275,69 @@
                 <p class="topBorder"></p>
                 <p style="font-size: 16px">FILTERS</p>
                 <div class="innerlogo">
-                  <a href="./inbox/starred.html" class="m-icon">
+                  <a href="./starred.html" class="m-icon">
                     <i class="fa" style="color: #ffc107">&#xf005;</i>
                   </a>
-                  <a href="./inbox/starred.html">
+                  <a href="./starred.html">
                     <p class="p-name">Starred</p>
                   </a>
                 </div>
                 <div class="innerlogo">
-                  <a href="./inbox/important.html">
+                  <a href="./important.html">
                     <img
-                    src="./Assets/image/importantArroww.png"
+                    src="../Assets/image/importantArroww.png"
                     class="m-icon"
                     style="height: 25px; width: 20px; margin-top: 10px"
                     />
                   </a>
-                  <a href="./inbox/important.html">
-                    <p class="p-name">Important</p>
+                  <a href="./important.html">
+                  <p class="p-name">Important</p>
                   </a>
                 </div>
                 <p class="topBorder"></p>
                 <p style="font-size: 16px">LABELS</p>
                 <div class="innerlogo">
                   <img
-                    src="./Assets/image/greenArrow.png"
+                    src="../Assets/image/greenArrow.png"
                     class="m-icon"
                     style="height: 25px; width: 20px; margin-top: 10px"
                   />
                   <p class="p-name">Note</p>
                 </div>
                 <div class="innerlogo">
-                  <a href="./inbox/paypal.html">
+                  <a href="./paypal.html">
                     <img
-                    src="./Assets/image/redArrow.png"
+                    src="../Assets/image/redArrow.png"
                     class="m-icon"
                     style="height: 25px; width: 20px; margin-top: 10px"
                     />
                   </a>
-                  <a href="./inbox/paypal.html">
-                    <p class="p-name">Paypal</p>
+                  <a href="./paypal.html">
+                  <p class="p-name">Paypal</p>
+                    </a>
+                </div>
+                <div class="innerlogo">
+                  <a href="./invoice.html">
+                    <img
+                    src="../Assets/image/invoice.png"
+                    class="m-icon"
+                    style="height: 25px; width: 20px; margin-top: 10px"
+                    />
+                  </a>
+                  <a href="./invoice.html">
+                  <p class="p-name">Invoice</p>
                   </a>
                 </div>
                 <div class="innerlogo">
-                  <a href="./inbox/invoice.html">
+                  <a href="./amazon.html">
                     <img
-                    src="./Assets/image/invoice.png"
+                    src="../Assets/image/blueArrow.png"
                     class="m-icon"
                     style="height: 25px; width: 20px; margin-top: 10px"
                     />
                   </a>
-                  <a href="./inbox/invoice.html">
-                    <p class="p-name">Invoice</p>
-                  </a>
-                </div>
-                <div class="innerlogo">
-                  <a href="./inbox/amazon.html">
-                    <img
-                    src="./Assets/image/blueArrow.png"
-                    class="m-icon"
-                    style="height: 25px; width: 20px; margin-top: 10px"
-                    />
-                  </a>
-                  <a href="./inbox/amazon.html">
-                    <p class="p-name">Amazon</p>
+                  <a href="./amazon.html">
+                  <p class="p-name">Amazon</p>
                   </a>
                 </div>
               </div>
@@ -354,7 +356,7 @@
                       style="margin-right: 18px; height: 16px; width: 20px"
                     />
                     <img
-                      src="./Assets/image/PolygonDown.png"
+                      src="../Assets/image/PolygonDown.png"
                       style="
                         height: 7px;
                         width: 10px;
@@ -367,7 +369,7 @@
                       style="font-size: 19px; margin-right: 18px"
                     ></i>
                     <img
-                      src="./Assets/image/span.png"
+                      src="../Assets/image/span.png"
                       style="height: 22px; width: 22px; margin-right: 15px"
                     />
                     <!-- <p>h1h1</p> -->
@@ -406,46 +408,11 @@
                         </div>
                         <div style="margin-top: 15px">
                           <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/alice.jpg"
-                            />
+                            <div class="cir-img">
+                              <p class="insidelogoimg">J</p>
+                            </div>
                             <p style="margin-top: 5px; margin-left: 10px">
-                              Alice Freeman
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                          <div class="paypalBox">
-                            <div class="cir-img-i"></div>
-                            <p class="paypal-text">Paypal</p>
-                          </div>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          28 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/vincent.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Lawrence Collins
+                                Jessica Robertson
                             </p>
                           </div>
                           <p>
@@ -454,87 +421,7 @@
                           </p>
                         </div>
                         <p class="leftSideInside" style="margin-top: 10px">
-                          28 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/joyce.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Judith Burton
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                          <div class="insideHeader-second">
-                            <div class="amazonBox" style="margin-right: 7px">
-                              <div class="cir-img-a"></div>
-                              <p class="paypal-text">Amazon</p>
-                            </div>
-                            <div class="invoiceBox">
-                              <div class="cir-img-in"></div>
-                              <p class="paypal-text">Invoice</p>
-                            </div>
-                          </div>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          28 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/danielle.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Danielle Obrien
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                          <div class="insideHeader-second">
-                            <div class="paypalBox" style="margin-right: 8px">
-                              <div class="cir-img-i"></div>
-                              <p class="paypal-text">Paypal</p>
-                            </div>
-                            <div class="amazonBox">
-                              <div class="cir-img-a"></div>
-                              <p class="paypal-text">Amazon</p>
-                            </div>
-                          </div>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          28 Jun
+                          19 May
                         </p>
                         <i class="fa fa-star-o leftSideInside"></i>
                         <i class="fa fa-ellipsis-v leftSideInside"></i>
@@ -551,10 +438,10 @@
                         <div style="margin-top: 15px">
                           <div style="display: flex">
                             <div class="cir-img">
-                              <p class="insidelogoimg">B</p>
+                              <p class="insidelogoimg">J</p>
                             </div>
                             <p style="margin-top: 5px; margin-left: 10px">
-                              Brian Flores
+                                John Palmer
                             </p>
                           </div>
                           <p>
@@ -563,130 +450,7 @@
                           </p>
                         </div>
                         <p class="leftSideInside" style="margin-top: 10px">
-                          26 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/garry.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Charles Kim
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                          <div class="invoiceBox">
-                            <div class="cir-img-in"></div>
-                            <p class="paypal-text">Invoice</p>
-                          </div>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          18 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <div class="cir-img">
-                              <p class="insidelogoimg">P</p>
-                            </div>
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Patricia White
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          15 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/james.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Juan Carpenter
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          11 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <img
-                              class="cir-img"
-                              src="./Assets/image/danielle.jpg"
-                            />
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Maria Gilbert
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          5 Jun
+                          8 May
                         </p>
                         <i class="fa fa-star-o leftSideInside"></i>
                         <i class="fa fa-ellipsis-v leftSideInside"></i>
@@ -706,7 +470,7 @@
                               <p class="insidelogoimg">T</p>
                             </div>
                             <p style="margin-top: 5px; margin-left: 10px">
-                              Tammy Brooks
+                                David Butler
                             </p>
                           </div>
                           <p>
@@ -715,94 +479,7 @@
                           </p>
                         </div>
                         <p class="leftSideInside" style="margin-top: 10px">
-                          1 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <div class="cir-img">
-                              <p class="insidelogoimg">K</p>
-                            </div>
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Kathy Price
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          1 Jun
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <div class="cir-img">
-                              <p class="insidelogoimg">A</p>
-                            </div>
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Alan Coleman
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          28 June
-                        </p>
-                        <i class="fa fa-star-o leftSideInside"></i>
-                        <i class="fa fa-ellipsis-v leftSideInside"></i>
-                      </div>
-                    </div>
-                    <div class="rightSide">
-                      <div class="rightSideInside">
-                        <div class="leftSideInside">
-                          <input
-                            type="checkbox"
-                            style="height: 16px; width: 20px"
-                          />
-                        </div>
-                        <div style="margin-top: 15px">
-                          <div style="display: flex">
-                            <div class="cir-img">
-                              <p class="insidelogoimg">T</p>
-                            </div>
-                            <p style="margin-top: 5px; margin-left: 10px">
-                              Thomas Silva
-                            </p>
-                          </div>
-                          <p>
-                            Commits that need to be <br />
-                            Lorem ipsum dolor sit
-                          </p>
-                        </div>
-                        <p class="leftSideInside" style="margin-top: 10px">
-                          16 Jun
+                          7 May
                         </p>
                         <i class="fa fa-star-o leftSideInside"></i>
                         <i class="fa fa-ellipsis-v leftSideInside"></i>
