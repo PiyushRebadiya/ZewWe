@@ -1,0 +1,211 @@
+.main-todo{
+    background-color: #039be5;
+    width: 83.33%;
+    height: 200px;
+    margin-top: -90px;
+}
+.todoHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 50px 0 30px;
+}
+.second-todo{
+    display: flex;
+    flex: 1;
+    padding-top: 17px;
+}
+.second_todo{
+    flex: 5;
+}
+.dashboard {
+    background-color:#f0f0f0c0 ;
+}
+.search{
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    height: 56px;
+    width: 100%;
+    padding: 0 16px 0 45px;
+    border: none;
+    outline: 0;
+}
+.mailBox{
+    flex: 1;
+}
+.dropdown{
+    margin: 0 10px 0 -5px;
+    background-color: #039be5;
+    color: #fff;
+    font-size: 15px;
+    border-style: hidden;
+}
+.dropdown option{
+    background-color: #fff;
+    color: black;
+}
+
+.composeBtn{
+    background-color: #039be5;
+    color: #fff;
+    overflow: visible;
+    border-style: none;
+    margin: 32px 24px 12px 0px;
+    height: 35px;
+    width: 85%;
+    border-radius: 5px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 50px;
+    height: 56px;
+    line-height: 3.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.all_menu{
+    padding-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.icon-size{
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+.taskBox{
+    height: 96%;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 45px;
+    border-radius: 7px;
+} 
+.insideHeader{
+    display: flex;
+    align-items: center;
+    padding: 18px 40px 16px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+.topBorder{
+    border-top:1px solid rgba(0,0,0,.12);
+    margin: 20px 0 15px -30px;
+}
+
+.menu-item{
+    opacity: 0.9;
+}
+
+.arrowImg{
+    height: 25px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.mainMarkDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border-bottom:1px solid rgba(0,0,0,.12);
+    padding: 4%;
+}
+
+.markCheck{
+    align-items: center;
+}
+
+.markCheckRight{
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+
+.formDivMain{
+    margin: 77px 28px 0px 28px;
+}
+
+.text-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input , textarea {
+    width: 100%;
+    border: thin solid #3d3c3c;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+label {
+    color: #3c4252;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s;
+}
+input:focus ~ label ,input:valid ~ label , textarea:focus ~ label, textarea:valid ~ label {
+    top: -10px;
+    left: 15px;
+    font-size: small;
+    background-color:#fff;
+    padding:0 5px 0 5px;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+
+select {
+    width: 100%;
+    border: thin solid #3d3c3c;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+label {
+    color: #3c4252;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s;
+}
+select:focus ~ label, select:valid ~ label {
+    top: -10px;
+    left: 15px;
+    font-size: small;
+    background-color:#fff;
+    padding:0 5px 0 5px;
+}
+
+.saveBtn{
+    width: 7%;
+    height: 4%;
+    border: 0px;
+    color: rgba(0,0,0,.26);
+    border-radius: 4px;
+}
+
+.boxBackgroung{
+    background-color: #039be5;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    width: 86%;
+    height: 5%;
+}
+
+.innerlogo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
