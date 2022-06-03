@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="./Assets/css/index.css" />
+    <link rel="stylesheet" href="./Assets/css/settingPopup.css" />
+    <link rel="stylesheet" href="./Assets/css/menubar.css" />
+    <link rel="stylesheet" href="./Assets/css/calendar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row headerLength">
+            <div class="col-2 head1 logoBgSide logoBgSideInner">
+                <img class="settingImage" onclick="myFunction()" src="./Assets/image/Setting.png" alt="Setting" />
+                <img class="settingImageBg" src="./Assets/image/ZenWe_ LLC 2.png" alt="Setting" />
+            </div>
+            <div class="col-10 header">
+                <div class="headerMainRow">
+                    <div class="headerFlexDiv">
+                        <div class="rowDiv" style="margin-right: 20px;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf073;</i>
+                        </div>
+                        <div class="rowDiv">
+                            <p style="font-size: 24px;color: white;z-index: 1;"> Calendar </p>
+                        </div>
+                    </div>
+                    <div class="headerFlexDiv">
+                        <div class="rowDiv" style="margin-right: 20px;">
+                            <i class="fa fa-search" style="font-size:24px;z-index: 1;"></i>
+                        </div>
+                        <div class="rowDiv" style="margin-right: 20px;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf073;</i>
+                        </div>
+                        <div class="rowDiv" style="margin-right: 20px;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf039;</i>
+                        </div>
+                        <div class="rowDiv" style="margin-right: 20px;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf073;</i>
+                        </div>
+                        <div class="rowDiv">
+                            <i style="font-size:24px;z-index: 1;" class="fa">&#xf0ce;</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerMainRowSecond">
+                    <div class="headerFlexDiv">
+                        <div class="rowDiv" style="margin-right: 25px;cursor: pointer;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf060;</i>
+                        </div>
+                        <div class="rowDiv" style="margin-right: 25px;">
+                            <p style="font-size: 24px;color: white;z-index: 1;"> June 2022 </p>
+                        </div>
+                        <div class="rowDiv" style="cursor: pointer;">
+                            <i style='font-size:24px;z-index: 1;' class='fa'>&#xf061;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row dashboard">
+            <div class="col-2 headerSlider">
+                <div class="mainDiv" style="border-bottom: 1px solid #FFFFFF;">
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <img class="tasksIcon" src="./Assets/image/home_Vector.png" alt="inbox" id="Tasks" />
+                        </div>
+                        <div class="col-9 p-0">
+                            <p class="sliderText">Dashboard</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon innerHome">
+                        <div class="col-3">
+                            <a href="./index.html" class="homeImageMain">
+                                <img src="./Assets/image/home_Vector.png" alt="inbox" id="Dashboard" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                                <a href="./Inbox.html">
+                                    <img class="inboxIcon" src="./Assets/image/Inbox.png" alt="inbox" id="Inbox" />
+                                </a>
+                            </div>
+                            <div class="col-9 p-0">
+                                <a href="./Inbox.html">
+                                    <p class="sliderText">Inbox</p>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <img class="tasksIcon" src="./Assets/image/Task.png" alt="inbox" id="Tasks" />
+                        </div>
+                        <div class="col-9 p-0">
+                            <p class="sliderText">Tasks</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 pt-1 outerDashboard">
+                        <div class="col-3" style="margin-top: 5px;">
+                            <img class="homeIconf" src="./Assets/image/Calender2.png" alt="home" />
+                        </div>
+                        <div class="col-9 p-0" style="margin-top: 5px;margin-bottom: -5px;">
+                            <p class="sliderText text-dark">Calendar</p>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-1 innerIcon">
+                        <div class="col-3">
+                            <a href="./component/report/report_overview.html" class="reportsIcon">
+                                <img src="./Assets/image/Report.png" alt="inbox" id="Reports" />
+                            </a>
+                        </div>
+                        <div class="col-9 p-0">
+                            <a href="./component/report/report_overview.html" class="sliderText">Reports</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainDiv" style="height: 250px;">
+                    <div class="d-flex ml-4 mt-5 innerIcon">
+                        <div class="col-3">
+                            <a href="./Pipelines.html" class="positionsIcon">
+                                <img src="./Assets/image/briefcase 2.png" alt="inbox" id="Positions" />
+                            </a>
+                        </div>
+                        <div class="col-6 p-0 name">
+                            <a href="./Pipelines.html" class="sliderText">Positions</a>
+                        </div>
+                        <div class="col-3 plusIcon">
+                            <img class="homeImageMain" style="width: 21px;height: 21px;" src="./Assets/image/Group 12.png" alt="inbox" />
+                        </div>
+                    </div>
+                    <div class="d-flex ml-4 mt-4 innerIcon">
+                        <div class="col-3">
+                            <img class="candidatesIcon" src="./Assets/image/Vector.png" alt="inbox" id="Candidates" />
+                        </div>
+                        <div class="col-6 p-0 name">
+                            <p class="sliderText">Candidates</p>
+                        </div>
+                        <div class="col-3 plusIcon">
+                            <img class="homeImageMain" style="width: 21px;height: 21px;" src="./Assets/image/Group 12.png" alt="inbox" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>
