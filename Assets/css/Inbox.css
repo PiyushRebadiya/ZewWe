@@ -198,6 +198,11 @@
     cursor: pointer;
     margin: 0px 0 0 -30px;
 }
+.lableIcons{
+    height: 16px; 
+    width: 16px; 
+    margin-top: 14px !important
+}
 
 .form-control-feedback {
     position: absolute;
