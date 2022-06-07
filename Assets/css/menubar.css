@@ -40,3 +40,11 @@
     width: 19.44px;
     height: 20.52px;
 }
+a{
+    text-decoration: none;
+    color: #212529;
+}
+a:hover{
+    color: #212529;
+    text-decoration: none;
+}
