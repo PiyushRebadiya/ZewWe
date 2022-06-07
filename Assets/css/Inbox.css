@@ -464,3 +464,11 @@ input:focus ~ label, input:valid ~ label ,textarea:focus ~ label,textarea:valid 
     margin-right:15px;
 }
 
+a{
+    text-decoration: none;
+    color: #212529;
+}
+a:hover{
+    color: #212529;
+    text-decoration: none;
+}
